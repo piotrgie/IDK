@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The abstention landscape — two ways to lose a basin</title>
+  <style>
+    :root {
+      --text-primary: #2c2c2a;
+      --text-secondary: #5f5e5a;
+      --text-muted: #888780;
+      --surface-1: #f1efe8;
+      --surface-2: #ffffff;
+      --radius: 8px;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --text-primary: #e8e7e0;
+        --text-secondary: #a8a69f;
+        --text-muted: #6f6d68;
+        --surface-1: #3a3a37;
+        --surface-2: #2c2c2a;
+      }
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", sans-serif;
+      font-size: 15px; line-height: 1.5;
+      color: var(--text-primary); background: var(--surface-2); padding: 1.25rem;
+    }
+    .container { max-width: 760px; margin: 0 auto; }
+    h1 { font-size: 20px; font-weight: 500; margin-bottom: 0.6rem; }
+    .description { color: var(--text-secondary); margin-bottom: 1.1rem; line-height: 1.6; font-size: 14px; }
+    .control-group { display: flex; align-items: center; gap: 12px; margin-bottom: 0.6rem; }
+    .control-group label { font-size: 13px; color: var(--text-secondary); min-width: 210px; }
+    .control-group input[type="range"] {
+      flex: 1; height: 4px; border-radius: 2px; background: var(--surface-1);
+      outline: none; -webkit-appearance: none; appearance: none;
+    }
+    .control-group input[type="range"]::-webkit-slider-thumb {
+      -webkit-appearance: none; appearance: none; width: 17px; height: 17px;
+      border-radius: 50%; background: #185fa5; cursor: pointer; border: 1px solid #0c447c;
+    }
+    .control-group input[type="range"]::-moz-range-thumb {
+      width: 17px; height: 17px; border-radius: 50%; background: #185fa5;
+      cursor: pointer; border: 1px solid #0c447c;
+    }
+    .control-output { font-size: 13px; font-weight: 500; min-width: 40px; text-align: right; }
+    .canvas-wrapper {
+      position: relative; width: 100%; height: 320px; margin: 0.9rem 0;
+      border: 0.5px solid #ccc; border-radius: var(--radius); background: var(--surface-2);
+    }
+    #cv { width: 100%; height: 100%; display: block; }
+    .button-group { display: flex; gap: 8px; flex-wrap: wrap; margin: 0.8rem 0; }
+    button {
+      padding: 7px 14px; font-size: 13px; border: 0.5px solid var(--text-secondary);
+      border-radius: var(--radius); background: transparent; color: var(--text-primary);
+      cursor: pointer; font-weight: 500; transition: all 0.2s ease;
+    }
+    button:hover { background: var(--surface-1); border-color: var(--text-primary); }
+    button:active { transform: scale(0.98); }
+    .stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 10px; }
+    .stat-card { background: var(--surface-1); border-radius: var(--radius); padding: 0.8rem; }
+    .stat-label { font-size: 12px; color: var(--text-secondary); margin-bottom: 3px; }
+    .stat-value { font-size: 22px; font-weight: 500; color: var(--text-primary); }
+    .footnote { margin-top: 1rem; font-size: 12.5px; color: var(--text-muted); line-height: 1.6; }
+    .preset { font-size: 12.5px; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>The abstention landscape — two ways to lose the same behavior</h1>
+
+    <p class="description">
+      A marble on a landscape with two valleys: <strong>"I don't know"</strong> on the left,
+      <strong>confident answer</strong> on the right. Temperature shakes it. The two mechanism
+      sliders are the point of this widget: they remove the abstention behavior in structurally
+      different ways, and the difference is invisible if you only watch where the marble ends up.
+      <br><br>
+      <strong>Mass drain</strong> raises the floor of the IDK valley — the state stops being worth
+      occupying at all. <strong>Inflow gate</strong> leaves the valley exactly as deep, but adds a
+      one-way push in the corridor leading to it: the marble can rest there perfectly well, it just
+      never gets there. Drain ≈ what was measured in Qwen; gate ≈ what was measured in Llama.
+    </p>
+
+    <div class="control-group">
+      <label for="drain">Mass drain (Qwen-style)</label>
+      <input type="range" id="drain" min="0" max="100" value="0" step="1">
+      <span class="control-output" id="drainOut">0%</span>
+    </div>
+
+    <div class="control-group">
+      <label for="gate">Inflow gate (Llama-style)</label>
+      <input type="range" id="gate" min="0" max="100" value="0" step="1">
+      <span class="control-output" id="gateOut">0%</span>
+    </div>
+
+    <div class="control-group">
+      <label for="noise">Temperature</label>
+      <input type="range" id="noise" min="0" max="100" value="35" step="1">
+      <span class="control-output" id="noiseOut">0.35</span>
+    </div>
+
+    <div class="canvas-wrapper"><canvas id="cv"></canvas></div>
+
+    <div class="button-group">
+      <button id="dropIdk">Drop into IDK</button>
+      <button id="dropConf">Drop into confident</button>
+      <button id="ensemble">Release 20 from the branch point</button>
+      <button id="reset">Reset counts</button>
+    </div>
+
+    <div class="button-group preset">
+      <button data-preset="base">preset: base model</button>
+      <button data-preset="qwen">preset: drained (Qwen)</button>
+      <button data-preset="llama">preset: gated (Llama)</button>
+    </div>
+
+    <div class="stats">
+      <div class="stat-card">
+        <div class="stat-label">Escapes IDK &rarr; confident</div>
+        <div class="stat-value" id="cIC">0</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-label">Escapes confident &rarr; IDK</div>
+        <div class="stat-value" id="cCI">0</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-label">Asymmetry ratio</div>
+        <div class="stat-value" id="cRatio">&ndash;</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-label">Ensemble reaching IDK</div>
+        <div class="stat-value" id="cEns">&ndash;</div>
+      </div>
+    </div>
+
+    <p class="footnote">
+      What this cartoon is not: a transformer has no energy function, no two-dimensional state, and
+      no marble. "Depth" here stands in for how strongly a region retains generation once it is
+      there (persistence); the one-way corridor stands in for how often generation enters it at all
+      (reachability). Those two <em>are</em> separately measurable on a real model — that is
+      Session 6 — and the whole point of keeping them on separate sliders is that the same
+      extinction on screen can come from either one.
+    </p>
+  </div>
+
+  <script>
+  (function () {
+    const cv = document.getElementById('cv');
+    const ctx = cv.getContext('2d');
+    let W = 0, H = 0;
+    const DPR = window.devicePixelRatio || 1;
+
+    const dark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+    const COL = {
+      curve: dark ? '#a8a69f' : '#5f5e5a',
+      fill: dark ? 'rgba(168,166,159,0.10)' : 'rgba(136,135,128,0.10)',
+      idk: '#d85a30',
+      conf: '#1d9e75',
+      muted: dark ? '#6f6d68' : '#888780',
+      gate: dark ? 'rgba(216,90,48,0.18)' : 'rgba(216,90,48,0.13)',
+      ghost: dark ? 'rgba(168,166,159,0.55)' : 'rgba(95,94,90,0.45)'
+    };
+
+    function resize() {
+      W = cv.clientWidth; H = cv.clientHeight;
+      cv.width = W * DPR; cv.height = H * DPR;
+      ctx.setTransform(DPR, 0, 0, DPR, 0, 0);
+    }
+    resize();
+    window.addEventListener('resize', resize);
+
+    const drainEl = document.getElementById('drain');
+    const gateEl = document.getElementById('gate');
+    const noiseEl = document.getElementById('noise');
+    const drainOut = document.getElementById('drainOut');
+    const gateOut = document.getElementById('gateOut');
+    const noiseOut = document.getElementById('noiseOut');
+
+    const XMIN = -1.75, XMAX = 1.75;
+
+    // Potential: symmetric double well, plus the drain term which raises the
+    // IDK well floor and tilts the whole landscape toward the confident side.
+    function V(x, d) {
+      return Math.pow(x * x - 1, 2)
+           + 1.5 * d * Math.exp(-Math.pow(x + 1, 2) / 0.18)
+           - 0.55 * d * x;
+    }
+    function dV(x, d) {
+      const h = 1e-4;
+      return (V(x + h, d) - V(x - h, d)) / (2 * h);
+    }
+
+    // The gate is NOT part of the potential: it is a directional push, active
+    // only in the corridor between the branch point and the IDK well. A marble
+    // already resting in the IDK well feels essentially none of it — which is
+    // exactly the dissociation between reachability and persistence.
+    function gateForce(x, g) {
+      return g * 3.2 * Math.exp(-Math.pow(x + 0.25, 2) / 0.08);
+    }
+
+    function findExtrema(d) {
+      let barrier = { x: 0, v: -1e9 }, wI = { x: -1, v: 1e9 }, wC = { x: 1, v: 1e9 };
+      for (let x = XMIN; x <= XMAX; x += 0.005) {
+        const v = V(x, d);
+        if (x > -0.8 && x < 0.8 && v > barrier.v) barrier = { x, v };
+        if (x < -0.2 && v < wI.v) wI = { x, v };
+        if (x > 0.2 && v < wC.v) wC = { x, v };
+      }
+      return { barrier, wI, wC };
+    }
+
+    let ball = { x: 1 };
+    let lastBasin = 'C';
+    let counts = { IC: 0, CI: 0 };
+    let ensemble = null;   // {xs: [...], steps: n, done: bool}
+
+    const cIC = document.getElementById('cIC');
+    const cCI = document.getElementById('cCI');
+    const cRatio = document.getElementById('cRatio');
+    const cEns = document.getElementById('cEns');
+
+    function updateCounts() {
+      cIC.textContent = counts.IC;
+      cCI.textContent = counts.CI;
+      cRatio.textContent = counts.CI > 0
+        ? (counts.IC / counts.CI).toFixed(1) + '×'
+        : (counts.IC > 0 ? '∞' : '–');
+    }
+
+    function gauss() {
+      let u = 0, v = 0;
+      while (u === 0) u = Math.random();
+      while (v === 0) v = Math.random();
+      return Math.sqrt(-2 * Math.log(u)) * Math.cos(2 * Math.PI * v);
+    }
+
+    const DT = 0.02, GAMMA = 2.2;
+    function step(x, d, g, sigma) {
+      x += (-GAMMA * dV(x, d) + gateForce(x, g)) * DT + sigma * 1.35 * Math.sqrt(DT) * gauss();
+      return Math.min(XMAX, Math.max(XMIN, x));
+    }
+
+    document.getElementById('dropIdk').onclick = () => {
+      ball.x = findExtrema(+drainEl.value / 100).wI.x; lastBasin = 'I';
+    };
+    document.getElementById('dropConf').onclick = () => {
+      ball.x = findExtrema(+drainEl.value / 100).wC.x; lastBasin = 'C';
+    };
+    document.getElementById('reset').onclick = () => {
+      counts = { IC: 0, CI: 0 }; ensemble = null; cEns.textContent = '–'; updateCounts();
+    };
+    document.getElementById('ensemble').onclick = () => {
+      const bx = findExtrema(+drainEl.value / 100).barrier.x;
+      ensemble = { xs: Array.from({ length: 20 }, () => bx + 0.05 * gauss()), steps: 0, done: false };
+      cEns.textContent = '…';
+    };
+
+    const PRESETS = {
+      base: { drain: 0, gate: 0, noise: 35 },
+      qwen: { drain: 85, gate: 10, noise: 35 },
+      llama: { drain: 0, gate: 85, noise: 35 }
+    };
+    document.querySelectorAll('[data-preset]').forEach(b => {
+      b.onclick = () => {
+        const p = PRESETS[b.dataset.preset];
+        drainEl.value = p.drain; gateEl.value = p.gate; noiseEl.value = p.noise;
+      };
+    });
+
+    function frame() {
+      const d = +drainEl.value / 100;
+      const g = +gateEl.value / 100;
+      const sigma = +noiseEl.value / 100;
+      drainOut.textContent = Math.round(d * 100) + '%';
+      gateOut.textContent = Math.round(g * 100) + '%';
+      noiseOut.textContent = sigma.toFixed(2);
+
+      const ex = findExtrema(d);
+
+      for (let i = 0; i < 6; i++) ball.x = step(ball.x, d, g, sigma);
+
+      const basin = ball.x < ex.barrier.x ? 'I' : 'C';
+      if (basin !== lastBasin) {
+        if (lastBasin === 'I') counts.IC++; else counts.CI++;
+        lastBasin = basin;
+        updateCounts();
+      }
+
+      if (ensemble && !ensemble.done) {
+        for (let k = 0; k < 6; k++) {
+          ensemble.xs = ensemble.xs.map(x => step(x, d, g, sigma));
+          ensemble.steps++;
+        }
+        if (ensemble.steps > 900) {
+          ensemble.done = true;
+          const reached = ensemble.xs.filter(x => x < ex.barrier.x).length;
+          cEns.textContent = reached + '/20';
+        }
+      }
+
+      // ---- draw ----
+      let vmin = 1e9, vmax = -1e9;
+      const N = 240, xs = [], vs = [];
+      for (let i = 0; i <= N; i++) {
+        const x = XMIN + (XMAX - XMIN) * i / N;
+        const v = V(x, d);
+        xs.push(x); vs.push(v);
+        if (v < vmin) vmin = v;
+        if (v > vmax) vmax = v;
+      }
+
+      const padT = 36, padB = 30, padL = 12, padR = 12;
+      const sx = x => padL + (x - XMIN) / (XMAX - XMIN) * (W - padL - padR);
+      const sy = v => padT + (1 - (v - vmin) / (vmax - vmin + 1e-9)) * (H - padT - padB);
+
+      ctx.clearRect(0, 0, W, H);
+
+      // gate corridor: drawn as a band with arrows, not as part of the curve
+      if (g > 0.01) {
+        const x0 = sx(-0.75), x1 = sx(0.25);
+        ctx.fillStyle = COL.gate;
+        ctx.fillRect(x0, padT - 14, x1 - x0, H - padT - padB + 20);
+        ctx.strokeStyle = COL.idk;
+        ctx.lineWidth = 1.2;
+        const ay = padT - 2;
+        for (let a = x0 + 12; a < x1 - 6; a += 26) {
+          ctx.beginPath();
+          ctx.moveTo(a, ay); ctx.lineTo(a + 12, ay);
+          ctx.lineTo(a + 8, ay - 4); ctx.moveTo(a + 12, ay); ctx.lineTo(a + 8, ay + 4);
+          ctx.stroke();
+        }
+        ctx.fillStyle = COL.idk;
+        ctx.font = '12px sans-serif';
+        ctx.textAlign = 'left';
+        ctx.fillText('one-way corridor: inflow pushed back', x0 + 4, padT + 12);
+      }
+
+      ctx.beginPath();
+      ctx.moveTo(sx(xs[0]), sy(vs[0]));
+      for (let i = 1; i <= N; i++) ctx.lineTo(sx(xs[i]), sy(vs[i]));
+      ctx.strokeStyle = COL.curve;
+      ctx.lineWidth = 2;
+      ctx.stroke();
+      ctx.lineTo(sx(XMAX), H - 6);
+      ctx.lineTo(sx(XMIN), H - 6);
+      ctx.closePath();
+      ctx.fillStyle = COL.fill;
+      ctx.fill();
+
+      ctx.font = '13px sans-serif';
+      ctx.textAlign = 'center';
+      ctx.fillStyle = COL.idk;
+      ctx.fillText('"I don\'t know" basin', sx(ex.wI.x), Math.min(sy(ex.wI.v) + 24, H - 10));
+      ctx.fillStyle = COL.conf;
+      ctx.fillText('confident-answer basin', sx(ex.wC.x), Math.min(sy(ex.wC.v) + 24, H - 10));
+      ctx.fillStyle = COL.muted;
+      ctx.fillText('branch point', sx(ex.barrier.x), sy(ex.barrier.v) - 10);
+
+      if (ensemble) {
+        ctx.fillStyle = COL.ghost;
+        ensemble.xs.forEach(x => {
+          ctx.beginPath();
+          ctx.arc(sx(x), sy(V(x, d)) - 7, 4, 0, Math.PI * 2);
+          ctx.fill();
+        });
+      }
+
+      ctx.beginPath();
+      ctx.arc(sx(ball.x), sy(V(ball.x, d)) - 9, 8, 0, Math.PI * 2);
+      ctx.fillStyle = lastBasin === 'I' ? COL.idk : COL.conf;
+      ctx.fill();
+      ctx.strokeStyle = '#ffffff';
+      ctx.lineWidth = 1.5;
+      ctx.stroke();
+
+      requestAnimationFrame(frame);
+    }
+
+    updateCounts();
+    requestAnimationFrame(frame);
+  })();
+  </script>
+</body>
+</html>

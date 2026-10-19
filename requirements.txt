@@ -1,0 +1,30 @@
+# Pinned versions for the workshop notebooks.
+# Rationale for pinning: transformers, tokenizers, and torch all change
+# internal computations across minor versions in ways that occasionally
+# break exact log-probability reproducibility. Pinning ensures the numbers
+# in the workshop text match the numbers on the reader's machine.
+#
+# Python 3.11 required.
+
+torch==2.4.1
+transformers==4.45.2
+tokenizers==0.20.1
+accelerate==1.0.1
+safetensors==0.4.5
+huggingface_hub==0.25.2
+
+numpy==1.26.4
+scipy==1.14.1
+matplotlib==3.9.2
+
+# jupytext keeps notebooks as .py files that convert cleanly to .ipynb
+jupytext==1.16.4
+jupyterlab==4.2.5
+ipykernel==6.29.5
+
+# Used from Session 6 onward; harmless to have installed early
+peft==0.13.2
+datasets==3.0.1
+
+# Session 8 only (NLI clustering for semantic entropy)
+sentence-transformers==3.1.1
