@@ -1,0 +1,41 @@
+model,question_id,position,token,token_id,logprob
+llama31_8b_base,certain_fact,0, I,358,-4.8693928718566895
+llama31_8b_base,certain_fact,1, don,1541,-2.898165225982666
+llama31_8b_base,certain_fact,2,'t,956,-0.7072685360908508
+llama31_8b_base,certain_fact,3, know,1440,-0.40141573548316956
+llama31_8b_base,certain_fact,4,.,13,-1.3489967584609985
+llama31_8b_base,recent_fact,0, I,358,-5.584238052368164
+llama31_8b_base,recent_fact,1, don,1541,-2.140625476837158
+llama31_8b_base,recent_fact,2,'t,956,-0.9835482835769653
+llama31_8b_base,recent_fact,3, know,1440,-0.7302459478378296
+llama31_8b_base,recent_fact,4,.,13,-1.49419105052948
+llama31_8b_base,obscure_real,0, I,358,-3.324185609817505
+llama31_8b_base,obscure_real,1, don,1541,-3.5665907859802246
+llama31_8b_base,obscure_real,2,'t,956,-0.3238608241081238
+llama31_8b_base,obscure_real,3, know,1440,-0.9415562152862549
+llama31_8b_base,obscure_real,4,.,13,-1.709168553352356
+llama31_8b_base,plausible_fake_entity,0, I,358,-4.721785545349121
+llama31_8b_base,plausible_fake_entity,1, don,1541,-3.512788772583008
+llama31_8b_base,plausible_fake_entity,2,'t,956,-0.07709717005491257
+llama31_8b_base,plausible_fake_entity,3, know,1440,-1.4260393381118774
+llama31_8b_base,plausible_fake_entity,4,.,13,-5.35102653503418
+llama31_8b_base,false_premise,0, I,358,-4.908674240112305
+llama31_8b_base,false_premise,1, don,1541,-3.8138427734375
+llama31_8b_base,false_premise,2,'t,956,-0.20957207679748535
+llama31_8b_base,false_premise,3, know,1440,-0.9928844571113586
+llama31_8b_base,false_premise,4,.,13,-4.027360439300537
+llama31_8b_base,ill_posed,0, I,358,-3.980283737182617
+llama31_8b_base,ill_posed,1, don,1541,-2.6293468475341797
+llama31_8b_base,ill_posed,2,'t,956,-1.4128371477127075
+llama31_8b_base,ill_posed,3, know,1440,-1.0594276189804077
+llama31_8b_base,ill_posed,4,.,13,-1.308932900428772
+llama31_8b_base,structurally_unknowable,0, I,358,-3.940396785736084
+llama31_8b_base,structurally_unknowable,1, don,1541,-1.6643295288085938
+llama31_8b_base,structurally_unknowable,2,'t,956,-1.1493871212005615
+llama31_8b_base,structurally_unknowable,3, know,1440,-0.2536051869392395
+llama31_8b_base,structurally_unknowable,4,.,13,-1.3657361268997192
+llama31_8b_base,private_info,0, I,358,-2.5271425247192383
+llama31_8b_base,private_info,1, don,1541,-1.9295713901519775
+llama31_8b_base,private_info,2,'t,956,-0.019110722467303276
+llama31_8b_base,private_info,3, know,1440,-0.5971800684928894
+llama31_8b_base,private_info,4,.,13,-1.2889530658721924

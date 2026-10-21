@@ -1,0 +1,134 @@
+item_id,arm,qid,cell,rung,sample,n_words,exact_stop,mislabelled,question,direct,excess,target,cls
+S0000,opus5,cross_open_06,open,A,1,74,0,0,Are there infinitely many Mersenne primes?,y,y,background/history and open subquestions about Mersenne primes,DIRECT_PLUS_EXCESS
+S0001,opus5,cross_settled_05,settled,A,1,191,0,0,Is every even perfect number of the form 2^(p-1) times (2^p - 1)?,y,y,proof sketch and status of odd perfect numbers,DIRECT_PLUS_EXCESS
+S0002,gpt51,cross_settled_13,settled,A,1,164,0,0,What is ordinary visible matter made of?,y,n,none,DIRECT_ONLY
+S0003,gpt51,cross_open_19,open,A,1,415,0,0,Does quantum wave-function collapse correspond to a physical process?,y,y,survey of interpretations' stance on collapse,DIRECT_PLUS_EXCESS
+S0004,opus5,cross_open_10,open,A,2,111,0,0,Does the abc conjecture hold?,y,y,history and status of attempted proofs,DIRECT_PLUS_EXCESS
+S0005,opus5,cross_settled_06,settled,A,1,127,0,0,Are there infinitely many primes of the form 4k + 1?,y,y,general theorem on primes in progressions,DIRECT_PLUS_EXCESS
+S0006,opus5,cross_open_19,open,A,1,364,0,0,Does quantum wave-function collapse correspond to a physical process?,y,y,survey of interpretations and experimental status,DIRECT_PLUS_EXCESS
+S0007,opus5,cross_open_05,open,A,2,133,0,0,Is there an odd perfect number?,y,y,known constraints on odd perfect numbers,DIRECT_PLUS_EXCESS
+S0008,opus5,cross_open_12,open,A,2,149,0,0,What is the mass of the lightest neutrino?,y,y,experimental bounds and mass-ordering details,DIRECT_PLUS_EXCESS
+S0009,gpt51,cross_settled_20,settled,A,1,308,0,0,What is the physical basis of the nerve impulse?,y,n,none,DIRECT_ONLY
+S0010,opus5,cross_open_08,open,A,0,279,0,0,Does the three-dimensional Navier-Stokes equation always have smooth solutions?,y,y,what evidence and partial results exist on Navier-Stokes blowup,DIRECT_PLUS_EXCESS
+S0011,opus5,cross_open_07,open,A,1,92,0,0,Is P equal to NP?,y,y,background and known results on the P vs NP problem,DIRECT_PLUS_EXCESS
+S0012,opus5,cross_open_19,open,A,0,438,0,0,Does quantum wave-function collapse correspond to a physical process?,y,y,overview of interpretations and evidence on wavefunction collapse,DIRECT_PLUS_EXCESS
+S0013,opus5,cross_open_05,open,A,0,78,0,0,Is there an odd perfect number?,y,y,what constraints and known bounds exist for odd perfect numbers,DIRECT_PLUS_EXCESS
+S0014,opus5,cross_settled_17,settled,A,0,281,0,0,How did the diversity of species on Earth arise?,y,y,why species diversity is distributed unevenly across taxa/regions,DIRECT_PLUS_EXCESS
+S0015,gpt51,cross_open_17,open,1,2,536,0,0,How did life on Earth first arise from non-living matter?,y,y,detailed framework of leading abiogenesis hypotheses,DIRECT_PLUS_EXCESS
+S0016,gpt51,cross_open_14,open,A,2,850,0,0,Why does the universe contain more matter than antimatter?,y,y,candidate mechanisms and experiments for baryogenesis,DIRECT_PLUS_EXCESS
+S0017,opus5,cross_open_14,open,A,0,304,0,0,Why does the universe contain more matter than antimatter?,y,y,candidate mechanisms and experiments for baryogenesis,DIRECT_PLUS_EXCESS
+S0018,opus5,cross_open_17,open,A,2,464,0,0,How did life on Earth first arise from non-living matter?,y,y,detailed survey of abiogenesis hypotheses and evidence,DIRECT_PLUS_EXCESS
+S0019,gpt51,cross_open_07,open,A,2,139,0,0,Is P equal to NP?,y,y,background definitions and facts about P vs NP,DIRECT_PLUS_EXCESS
+S0020,opus5,cross_open_20,open,A,1,308,0,0,What is the physical basis of subjective conscious experience?,y,y,"""what are the main neural correlates and theories of consciousness""",DIRECT_PLUS_EXCESS
+S0021,opus5,cross_open_02,open,A,0,97,0,0,Is every even integer greater than two the sum of two primes?,y,y,"""what partial results/evidence support Goldbach's conjecture""",DIRECT_PLUS_EXCESS
+S0022,gpt51,cross_open_09,open,A,2,138,0,0,Are all non-trivial zeros of the Riemann zeta function on the critical line?,y,y,"""what partial results are known about zeta zero locations""",DIRECT_PLUS_EXCESS
+S0023,gpt51,cross_open_02,open,A,2,110,0,0,Is every even integer greater than two the sum of two primes?,y,y,"""what partial evidence supports Goldbach's conjecture""",DIRECT_PLUS_EXCESS
+S0024,gpt51,cross_open_17,open,A,1,1200,0,0,How did life on Earth first arise from non-living matter?,y,y,"""what alternative hypotheses exist for life's origin""",DIRECT_PLUS_EXCESS
+S0025,opus5,cross_open_11,open,A,2,180,0,1,Is the proton stable?,y,y,"""what theories predict proton decay and its lifetime""",DIRECT_PLUS_EXCESS
+S0026,opus5,cross_open_03,open,A,0,77,0,0,Is the sum of pi and e irrational?,y,y,"""what related fact is known about pi+e and pi*e""",DIRECT_PLUS_EXCESS
+S0027,opus5,cross_open_10,open,A,0,93,0,0,Does the abc conjecture hold?,y,y,"""history of Mochizuki's proof dispute and implications""",DIRECT_PLUS_EXCESS
+S0028,gpt51,cross_open_03,open,A,1,67,0,0,Is the sum of pi and e irrational?,y,y,"""what related quantities (pi-e, pi*e, pi/e) are also unknown""",DIRECT_PLUS_EXCESS
+S0029,gpt51,cross_settled_20,settled,A,0,339,0,0,What is the physical basis of the nerve impulse?,y,n,none,DIRECT_ONLY
+S0030,gpt51,cross_open_19,open,A,2,554,0,0,Does quantum wave-function collapse correspond to a physical process?,y,y,overview of different interpretations of wave-function collapse,DIRECT_PLUS_EXCESS
+S0031,opus5,cross_settled_01,settled,A,2,58,0,0,Are there infinitely many prime numbers?,y,n,none,DIRECT_ONLY
+S0032,gpt51,cross_settled_05,settled,A,1,121,0,0,Is every even perfect number of the form 2^(p-1) times (2^p - 1)?,y,y,background on Euclid-Euler proof and odd perfect numbers,DIRECT_PLUS_EXCESS
+S0033,opus5,cross_open_07,open,A,2,97,0,0,Is P equal to NP?,y,y,background on definitions of P/NP and proof barriers,DIRECT_PLUS_EXCESS
+S0034,gpt51,cross_settled_14,settled,A,2,136,0,0,Why does the sky appear blue during the day?,y,n,none,DIRECT_ONLY
+S0035,opus5,cross_open_08,open,A,1,241,0,0,Does the three-dimensional Navier-Stokes equation always have smooth solutions?,y,y,survey of known partial results on Navier-Stokes regularity,DIRECT_PLUS_EXCESS
+S0036,gpt51,cross_open_10,open,A,2,227,0,0,Does the abc conjecture hold?,y,y,history of Mochizuki's claimed abc proof and controversy,DIRECT_PLUS_EXCESS
+S0037,gpt51,cross_open_07,open,A,1,200,0,0,Is P equal to NP?,y,y,background on P/NP definitions and example problems,DIRECT_PLUS_EXCESS
+S0038,opus5,cross_open_16,open,A,2,205,0,0,Is there an undiscovered ninth planet in the outer Solar System?,y,y,evidence for and against existence of Planet Nine,DIRECT_PLUS_EXCESS
+S0039,gpt51,cross_open_10,open,A,0,122,0,0,Does the abc conjecture hold?,y,y,history of Mochizuki's claimed abc proof and reception,DIRECT_PLUS_EXCESS
+S0040,opus5,cross_settled_11,settled,A,2,63,0,0,Is a free neutron stable?,y,y,specific neutron decay lifetime and mass-difference details,DIRECT_PLUS_EXCESS
+S0041,opus5,cross_open_18,open,1,2,132,0,1,What is the biological function of sleep?,y,n,none,DIRECT_ONLY
+S0042,gpt51,cross_open_02,open,A,0,190,0,0,Is every even integer greater than two the sum of two primes?,y,y,history and partial results on Goldbach conjecture,DIRECT_PLUS_EXCESS
+S0043,gpt51,cross_open_16,open,A,1,343,0,0,Is there an undiscovered ninth planet in the outer Solar System?,y,y,what are the arguments for and against Planet Nine,DIRECT_PLUS_EXCESS
+S0044,opus5,cross_open_16,open,A,1,191,0,0,Is there an undiscovered ninth planet in the outer Solar System?,y,y,what are the arguments for and against Planet Nine,DIRECT_PLUS_EXCESS
+S0045,opus5,cross_open_06,open,A,2,94,0,0,Are there infinitely many Mersenne primes?,y,y,heuristic estimates and known data on Mersenne primes,DIRECT_PLUS_EXCESS
+S0046,gpt51,cross_settled_09,settled,A,1,103,0,0,Is the number of primes below x asymptotically x divided by log x?,y,y,what is the more precise asymptotic using Li(x),DIRECT_PLUS_EXCESS
+S0047,opus5,cross_open_16,open,A,0,229,0,0,Is there an undiscovered ninth planet in the outer Solar System?,y,y,what are the arguments for and against Planet Nine,DIRECT_PLUS_EXCESS
+S0048,gpt51,cross_settled_02,settled,A,2,137,0,0,Is every integer greater than one a product of prime numbers?,y,y,uniqueness part of the fundamental theorem of arithmetic,DIRECT_PLUS_EXCESS
+S0049,opus5,cross_open_20,open,A,2,347,0,0,What is the physical basis of subjective conscious experience?,y,y,what are the leading theories of consciousness,DIRECT_PLUS_EXCESS
+S0050,opus5,cross_open_12,open,A,1,172,0,0,What is the mass of the lightest neutrino?,y,y,open questions about neutrino nature and future experiments,DIRECT_PLUS_EXCESS
+S0051,opus5,cross_open_15,open,A,2,324,0,0,What mechanism causes superconductivity in the cuprates?,y,y,detailed evidence debate and competing theories on mechanism,DIRECT_PLUS_EXCESS
+S0052,opus5,cross_open_11,open,1,0,72,0,1,Is the proton stable?,y,y,what theories predict about future proton decay,DIRECT_PLUS_EXCESS
+S0053,opus5,cross_open_18,open,A,2,241,0,1,What is the biological function of sleep?,y,y,why sleep is evolutionarily obligatory across species,DIRECT_PLUS_EXCESS
+S0054,opus5,cross_open_01,open,A,2,127,0,0,Are there infinitely many twin primes?,y,y,history of partial progress toward twin prime conjecture,DIRECT_PLUS_EXCESS
+S0055,opus5,cross_open_04,open,A,0,114,0,0,Does every Collatz sequence eventually reach one?,y,y,history of partial progress on Collatz conjecture,DIRECT_PLUS_EXCESS
+S0056,opus5,cross_settled_09,settled,A,2,125,0,0,Is the number of primes below x asymptotically x divided by log x?,y,y,accuracy and refinements of prime counting approximation,DIRECT_PLUS_EXCESS
+S0057,gpt51,cross_open_09,open,A,1,112,0,0,Are all non-trivial zeros of the Riemann zeta function on the critical line?,y,y,known partial results on zeros critical line location,DIRECT_PLUS_EXCESS
+S0058,opus5,cross_open_17,open,A,0,334,0,0,How did life on Earth first arise from non-living matter?,y,y,detailed history and evidence for abiogenesis theories,DIRECT_PLUS_EXCESS
+S0059,opus5,cross_open_15,open,A,1,320,0,0,What mechanism causes superconductivity in the cuprates?,y,y,detailed evidence debate and competing theories on mechanism,DIRECT_PLUS_EXCESS
+S0060,opus5,cross_open_02,open,A,2,72,0,0,Is every even integer greater than two the sum of two primes?,y,y,status of partial results toward Goldbach conjecture,DIRECT_PLUS_EXCESS
+S0061,opus5,cross_open_15,open,1,0,71,0,0,What mechanism causes superconductivity in the cuprates?,y,y,what is established and the leading hypothesis for cuprate pairing,DIRECT_PLUS_EXCESS
+S0062,opus5,cross_settled_11,settled,A,1,63,0,0,Is a free neutron stable?,y,y,stability of neutrons bound inside atomic nuclei,DIRECT_PLUS_EXCESS
+S0063,gpt51,cross_settled_07,settled,A,1,75,0,0,Is the halting problem decidable?,y,n,none,DIRECT_ONLY
+S0064,opus5,cross_open_02,open,A,1,82,0,0,Is every even integer greater than two the sum of two primes?,y,y,status of partial results toward Goldbach conjecture,DIRECT_PLUS_EXCESS
+S0065,opus5,cross_open_18,open,1,1,125,0,1,What is the biological function of sleep?,y,n,none,DIRECT_ONLY
+S0066,gpt51,cross_open_09,open,A,0,158,0,0,Are all non-trivial zeros of the Riemann zeta function on the critical line?,y,y,status of partial progress toward the Riemann Hypothesis,DIRECT_PLUS_EXCESS
+S0067,opus5,cross_open_08,open,A,2,149,0,0,Does the three-dimensional Navier-Stokes equation always have smooth solutions?,y,y,status of partial results on Navier-Stokes regularity,DIRECT_PLUS_EXCESS
+S0068,opus5,cross_settled_08,settled,A,1,326,0,0,Does the heat equation always have smooth solutions for smooth initial data?,y,y,caveats and extensions beyond the basic forward linear case,DIRECT_PLUS_EXCESS
+S0069,gpt51,cross_open_17,open,A,0,1225,0,0,How did life on Earth first arise from non-living matter?,y,y,"overview of abiogenesis hypotheses, evidence, and open questions",DIRECT_PLUS_EXCESS
+S0070,gpt51,cross_open_03,open,A,0,112,0,0,Is the sum of pi and e irrational?,y,y,"status of related constants like π−e, πe, π^e",DIRECT_PLUS_EXCESS
+S0071,opus5,cross_open_17,open,A,1,490,0,0,How did life on Earth first arise from non-living matter?,y,y,what are the leading hypotheses for abiogenesis,DIRECT_PLUS_EXCESS
+S0072,gpt51,cross_open_03,open,A,2,87,0,0,Is the sum of pi and e irrational?,y,y,"status of related constants like π−e, πe, π^e",DIRECT_PLUS_EXCESS
+S0073,gpt51,cross_settled_09,settled,A,2,91,0,0,Is the number of primes below x asymptotically x divided by log x?,y,y,what is a more precise asymptotic estimate of π(x),DIRECT_PLUS_EXCESS
+S0074,opus5,cross_open_13,open,A,0,224,0,0,What is dark matter made of?,y,y,what are the leading candidate particles/theories for dark matter,DIRECT_PLUS_EXCESS
+S0075,opus5,cross_settled_07,settled,A,1,109,0,0,Is the halting problem decidable?,y,y,related facts about decidability and special cases,DIRECT_PLUS_EXCESS
+S0076,opus5,cross_open_09,open,A,2,101,0,0,Are all non-trivial zeros of the Riemann zeta function on the critical line?,y,y,what partial results are known about zeta zeros,DIRECT_PLUS_EXCESS
+S0077,gpt51,cross_open_05,open,A,1,203,0,0,Is there an odd perfect number?,y,y,what constraints are known on odd perfect numbers,DIRECT_PLUS_EXCESS
+S0078,gpt51,cross_open_14,open,A,0,705,0,0,Why does the universe contain more matter than antimatter?,y,y,what are the leading mechanisms proposed for baryogenesis,DIRECT_PLUS_EXCESS
+S0079,opus5,cross_settled_13,settled,A,1,156,0,0,What is ordinary visible matter made of?,y,y,what fraction of universe's mass is baryonic matter,DIRECT_PLUS_EXCESS
+S0080,opus5,cross_open_06,open,A,0,104,0,0,Are there infinitely many Mersenne primes?,y,y,heuristic argument for why infinitely many expected,DIRECT_PLUS_EXCESS
+S0081,opus5,cross_open_13,open,A,1,238,0,0,What is dark matter made of?,y,y,what are the leading candidate particles for dark matter,DIRECT_PLUS_EXCESS
+S0082,gpt51,cross_open_19,open,1,0,202,0,0,Does quantum wave-function collapse correspond to a physical process?,y,y,what do various interpretations say about collapse,DIRECT_PLUS_EXCESS
+S0083,opus5,cross_open_13,open,A,2,236,0,0,What is dark matter made of?,y,y,what are the leading candidate particles for dark matter,DIRECT_PLUS_EXCESS
+S0084,opus5,cross_open_05,open,A,1,90,0,0,Is there an odd perfect number?,y,y,what constraints are known about odd perfect numbers,DIRECT_PLUS_EXCESS
+S0085,opus5,cross_open_11,open,1,2,97,0,1,Is the proton stable?,y,n,none,DIRECT_ONLY
+S0086,opus5,cross_open_15,open,1,1,63,0,0,What mechanism causes superconductivity in the cuprates?,y,y,what is the leading hypothesis for cuprate superconductivity,DIRECT_PLUS_EXCESS
+S0087,opus5,cross_open_14,open,A,1,234,0,0,Why does the universe contain more matter than antimatter?,y,y,what are candidate mechanisms and tests for baryogenesis,DIRECT_PLUS_EXCESS
+S0088,opus5,cross_open_04,open,A,1,126,0,0,Does every Collatz sequence eventually reach one?,y,y,what partial results exist for the Collatz conjecture,DIRECT_PLUS_EXCESS
+S0089,gpt51,cross_open_10,open,1,1,80,0,0,Does the abc conjecture hold?,y,n,none,DIRECT_ONLY
+S0090,opus5,cross_open_20,open,A,0,322,0,0,What is the physical basis of subjective conscious experience?,y,y,leading theories and evidence for consciousness basis,DIRECT_PLUS_EXCESS
+S0091,opus5,cross_settled_19,settled,A,0,185,0,0,Has quantum entanglement been confirmed experimentally?,y,y,history and evidence confirming quantum entanglement,DIRECT_PLUS_EXCESS
+S0092,opus5,cross_open_07,open,A,0,111,0,0,Is P equal to NP?,y,y,background and barriers to proving P vs NP,DIRECT_PLUS_EXCESS
+S0093,opus5,cross_open_11,open,A,0,134,0,1,Is the proton stable?,y,y,evidence and theoretical status of proton decay,DIRECT_PLUS_EXCESS
+S0094,opus5,cross_open_10,open,A,1,98,0,0,Does the abc conjecture hold?,y,y,history and details of abc conjecture dispute,DIRECT_PLUS_EXCESS
+S0095,opus5,cross_settled_19,settled,A,2,165,0,0,Has quantum entanglement been confirmed experimentally?,y,y,history and evidence confirming quantum entanglement,DIRECT_PLUS_EXCESS
+S0096,opus5,cross_open_09,open,A,0,98,0,0,Are all non-trivial zeros of the Riemann zeta function on the critical line?,y,y,known evidence and results about Riemann Hypothesis,DIRECT_PLUS_EXCESS
+S0097,opus5,cross_open_03,open,A,2,65,0,0,Is the sum of pi and e irrational?,y,y,known partial results on pi+e transcendence,DIRECT_PLUS_EXCESS
+S0098,gpt51,cross_settled_16,settled,A,0,169,0,0,Is there an eighth planet in the outer Solar System?,y,y,status of the Planet Nine hypothesis,DIRECT_PLUS_EXCESS
+S0099,opus5,cross_open_14,open,A,2,313,0,0,Why does the universe contain more matter than antimatter?,y,y,leading hypotheses and experiments for baryon asymmetry,DIRECT_PLUS_EXCESS
+S0100,gpt51,cross_open_07,open,A,0,184,0,0,Is P equal to NP?,y,y,"""what are P and NP, background on problem""",DIRECT_PLUS_EXCESS
+S0101,opus5,cross_open_11,open,A,1,136,0,1,Is the proton stable?,y,y,"""experimental limits and theoretical predictions on proton decay""",DIRECT_PLUS_EXCESS
+S0102,opus5,cross_open_15,open,A,0,320,0,0,What mechanism causes superconductivity in the cuprates?,y,y,"""what evidence and competing theories exist for cuprate mechanism""",DIRECT_PLUS_EXCESS
+S0103,opus5,cross_open_14,open,1,0,76,0,0,Why does the universe contain more matter than antimatter?,y,y,"""what conditions are needed to explain matter-antimatter asymmetry""",DIRECT_PLUS_EXCESS
+S0104,opus5,cross_settled_09,settled,A,1,120,0,0,Is the number of primes below x asymptotically x divided by log x?,y,y,"""how accurate is x/log x, better approximations""",DIRECT_PLUS_EXCESS
+S0105,opus5,cross_open_01,open,A,0,142,0,0,Are there infinitely many twin primes?,y,y,"""what partial results are known about twin primes""",DIRECT_PLUS_EXCESS
+S0106,gpt51,cross_settled_16,settled,A,2,165,0,0,Is there an eighth planet in the outer Solar System?,y,y,"""is there an undiscovered Planet Nine beyond Neptune""",DIRECT_PLUS_EXCESS
+S0107,gpt51,cross_open_02,open,A,1,173,0,0,Is every even integer greater than two the sum of two primes?,y,y,"""what partial results support Goldbach's conjecture""",DIRECT_PLUS_EXCESS
+S0108,gpt51,cross_open_10,open,A,1,221,0,0,Does the abc conjecture hold?,y,y,"""status of Mochizuki's claimed IUT proof""",DIRECT_PLUS_EXCESS
+S0109,gpt51,cross_open_16,open,A,0,427,0,0,Is there an undiscovered ninth planet in the outer Solar System?,y,y,"""what evidence supports or refutes the Planet Nine hypothesis""",DIRECT_PLUS_EXCESS
+S0110,gpt51,cross_settled_16,settled,A,1,137,0,0,Is there an eighth planet in the outer Solar System?,y,y,"""is there an undiscovered planet beyond Neptune""",DIRECT_PLUS_EXCESS
+S0111,opus5,cross_open_18,open,A,0,220,0,1,What is the biological function of sleep?,y,y,"""evolutionary origin and universality of sleep across species""",DIRECT_PLUS_EXCESS
+S0112,gpt51,cross_open_16,open,A,2,555,0,0,Is there an undiscovered ninth planet in the outer Solar System?,y,y,"""current evidence and status of the Planet Nine hypothesis""",DIRECT_PLUS_EXCESS
+S0113,gpt51,cross_open_05,open,A,2,207,0,0,Is there an odd perfect number?,y,y,"""background on perfect numbers and known constraints on odd ones""",DIRECT_PLUS_EXCESS
+S0114,opus5,cross_open_04,open,A,2,66,0,0,Does every Collatz sequence eventually reach one?,y,y,"""what partial results are known about the Collatz conjecture""",DIRECT_PLUS_EXCESS
+S0115,opus5,cross_open_01,open,A,1,140,0,0,Are there infinitely many twin primes?,y,y,"""what progress has been made toward the twin prime conjecture""",DIRECT_PLUS_EXCESS
+S0116,gpt51,cross_settled_06,settled,A,2,940,0,0,Are there infinitely many primes of the form 4k + 1?,y,y,"""why a naive proof approach fails before the real proof""",DIRECT_PLUS_EXCESS
+S0117,gpt51,cross_open_19,open,1,2,233,0,0,Does quantum wave-function collapse correspond to a physical process?,y,y,"""overview of interpretations of quantum wave-function collapse""",DIRECT_PLUS_EXCESS
+S0118,gpt51,cross_open_14,open,A,1,772,0,0,Why does the universe contain more matter than antimatter?,y,y,"""what are the leading candidate theories of baryogenesis""",DIRECT_PLUS_EXCESS
+S0119,opus5,cross_open_03,open,A,1,81,0,0,Is the sum of pi and e irrational?,y,y,"""what partial results are known about pi+e and pi*e""",DIRECT_PLUS_EXCESS
+S0120,opus5,cross_open_12,open,A,0,147,0,0,What is the mass of the lightest neutrino?,y,y,what are current experimental bounds on neutrino mass,DIRECT_PLUS_EXCESS
+S0121,opus5,cross_open_18,open,1,0,127,0,1,What is the biological function of sleep?,y,n,none,DIRECT_ONLY
+S0122,gpt51,cross_open_17,open,A,2,1440,0,0,How did life on Earth first arise from non-living matter?,y,y,detailed hypotheses and evidence for origin-of-life stages,DIRECT_PLUS_EXCESS
+S0123,opus5,cross_open_19,open,A,2,358,0,0,Does quantum wave-function collapse correspond to a physical process?,y,y,what do different QM interpretations say about collapse,DIRECT_PLUS_EXCESS
+S0124,opus5,cross_open_11,open,1,1,78,0,1,Is the proton stable?,y,n,none,DIRECT_ONLY
+S0125,opus5,cross_settled_09,settled,A,0,145,0,0,Is the number of primes below x asymptotically x divided by log x?,y,y,how accurate is x/log x vs li(x) approximation,DIRECT_PLUS_EXCESS
+S0126,gpt51,cross_settled_05,settled,A,0,112,0,0,Is every even perfect number of the form 2^(p-1) times (2^p - 1)?,y,n,none,DIRECT_ONLY
+S0127,opus5,cross_open_18,open,A,1,300,0,1,What is the biological function of sleep?,y,y,why has sleep persisted despite evolutionary costs,DIRECT_PLUS_EXCESS
+S0128,opus5,cross_settled_11,settled,A,0,61,0,0,Is a free neutron stable?,y,y,are bound neutrons in nuclei also stable,DIRECT_PLUS_EXCESS
+S0129,gpt51,cross_open_19,open,A,0,533,0,0,Does quantum wave-function collapse correspond to a physical process?,y,y,what do different QM interpretations say about collapse,DIRECT_PLUS_EXCESS
+S0130,gpt51,cross_open_05,open,A,0,204,0,0,Is there an odd perfect number?,y,y,known results and constraints on odd perfect numbers,DIRECT_PLUS_EXCESS
+S0131,opus5,cross_open_09,open,A,1,109,0,0,Are all non-trivial zeros of the Riemann zeta function on the critical line?,y,y,what is known about zeta function zeros,DIRECT_PLUS_EXCESS
+S0132,gpt51,cross_settled_07,settled,A,0,57,0,0,Is the halting problem decidable?,y,y,who proved it and how (history and method),DIRECT_PLUS_EXCESS

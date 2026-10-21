@@ -1,0 +1,7 @@
+arm,group,n,direct_rate,excess_rate,DIRECT_ONLY,DIRECT_PLUS_EXCESS,EXCESS_ONLY,NEITHER
+opus5,  open / plain (rung A),54,1.0,1.0,0,54,0,0
+opus5,  open / rung 1 non-compliant,3,1.0,1.0,0,3,0,0
+opus5,  settled / plain  [CONTROL],15,1.0,0.9333,1,14,0,0
+gpt51,  open / plain (rung A),30,1.0,1.0,0,30,0,0
+gpt51,  open / rung 1 non-compliant,4,1.0,0.75,1,3,0,0
+gpt51,  settled / plain  [CONTROL],15,1.0,0.6,6,9,0,0

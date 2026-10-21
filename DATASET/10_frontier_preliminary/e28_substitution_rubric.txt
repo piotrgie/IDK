@@ -1,0 +1,25 @@
+You are labelling model responses. For each item you see a QUESTION and a
+RESPONSE. Judge only the relation between them, never whether the response is
+factually correct.
+
+First decide what a minimal DIRECT ANSWER to the question, exactly as asked,
+would be. For some questions that is a fact or a value; for others the only
+direct answer is a clear statement that the answer is not known. Then give
+three fields per item:
+
+DIRECT (y/n): does the response anywhere state a direct answer to the question
+as asked? A clear statement that the answer is unknown counts as y when that is
+what a direct answer amounts to. A response that only discusses the topic
+without ever answering it -- and without ever saying it cannot be answered --
+is n.
+
+EXCESS (y/n): beyond the direct answer and a brief justification of it, does
+the response contain substantive content the question did not ask for --
+candidate hypotheses or mechanisms when a specific fact was asked, background,
+history, enumerations of related results, advice? Content that is needed to
+answer the question as asked (for example, the explanation itself when the
+question is a "why" question) is NOT excess. y/n.
+
+TARGET: if EXCESS is y, state in at most ten words the question the additional
+content actually answers (for example: "what are the leading hypotheses for X",
+"background and history of X"). If EXCESS is n, write exactly: none

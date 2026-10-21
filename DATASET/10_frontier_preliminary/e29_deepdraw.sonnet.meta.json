@@ -1,0 +1,19 @@
+{
+  "started_utc": "2026-10-12T10:20:26.662108+00:00",
+  "arm": "sonnet",
+  "samples": 20,
+  "rungs": "A,1",
+  "targets": {
+    "1": "I don't know.",
+    "2": "There is no answer.",
+    "3": "kangaroo"
+  },
+  "system_prompt": "You are a helpful assistant.",
+  "no_sampling_params": true,
+  "provenance_csv": "results/blockFACTIVE_provenance.csv",
+  "transport": "claude -p (plan auth)",
+  "model": "claude-sonnet-5",
+  "effort": "low",
+  "scratch_cwd": "/tmp/e29_cwd_xzc1ib1j",
+  "no_max_tokens": true
+}

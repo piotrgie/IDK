@@ -1,0 +1,27 @@
+{
+  "started_utc": "2026-10-12T10:45:59.483022+00:00",
+  "arm": "gpt51",
+  "samples": 3,
+  "rungs": "A",
+  "targets": {
+    "1": "I don't know.",
+    "2": "There is no answer.",
+    "3": "kangaroo"
+  },
+  "system_prompt": "You are a helpful assistant.",
+  "no_sampling_params": true,
+  "provenance_csv": "results/blockFACTIVE_provenance.csv",
+  "transport": "bare API",
+  "provider_config": {
+    "sdk": "openai",
+    "model": "gpt-5.1",
+    "base_url": null,
+    "system_role": "developer",
+    "cap_param": "max_completion_tokens",
+    "cap": 4096,
+    "extra": {
+      "reasoning_effort": "low"
+    }
+  },
+  "model": "gpt-5.1"
+}

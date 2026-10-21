@@ -1,0 +1,5985 @@
+[
+ {
+  "qid": "popqa_4854072",
+  "block": "A",
+  "role": "primary",
+  "relation": "author",
+  "question": "Who is the author of Khubsurat Bala?",
+  "subject": "Khubsurat Bala",
+  "gold_aliases": [
+   "Agha Hashar Kashmiri"
+  ],
+  "difficulty": 1.146128035678238,
+  "s_pop": 14,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_5471141",
+  "block": "A",
+  "role": "primary",
+  "relation": "screenwriter",
+  "question": "Who was the screenwriter for Fear No More?",
+  "subject": "Fear No More",
+  "gold_aliases": [
+   "Adam Barr"
+  ],
+  "difficulty": 1.568201724066995,
+  "s_pop": 37,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_5504958",
+  "block": "A",
+  "role": "primary",
+  "relation": "author",
+  "question": "Who is the author of Pursuit?",
+  "subject": "Pursuit",
+  "gold_aliases": [
+   "Andy Mangels"
+  ],
+  "difficulty": 1.5797835966168101,
+  "s_pop": 38,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_1123565",
+  "block": "A",
+  "role": "primary",
+  "relation": "author",
+  "question": "Who is the author of With?",
+  "subject": "With",
+  "gold_aliases": [
+   "Donald Douglas Harington",
+   "Donald Harington"
+  ],
+  "difficulty": 1.6020599913279623,
+  "s_pop": 40,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_144894",
+  "block": "A",
+  "role": "primary",
+  "relation": "author",
+  "question": "Who is the author of Het uur tussen hond en wolf?",
+  "subject": "Het uur tussen hond en wolf",
+  "gold_aliases": [
+   "Maarten 't Hart",
+   "Martin Hart"
+  ],
+  "difficulty": 1.6989700043360187,
+  "s_pop": 50,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_5988419",
+  "block": "A",
+  "role": "primary",
+  "relation": "screenwriter",
+  "question": "Who was the screenwriter for Three Loves in Rio?",
+  "subject": "Three Loves in Rio",
+  "gold_aliases": [
+   "Carlos Hugo Christensen"
+  ],
+  "difficulty": 1.7781512503836436,
+  "s_pop": 60,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_5927641",
+  "block": "A",
+  "role": "primary",
+  "relation": "director",
+  "question": "Who was the director of The Gamble?",
+  "subject": "The Gamble",
+  "gold_aliases": [
+   "Tom Ricketts"
+  ],
+  "difficulty": 1.7853298350107671,
+  "s_pop": 61,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_2925773",
+  "block": "A",
+  "role": "primary",
+  "relation": "director",
+  "question": "Who was the director of Son contento?",
+  "subject": "Son contento",
+  "gold_aliases": [
+   "Maurizio Ponzi"
+  ],
+  "difficulty": 1.863322860120456,
+  "s_pop": 73,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_309956",
+  "block": "A",
+  "role": "primary",
+  "relation": "director",
+  "question": "Who was the director of On the Run?",
+  "subject": "On the Run",
+  "gold_aliases": [
+   "Ernest Morris"
+  ],
+  "difficulty": 1.8750612633917,
+  "s_pop": 75,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_5923656",
+  "block": "A",
+  "role": "primary",
+  "relation": "author",
+  "question": "Who is the author of The Empire?",
+  "subject": "The Empire",
+  "gold_aliases": [
+   "D. C. Moore"
+  ],
+  "difficulty": 1.9084850188786497,
+  "s_pop": 81,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_2452039",
+  "block": "A",
+  "role": "primary",
+  "relation": "screenwriter",
+  "question": "Who was the screenwriter for Le Fils d'Amr est mort?",
+  "subject": "Le Fils d'Amr est mort",
+  "gold_aliases": [
+   "Jean-Jacques Andrien"
+  ],
+  "difficulty": 1.9294189257142926,
+  "s_pop": 85,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_4271609",
+  "block": "A",
+  "role": "primary",
+  "relation": "screenwriter",
+  "question": "Who was the screenwriter for Grace?",
+  "subject": "Grace",
+  "gold_aliases": [
+   "Melinda Hsu Taylor"
+  ],
+  "difficulty": 1.9294189257142926,
+  "s_pop": 85,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_5937084",
+  "block": "A",
+  "role": "primary",
+  "relation": "screenwriter",
+  "question": "Who was the screenwriter for The Last Word?",
+  "subject": "The Last Word",
+  "gold_aliases": [
+   "Binka Zhelyazkova"
+  ],
+  "difficulty": 1.9344984512435677,
+  "s_pop": 86,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_6232250",
+  "block": "A",
+  "role": "primary",
+  "relation": "director",
+  "question": "Who was the director of Young People?",
+  "subject": "Young People",
+  "gold_aliases": [
+   "Luis Alcoriza",
+   "Luis Alcoriza de la Vega"
+  ],
+  "difficulty": 1.9590413923210936,
+  "s_pop": 91,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_2912083",
+  "block": "A",
+  "role": "primary",
+  "relation": "director",
+  "question": "Who was the director of These Children?",
+  "subject": "These Children",
+  "gold_aliases": [
+   "Mario Mattoli"
+  ],
+  "difficulty": 1.9731278535996986,
+  "s_pop": 94,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_4337456",
+  "block": "A",
+  "role": "primary",
+  "relation": "director",
+  "question": "Who was the director of Trail?",
+  "subject": "Trail",
+  "gold_aliases": [
+   "Luis Moglia Barth"
+  ],
+  "difficulty": 1.9867717342662448,
+  "s_pop": 97,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_3776335",
+  "block": "A",
+  "role": "primary",
+  "relation": "author",
+  "question": "Who is the author of Conan, Lord of the Black River?",
+  "subject": "Conan, Lord of the Black River",
+  "gold_aliases": [
+   "Leonard Carpenter",
+   "Leonard Paul Carpenter"
+  ],
+  "difficulty": 1.9867717342662448,
+  "s_pop": 97,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_810035",
+  "block": "A",
+  "role": "primary",
+  "relation": "director",
+  "question": "Who was the director of Chi?",
+  "subject": "Chi",
+  "gold_aliases": [
+   "Anne Wheeler"
+  ],
+  "difficulty": 1.9912260756924949,
+  "s_pop": 98,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_2912893",
+  "block": "A",
+  "role": "primary",
+  "relation": "screenwriter",
+  "question": "Who was the screenwriter for Tine?",
+  "subject": "Tine",
+  "gold_aliases": [
+   "Knud Leif Thomsen"
+  ],
+  "difficulty": 1.99563519459755,
+  "s_pop": 99,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_3311405",
+  "block": "A",
+  "role": "primary",
+  "relation": "author",
+  "question": "Who is the author of American Dream, Global Nightmare?",
+  "subject": "American Dream, Global Nightmare",
+  "gold_aliases": [
+   "Ziauddin Sardar"
+  ],
+  "difficulty": 1.99563519459755,
+  "s_pop": 99,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_1148015",
+  "block": "A",
+  "role": "primary",
+  "relation": "author",
+  "question": "Who is the author of My Story?",
+  "subject": "My Story",
+  "gold_aliases": [
+   "Dannii Minogue"
+  ],
+  "difficulty": 2.0755469613925306,
+  "s_pop": 119,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_3397287",
+  "block": "A",
+  "role": "primary",
+  "relation": "author",
+  "question": "Who is the author of Assumption?",
+  "subject": "Assumption",
+  "gold_aliases": [
+   "Andrew Belis",
+   "Sa-miao-erh Pei-k\u02bbo-t\u02bbe",
+   "Sam Beckett",
+   "Samuel Barclay Beckett",
+   "Samuel Beckett",
+   "Samuel Be\u1e33e\u1e6d"
+  ],
+  "difficulty": 2.0791812460476247,
+  "s_pop": 120,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_2997537",
+  "block": "A",
+  "role": "primary",
+  "relation": "director",
+  "question": "Who was the director of The Lamp?",
+  "subject": "The Lamp",
+  "gold_aliases": [
+   "Polanski",
+   "Rajmund Roman Thierry Pola\u0144ski",
+   "Roman Polanski"
+  ],
+  "difficulty": 2.0969100130080562,
+  "s_pop": 125,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_2493472",
+  "block": "A",
+  "role": "primary",
+  "relation": "director",
+  "question": "Who was the director of The Black Book?",
+  "subject": "The Black Book",
+  "gold_aliases": [
+   "Spencer Gordon Bennet"
+  ],
+  "difficulty": 2.110589710299249,
+  "s_pop": 129,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_6147908",
+  "block": "A",
+  "role": "primary",
+  "relation": "screenwriter",
+  "question": "Who was the screenwriter for Watch Out?",
+  "subject": "Watch Out",
+  "gold_aliases": [
+   "Stephen Clark Balderson",
+   "Steve Balderson"
+  ],
+  "difficulty": 2.1335389083702174,
+  "s_pop": 136,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_5919593",
+  "block": "A",
+  "role": "primary",
+  "relation": "author",
+  "question": "Who is the author of The Crop?",
+  "subject": "The Crop",
+  "gold_aliases": [
+   "Flannery O'Connor",
+   "Mary Flannery O'Connor"
+  ],
+  "difficulty": 2.1367205671564067,
+  "s_pop": 137,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_5913920",
+  "block": "A",
+  "role": "primary",
+  "relation": "director",
+  "question": "Who was the director of The Boys?",
+  "subject": "The Boys",
+  "gold_aliases": [
+   "Mikko Johannes Niskanen",
+   "Mikko Niskanen"
+  ],
+  "difficulty": 2.1702617153949575,
+  "s_pop": 148,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_1495173",
+  "block": "A",
+  "role": "primary",
+  "relation": "director",
+  "question": "Who was the director of Anybody's Woman?",
+  "subject": "Anybody's Woman",
+  "gold_aliases": [
+   "Dorothy Arzner",
+   "Dorothy Emma Arzner"
+  ],
+  "difficulty": 2.1986570869544226,
+  "s_pop": 158,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_3637128",
+  "block": "A",
+  "role": "primary",
+  "relation": "author",
+  "question": "Who is the author of Capitol?",
+  "subject": "Capitol",
+  "gold_aliases": [
+   "Brian Green",
+   "Byron S. Walley",
+   "Byron Walley",
+   "Dinah Kirkham",
+   "Frederick Bliss",
+   "Orson Scott Card",
+   "P.Q. Gump",
+   "Scott Richards"
+  ],
+  "difficulty": 2.2013971243204513,
+  "s_pop": 159,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_4166312",
+  "block": "A",
+  "role": "primary",
+  "relation": "screenwriter",
+  "question": "Who was the screenwriter for Freedom?",
+  "subject": "Freedom",
+  "gold_aliases": [
+   "Lisandro Alonso"
+  ],
+  "difficulty": 2.214843848047698,
+  "s_pop": 164,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_5959084",
+  "block": "A",
+  "role": "primary",
+  "relation": "screenwriter",
+  "question": "Who was the screenwriter for The Teaser?",
+  "subject": "The Teaser",
+  "gold_aliases": [
+   "Leib Milstein",
+   "Lewis Milestone"
+  ],
+  "difficulty": 2.2278867046136734,
+  "s_pop": 169,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_3769753",
+  "block": "A",
+  "role": "primary",
+  "relation": "author",
+  "question": "Who is the author of Colony?",
+  "subject": "Colony",
+  "gold_aliases": [
+   "Rob Grant",
+   "Robert Grant"
+  ],
+  "difficulty": 2.2380461031287955,
+  "s_pop": 173,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_41515",
+  "block": "A",
+  "role": "primary",
+  "relation": "director",
+  "question": "Who was the director of Coming Home?",
+  "subject": "Coming Home",
+  "gold_aliases": [
+   "Arlene Sanford"
+  ],
+  "difficulty": 2.3483048630481607,
+  "s_pop": 223,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_5714302",
+  "block": "A",
+  "role": "primary",
+  "relation": "author",
+  "question": "Who is the author of Second Nature?",
+  "subject": "Second Nature",
+  "gold_aliases": [
+   "Michael Kevin Pollan",
+   "Michael Pollan"
+  ],
+  "difficulty": 2.3636119798921444,
+  "s_pop": 231,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_4979337",
+  "block": "A",
+  "role": "primary",
+  "relation": "screenwriter",
+  "question": "Who was the screenwriter for D\u00e9sir\u00e9?",
+  "subject": "D\u00e9sir\u00e9",
+  "gold_aliases": [
+   "Jacques Lorcey",
+   "Sacha Guitry",
+   "s. guitry"
+  ],
+  "difficulty": 2.399673721481038,
+  "s_pop": 251,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_2983287",
+  "block": "A",
+  "role": "primary",
+  "relation": "screenwriter",
+  "question": "Who was the screenwriter for Resurrection?",
+  "subject": "Resurrection",
+  "gold_aliases": [
+   "Count Leo Tolstoy",
+   "Count Lev Tolstoy",
+   "Leo Tolstoy",
+   "Leo, graf Tolstoy",
+   "Lev Nikolaevich Tolstoy",
+   "Lev Nikolaevich, graf Tolsto\u012d",
+   "Lev Nikolayevich, Count Tolstoy",
+   "Lev Tolstoy",
+   "Lev, Count Tolstoy",
+   "Lev, graf Tolsztoj",
+   "Lew, graf Tolstoi",
+   "Tolstoi",
+   "Tolstoy",
+   "c \u0433\u0440\u0430\u0444 \u0422\u043e\u043b\u0441\u0442\u043e\u0439",
+   "\u041b\u0435\u0432 \u041d\u0438\u043a\u043e\u043b\u0430\u0435\u0432\u0438\u0447,"
+  ],
+  "difficulty": 2.419955748489758,
+  "s_pop": 263,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_6118725",
+  "block": "A",
+  "role": "primary",
+  "relation": "author",
+  "question": "Who is the author of Voyage d'Egypte et de Nubie?",
+  "subject": "Voyage d'Egypte et de Nubie",
+  "gold_aliases": [
+   "Frederic Louis Norden"
+  ],
+  "difficulty": 2.4533183400470375,
+  "s_pop": 284,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_5907483",
+  "block": "A",
+  "role": "primary",
+  "relation": "director",
+  "question": "Who was the director of The Affair?",
+  "subject": "The Affair",
+  "gold_aliases": [
+   "Carl Colpaert",
+   "Carl-Jan Colpaert"
+  ],
+  "difficulty": 2.4668676203541096,
+  "s_pop": 293,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_1176455",
+  "block": "A",
+  "role": "primary",
+  "relation": "director",
+  "question": "Who was the director of The Idea?",
+  "subject": "The Idea",
+  "gold_aliases": [
+   "Berthold Bartosch"
+  ],
+  "difficulty": 2.48572142648158,
+  "s_pop": 306,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_5760120",
+  "block": "A",
+  "role": "primary",
+  "relation": "screenwriter",
+  "question": "Who was the screenwriter for Simon, Simon?",
+  "subject": "Simon, Simon",
+  "gold_aliases": [
+   "Graham Stark",
+   "Graham William Stark"
+  ],
+  "difficulty": 2.4885507165004443,
+  "s_pop": 308,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_2145750",
+  "block": "A",
+  "role": "primary",
+  "relation": "director",
+  "question": "Who was the director of One Night?",
+  "subject": "One Night",
+  "gold_aliases": [
+   "Lucas Belvaux"
+  ],
+  "difficulty": 2.5118833609788744,
+  "s_pop": 325,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_4089763",
+  "block": "A",
+  "role": "primary",
+  "relation": "director",
+  "question": "Who was the director of Berlin?",
+  "subject": "Berlin",
+  "gold_aliases": [
+   "Yuli Raizman",
+   "Yuli Yakovlevich Raizman"
+  ],
+  "difficulty": 2.550228353055094,
+  "s_pop": 355,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_3822627",
+  "block": "A",
+  "role": "primary",
+  "relation": "author",
+  "question": "Who is the author of Daddy?",
+  "subject": "Daddy",
+  "gold_aliases": [
+   "Danielle Fernandes Dominique Schuelein-Steel",
+   "Danielle Fernandes Dominique Sch\u00fclein-Steel",
+   "Danielle Steel"
+  ],
+  "difficulty": 2.552668216112193,
+  "s_pop": 357,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_2313722",
+  "block": "A",
+  "role": "primary",
+  "relation": "screenwriter",
+  "question": "Who was the screenwriter for The Experience?",
+  "subject": "The Experience",
+  "gold_aliases": [
+   "Abbas Kiarostami"
+  ],
+  "difficulty": 2.5658478186735176,
+  "s_pop": 368,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_1776288",
+  "block": "A",
+  "role": "primary",
+  "relation": "screenwriter",
+  "question": "Who was the screenwriter for The Bank?",
+  "subject": "The Bank",
+  "gold_aliases": [
+   "Charles Chaplin",
+   "Charles Spencer Chaplin",
+   "Charlie Chaplin",
+   "Sir Charles Spencer Chaplin"
+  ],
+  "difficulty": 2.574031267727719,
+  "s_pop": 375,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_796480",
+  "block": "A",
+  "role": "primary",
+  "relation": "director",
+  "question": "Who was the director of The Assassin?",
+  "subject": "The Assassin",
+  "gold_aliases": [
+   "Elio Petri"
+  ],
+  "difficulty": 2.6009728956867484,
+  "s_pop": 399,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_4133326",
+  "block": "A",
+  "role": "primary",
+  "relation": "author",
+  "question": "Who is the author of Persa?",
+  "subject": "Persa",
+  "gold_aliases": [
+   "Plautus",
+   "Titus Maccius Plautus"
+  ],
+  "difficulty": 2.61066016308988,
+  "s_pop": 408,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_5964853",
+  "block": "A",
+  "role": "primary",
+  "relation": "author",
+  "question": "Who is the author of The Wind?",
+  "subject": "The Wind",
+  "gold_aliases": [
+   "Dorothy Scarborough",
+   "Emily Dorothy Scarborough"
+  ],
+  "difficulty": 2.6232492903979003,
+  "s_pop": 420,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_6031512",
+  "block": "A",
+  "role": "primary",
+  "relation": "author",
+  "question": "Who is the author of Trends?",
+  "subject": "Trends",
+  "gold_aliases": [
+   "Asimov",
+   "Isaac Asimov",
+   "Isaak Osimov",
+   "Isaak Ozimov",
+   "Paul French"
+  ],
+  "difficulty": 2.6273658565927325,
+  "s_pop": 424,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_4849803",
+  "block": "A",
+  "role": "primary",
+  "relation": "screenwriter",
+  "question": "Who was the screenwriter for Toni?",
+  "subject": "Toni",
+  "gold_aliases": [
+   "Jean Renoir"
+  ],
+  "difficulty": 2.6324572921847245,
+  "s_pop": 429,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_5899264",
+  "block": "A",
+  "role": "primary",
+  "relation": "director",
+  "question": "Who was the director of Terry?",
+  "subject": "Terry",
+  "gold_aliases": [
+   "Don McBrearty"
+  ],
+  "difficulty": 2.6580113966571126,
+  "s_pop": 455,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_1438857",
+  "block": "A",
+  "role": "primary",
+  "relation": "director",
+  "question": "Who was the director of Thicker than Water?",
+  "subject": "Thicker than Water",
+  "gold_aliases": [
+   "Jack Hody Johnson",
+   "Jack Johnson",
+   "The Malloys"
+  ],
+  "difficulty": 2.6655809910179533,
+  "s_pop": 463,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_3762914",
+  "block": "A",
+  "role": "primary",
+  "relation": "author",
+  "question": "Who is the author of Coji-Coji?",
+  "subject": "Coji-Coji",
+  "gold_aliases": [
+   "Momoko Sakura"
+  ],
+  "difficulty": 2.7126497016272113,
+  "s_pop": 516,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_787937",
+  "block": "A",
+  "role": "primary",
+  "relation": "director",
+  "question": "Who was the director of Makeover?",
+  "subject": "Makeover",
+  "gold_aliases": [
+   "Eric Cameron Stoltz",
+   "Eric Stoltz"
+  ],
+  "difficulty": 2.718501688867274,
+  "s_pop": 523,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_324865",
+  "block": "A",
+  "role": "primary",
+  "relation": "author",
+  "question": "Who is the author of Tractatus Politicus?",
+  "subject": "Tractatus Politicus",
+  "gold_aliases": [
+   "Baruch Benedictus de Spinoza",
+   "Baruch Spinoza",
+   "Baruch d' Espinoza",
+   "Baruch de Espinosa",
+   "Baruch de Spinoza",
+   "Barukh Shpinozah",
+   "Barukh Spinoza",
+   "Benedict de Spinoza",
+   "Benedictus De Spinoza",
+   "Benedictus Spinoza",
+   "Benedictus de Spinoza",
+   "Benoit de Spinoza",
+   "Beno\u00eet de Spinoza",
+   "Bento de Espinosa",
+   "Isp\u012bn\u016bz\u0101",
+   "Sb\u012bn\u016bz\u0101",
+   "Shpinozah",
+   "Spinoza"
+  ],
+  "difficulty": 2.7371926427047373,
+  "s_pop": 546,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_5553632",
+  "block": "A",
+  "role": "primary",
+  "relation": "screenwriter",
+  "question": "Who was the screenwriter for Reform School Girl?",
+  "subject": "Reform School Girl",
+  "gold_aliases": [
+   "Edward Bernds"
+  ],
+  "difficulty": 2.747411807886423,
+  "s_pop": 559,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_289215",
+  "block": "A",
+  "role": "primary",
+  "relation": "screenwriter",
+  "question": "Who was the screenwriter for The Vagabond?",
+  "subject": "The Vagabond",
+  "gold_aliases": [
+   "Charles Chaplin",
+   "Charles Spencer Chaplin",
+   "Charlie Chaplin",
+   "Sir Charles Spencer Chaplin"
+  ],
+  "difficulty": 2.7520484478194387,
+  "s_pop": 565,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_1516277",
+  "block": "A",
+  "role": "primary",
+  "relation": "author",
+  "question": "Who is the author of The Letter?",
+  "subject": "The Letter",
+  "gold_aliases": [
+   "Somerset Maugham",
+   "W. Somerset Maugham",
+   "William Somerset Maugham"
+  ],
+  "difficulty": 2.7867514221455614,
+  "s_pop": 612,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_5920746",
+  "block": "A",
+  "role": "primary",
+  "relation": "director",
+  "question": "Who was the director of The Day the Fish Came Out?",
+  "subject": "The Day the Fish Came Out",
+  "gold_aliases": [
+   "Michales Kakoyannis",
+   "Michalis Cacoyannis",
+   "Michalis Kakogiannis",
+   "\u039c\u03b9\u03c7\u03ac\u03bb\u03b7\u03c2 \u039a\u03b1\u03ba\u03bf\u03b3\u03b9\u03ac\u03bd\u03bd\u03b7\u03c2"
+  ],
+  "difficulty": 2.797959643737196,
+  "s_pop": 628,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_1951267",
+  "block": "A",
+  "role": "primary",
+  "relation": "author",
+  "question": "Who is the author of Lonesome Traveler?",
+  "subject": "Lonesome Traveler",
+  "gold_aliases": [
+   "Jack Kerouac",
+   "Jean-Louis Kerouac",
+   "Jean-Louis Lebris de Kerouac",
+   "Jean-Louis Lebris de K\u00e9rouac",
+   "Kerouac"
+  ],
+  "difficulty": 2.808885867359812,
+  "s_pop": 644,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_307016",
+  "block": "A",
+  "role": "primary",
+  "relation": "screenwriter",
+  "question": "Who was the screenwriter for The Ax?",
+  "subject": "The Ax",
+  "gold_aliases": [
+   "Costa-Gavras"
+  ],
+  "difficulty": 2.816241299991783,
+  "s_pop": 655,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_5929349",
+  "block": "A",
+  "role": "primary",
+  "relation": "director",
+  "question": "Who was the director of The Good News?",
+  "subject": "The Good News",
+  "gold_aliases": [
+   "Jennifer Getzinger"
+  ],
+  "difficulty": 2.829303772831025,
+  "s_pop": 675,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_245030",
+  "block": "A",
+  "role": "primary",
+  "relation": "screenwriter",
+  "question": "Who was the screenwriter for Under the Sun?",
+  "subject": "Under the Sun",
+  "gold_aliases": [
+   "Colin James Nutley",
+   "Colin Nutley"
+  ],
+  "difficulty": 2.8609366207000937,
+  "s_pop": 726,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_564157",
+  "block": "A",
+  "role": "primary",
+  "relation": "director",
+  "question": "Who was the director of Five Dollars a Day?",
+  "subject": "Five Dollars a Day",
+  "gold_aliases": [
+   "Nigel Cole"
+  ],
+  "difficulty": 2.907411360774586,
+  "s_pop": 808,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_1238475",
+  "block": "A",
+  "role": "primary",
+  "relation": "screenwriter",
+  "question": "Who was the screenwriter for Beautiful People?",
+  "subject": "Beautiful People",
+  "gold_aliases": [
+   "Jasmin Dizdar"
+  ],
+  "difficulty": 2.916453948549925,
+  "s_pop": 825,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_1895097",
+  "block": "A",
+  "role": "primary",
+  "relation": "screenwriter",
+  "question": "Who was the screenwriter for The Creature Wasn't Nice?",
+  "subject": "The Creature Wasn't Nice",
+  "gold_aliases": [
+   "Bruce Kimmel",
+   "Mark Rutland"
+  ],
+  "difficulty": 2.9278834103307068,
+  "s_pop": 847,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_5418205",
+  "block": "A",
+  "role": "primary",
+  "relation": "author",
+  "question": "Who is the author of The Girls of Slender Means?",
+  "subject": "The Girls of Slender Means",
+  "gold_aliases": [
+   "Dame Muriel Sarah Spark",
+   "Muriel Sarah Camberg",
+   "Muriel Spark"
+  ],
+  "difficulty": 2.928907690243953,
+  "s_pop": 849,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_262768",
+  "block": "A",
+  "role": "primary",
+  "relation": "director",
+  "question": "Who was the director of The Storm?",
+  "subject": "The Storm",
+  "gold_aliases": [
+   "Ben Sombogaart"
+  ],
+  "difficulty": 2.929418925714293,
+  "s_pop": 850,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_3941941",
+  "block": "A",
+  "role": "primary",
+  "relation": "screenwriter",
+  "question": "Who was the screenwriter for Doore Doore Oru Koodu Koottam?",
+  "subject": "Doore Doore Oru Koodu Koottam",
+  "gold_aliases": [
+   "Sreenivasan"
+  ],
+  "difficulty": 2.959994838328416,
+  "s_pop": 912,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_40640",
+  "block": "A",
+  "role": "primary",
+  "relation": "author",
+  "question": "Who is the author of Canto General?",
+  "subject": "Canto General",
+  "gold_aliases": [
+   "B\u0101bl\u016b N\u012br\u016bd\u0101",
+   "Neftali Reyes Basoalto",
+   "Neftali Reyes Basualto",
+   "Neftali Ricardo Reyes",
+   "Neftali Ricardo Reyes Basoalto",
+   "Neftal\u00ed Reyes Basoalto",
+   "Neftal\u00ed Reyes Basualto",
+   "Neftal\u00ed Ricardo Reyes",
+   "Neftal\u00ed Ricardo Reyes Basoalto",
+   "Nieh-lu-ta",
+   "Nieluda",
+   "Pablo Neruda",
+   "Pamplo Nerouda",
+   "P\u0101pl\u014d Ner\u016bda"
+  ],
+  "difficulty": 2.9722028383790646,
+  "s_pop": 938,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_3878343",
+  "block": "A",
+  "role": "primary",
+  "relation": "author",
+  "question": "Who is the author of Dawn?",
+  "subject": "Dawn",
+  "gold_aliases": [
+   "Cleo Virginia Andrews",
+   "V. C. Andrews",
+   "Virginia C. Andrews"
+  ],
+  "difficulty": 3.002166061756508,
+  "s_pop": 1005,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_5727622",
+  "block": "A",
+  "role": "primary",
+  "relation": "author",
+  "question": "Who is the author of Shaft?",
+  "subject": "Shaft",
+  "gold_aliases": [
+   "Ernest Ralph Tidyman",
+   "Ernest Tidyman"
+  ],
+  "difficulty": 3.0038911662369103,
+  "s_pop": 1009,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_1834634",
+  "block": "A",
+  "role": "primary",
+  "relation": "screenwriter",
+  "question": "Who was the screenwriter for The Command?",
+  "subject": "The Command",
+  "gold_aliases": [
+   "Sam Fuller",
+   "Samuel Fuller",
+   "Samuel Michael Fuller"
+  ],
+  "difficulty": 3.0187004986662433,
+  "s_pop": 1044,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_1160249",
+  "block": "A",
+  "role": "primary",
+  "relation": "director",
+  "question": "Who was the director of After The Fall?",
+  "subject": "After The Fall",
+  "gold_aliases": [
+   "Saar Klein"
+  ],
+  "difficulty": 3.0232524596337114,
+  "s_pop": 1055,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_2426571",
+  "block": "A",
+  "role": "primary",
+  "relation": "author",
+  "question": "Who is the author of Junk?",
+  "subject": "Junk",
+  "gold_aliases": [
+   "Melvin Burgess"
+  ],
+  "difficulty": 3.024074987307426,
+  "s_pop": 1057,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_5955141",
+  "block": "A",
+  "role": "primary",
+  "relation": "director",
+  "question": "Who was the director of The Show?",
+  "subject": "The Show",
+  "gold_aliases": [
+   "Brian Robbins"
+  ],
+  "difficulty": 3.037426497940624,
+  "s_pop": 1090,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_2353403",
+  "block": "A",
+  "role": "primary",
+  "relation": "director",
+  "question": "Who was the director of Mypods and Boomsticks?",
+  "subject": "Mypods and Boomsticks",
+  "gold_aliases": [
+   "Steven Dean Moore"
+  ],
+  "difficulty": 3.0461047872460387,
+  "s_pop": 1112,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_1237971",
+  "block": "A",
+  "role": "primary",
+  "relation": "director",
+  "question": "Who was the director of Middle of the Night?",
+  "subject": "Middle of the Night",
+  "gold_aliases": [
+   "Delbert Mann",
+   "Delbert Martin Mann, Jr."
+  ],
+  "difficulty": 3.0461047872460387,
+  "s_pop": 1112,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_2262288",
+  "block": "A",
+  "role": "primary",
+  "relation": "screenwriter",
+  "question": "Who was the screenwriter for Dave?",
+  "subject": "Dave",
+  "gold_aliases": [
+   "Adam Horowitz",
+   "Edward \"Eddy\" Lawrence Kitsis",
+   "Edward Kitsis",
+   "Edward Lawrence Kitsis"
+  ],
+  "difficulty": 3.053462604925455,
+  "s_pop": 1131,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_6385893",
+  "block": "A",
+  "role": "primary",
+  "relation": "director",
+  "question": "Who was the director of Love?",
+  "subject": "Love",
+  "gold_aliases": [
+   "Doze Niu",
+   "Doze, Niu Chen-Zer",
+   "Niu Ch'eng-tse",
+   "Niu Chen-zer",
+   "Niu Cheng-tse",
+   "Niu Chengze"
+  ],
+  "difficulty": 3.060320028688285,
+  "s_pop": 1149,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_6386965",
+  "block": "A",
+  "role": "primary",
+  "relation": "screenwriter",
+  "question": "Who was the screenwriter for Look?",
+  "subject": "Look",
+  "gold_aliases": [
+   "Adam Rifkin"
+  ],
+  "difficulty": 3.0870712059065353,
+  "s_pop": 1222,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_4124472",
+  "block": "A",
+  "role": "primary",
+  "relation": "screenwriter",
+  "question": "Who was the screenwriter for For Better or Worse?",
+  "subject": "For Better or Worse",
+  "gold_aliases": [
+   "Jeff Nathanson"
+  ],
+  "difficulty": 3.0941215958405612,
+  "s_pop": 1242,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_5257802",
+  "block": "A",
+  "role": "primary",
+  "relation": "author",
+  "question": "Who is the author of Skyhigh?",
+  "subject": "Skyhigh",
+  "gold_aliases": [
+   "Tsutomu Takahashi"
+  ],
+  "difficulty": 3.0982975364946976,
+  "s_pop": 1254,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_5945737",
+  "block": "A",
+  "role": "primary",
+  "relation": "screenwriter",
+  "question": "Who was the screenwriter for The Ones?",
+  "subject": "The Ones",
+  "gold_aliases": [
+   "Jack Burditt"
+  ],
+  "difficulty": 3.1000257301078626,
+  "s_pop": 1259,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_706636",
+  "block": "A",
+  "role": "primary",
+  "relation": "director",
+  "question": "Who was the director of Just Imagine?",
+  "subject": "Just Imagine",
+  "gold_aliases": [
+   "David Butler"
+  ],
+  "difficulty": 3.110589710299249,
+  "s_pop": 1290,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_5963479",
+  "block": "A",
+  "role": "primary",
+  "relation": "author",
+  "question": "Who is the author of The Wars?",
+  "subject": "The Wars",
+  "gold_aliases": [
+   "Timothy Findley",
+   "Timothy Irving Frederick Findley"
+  ],
+  "difficulty": 3.130655349022031,
+  "s_pop": 1351,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_2448767",
+  "block": "A",
+  "role": "primary",
+  "relation": "author",
+  "question": "Who is the author of The Ascension Factor?",
+  "subject": "The Ascension Factor",
+  "gold_aliases": [
+   "Bill Ransom",
+   "Frank Herbert",
+   "Frank Patrick Herbert",
+   "Franklin Herbert",
+   "Franklin Patrick Herbert",
+   "Franklin Patrick Herbert, Jr."
+  ],
+  "difficulty": 3.1405080430381798,
+  "s_pop": 1382,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_5928375",
+  "block": "A",
+  "role": "primary",
+  "relation": "author",
+  "question": "Who is the author of The Gift of Rain?",
+  "subject": "The Gift of Rain",
+  "gold_aliases": [
+   "Tan Twan Eng"
+  ],
+  "difficulty": 3.1556396337597765,
+  "s_pop": 1431,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_5166295",
+  "block": "A",
+  "role": "primary",
+  "relation": "author",
+  "question": "Who is the author of Midnight Tides?",
+  "subject": "Midnight Tides",
+  "gold_aliases": [
+   "Steve Lundin",
+   "Steve Rune Lundin",
+   "Steven Erikson"
+  ],
+  "difficulty": 3.157456768134226,
+  "s_pop": 1437,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_2227911",
+  "block": "A",
+  "role": "primary",
+  "relation": "author",
+  "question": "Who is the author of Buzzer Beater?",
+  "subject": "Buzzer Beater",
+  "gold_aliases": [
+   "Inoue Takehiko",
+   "Takehiko Inoue"
+  ],
+  "difficulty": 3.1684974835230326,
+  "s_pop": 1474,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_5815556",
+  "block": "A",
+  "role": "primary",
+  "relation": "screenwriter",
+  "question": "Who was the screenwriter for Star?",
+  "subject": "Star",
+  "gold_aliases": [
+   "Biddu",
+   "Biddu Appaiah"
+  ],
+  "difficulty": 3.1942367487238292,
+  "s_pop": 1564,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_3794012",
+  "block": "A",
+  "role": "primary",
+  "relation": "director",
+  "question": "Who was the director of Cover?",
+  "subject": "Cover",
+  "gold_aliases": [
+   "Bill Duke"
+  ],
+  "difficulty": 3.1953460583484197,
+  "s_pop": 1568,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_1829968",
+  "block": "A",
+  "role": "primary",
+  "relation": "screenwriter",
+  "question": "Who was the screenwriter for The Late Show?",
+  "subject": "The Late Show",
+  "gold_aliases": [
+   "Robert Benton",
+   "Robert Douglas Benton"
+  ],
+  "difficulty": 3.209783014848515,
+  "s_pop": 1621,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_283922",
+  "block": "A",
+  "role": "primary",
+  "relation": "screenwriter",
+  "question": "Who was the screenwriter for The Best Man?",
+  "subject": "The Best Man",
+  "gold_aliases": [
+   "Cameron Kay",
+   "Edgar Box",
+   "Eugene Luther Gore Vidal",
+   "Eugene Luther Vidal",
+   "Eugene Vidal",
+   "Gor Vidal",
+   "Gore Vidal",
+   "Katherine Everard"
+  ],
+  "difficulty": 3.2177470732627937,
+  "s_pop": 1651,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_2081157",
+  "block": "A",
+  "role": "primary",
+  "relation": "screenwriter",
+  "question": "Who was the screenwriter for The Myth of Fingerprints?",
+  "subject": "The Myth of Fingerprints",
+  "gold_aliases": [
+   "Bart Freundlich",
+   "Bartholomew Freundlich"
+  ],
+  "difficulty": 3.2286569581089353,
+  "s_pop": 1693,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_4570130",
+  "block": "A",
+  "role": "primary",
+  "relation": "director",
+  "question": "Who was the director of Invasion?",
+  "subject": "Invasion",
+  "gold_aliases": [
+   "Tony Phelan"
+  ],
+  "difficulty": 3.2350231594952237,
+  "s_pop": 1718,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_1496439",
+  "block": "A",
+  "role": "primary",
+  "relation": "author",
+  "question": "Who is the author of How to Be Both?",
+  "subject": "How to Be Both",
+  "gold_aliases": [
+   "Ali Smith"
+  ],
+  "difficulty": 3.2538224387080734,
+  "s_pop": 1794,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_2138812",
+  "block": "A",
+  "role": "primary",
+  "relation": "director",
+  "question": "Who was the director of Cane?",
+  "subject": "Cane",
+  "gold_aliases": [
+   "Christian Duguay"
+  ],
+  "difficulty": 3.268343913951065,
+  "s_pop": 1855,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_1466918",
+  "block": "A",
+  "role": "primary",
+  "relation": "author",
+  "question": "Who is the author of Mass?",
+  "subject": "Mass",
+  "gold_aliases": [
+   "Leonard Bernstein",
+   "Louis Bernstein"
+  ],
+  "difficulty": 3.2801228963023075,
+  "s_pop": 1906,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_2209062",
+  "block": "A",
+  "role": "primary",
+  "relation": "author",
+  "question": "Who is the author of The Room?",
+  "subject": "The Room",
+  "gold_aliases": [
+   "Harold Pinter"
+  ],
+  "difficulty": 3.291368850451583,
+  "s_pop": 1956,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_4587149",
+  "block": "A",
+  "role": "primary",
+  "relation": "screenwriter",
+  "question": "Who was the screenwriter for Ivan?",
+  "subject": "Ivan",
+  "gold_aliases": [
+   "R. Parthiepan"
+  ],
+  "difficulty": 3.292256071356476,
+  "s_pop": 1960,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_5338815",
+  "block": "A",
+  "role": "primary",
+  "relation": "screenwriter",
+  "question": "Who was the screenwriter for Three Times?",
+  "subject": "Three Times",
+  "gold_aliases": [
+   "Hou Hsiao Hsen",
+   "Hou Hsiao-Hsien",
+   "Hou Xiaoxian"
+  ],
+  "difficulty": 3.294466226161593,
+  "s_pop": 1970,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_3083522",
+  "block": "A",
+  "role": "primary",
+  "relation": "screenwriter",
+  "question": "Who was the screenwriter for The Soldier?",
+  "subject": "The Soldier",
+  "gold_aliases": [
+   "James Glickenhaus"
+  ],
+  "difficulty": 3.3100557377508912,
+  "s_pop": 2042,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_5509338",
+  "block": "A",
+  "role": "primary",
+  "relation": "author",
+  "question": "Who is the author of QB VII?",
+  "subject": "QB VII",
+  "gold_aliases": [
+   "Leon Marcus Uris",
+   "Leon Uris"
+  ],
+  "difficulty": 3.3161800988934527,
+  "s_pop": 2071,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_1070780",
+  "block": "A",
+  "role": "primary",
+  "relation": "author",
+  "question": "Who is the author of Female Serial Killers?",
+  "subject": "Female Serial Killers",
+  "gold_aliases": [
+   "Peter Vronsky"
+  ],
+  "difficulty": 3.3170181010481117,
+  "s_pop": 2075,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_1582607",
+  "block": "A",
+  "role": "primary",
+  "relation": "director",
+  "question": "Who was the director of From the Terrace?",
+  "subject": "From the Terrace",
+  "gold_aliases": [
+   "Mark Robson"
+  ],
+  "difficulty": 3.328583449714202,
+  "s_pop": 2131,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_3821569",
+  "block": "A",
+  "role": "primary",
+  "relation": "director",
+  "question": "Who was the director of D Company?",
+  "subject": "D Company",
+  "gold_aliases": [
+   "Joshiy",
+   "Joshy Mathew",
+   "Shaji Kailas"
+  ],
+  "difficulty": 3.3434085938038574,
+  "s_pop": 2205,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_5958121",
+  "block": "A",
+  "role": "primary",
+  "relation": "author",
+  "question": "Who is the author of The Stud?",
+  "subject": "The Stud",
+  "gold_aliases": [
+   "Jackie Collins",
+   "Jacqueline Jill Collins"
+  ],
+  "difficulty": 3.343802333161655,
+  "s_pop": 2207,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_5560949",
+  "block": "A",
+  "role": "primary",
+  "relation": "director",
+  "question": "Who was the director of The Cottage?",
+  "subject": "The Cottage",
+  "gold_aliases": [
+   "Paul Andrew Williams"
+  ],
+  "difficulty": 3.3483048630481607,
+  "s_pop": 2230,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_2617074",
+  "block": "A",
+  "role": "primary",
+  "relation": "director",
+  "question": "Who was the director of Coming of Age?",
+  "subject": "Coming of Age",
+  "gold_aliases": [
+   "Michael Laurence Vejar",
+   "Michael Vejar",
+   "Mike Vejar"
+  ],
+  "difficulty": 3.353723937588949,
+  "s_pop": 2258,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_3592909",
+  "block": "A",
+  "role": "primary",
+  "relation": "author",
+  "question": "Who is the author of Bug?",
+  "subject": "Bug",
+  "gold_aliases": [
+   "Tracy Letts"
+  ],
+  "difficulty": 3.3634239329171765,
+  "s_pop": 2309,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_4185398",
+  "block": "A",
+  "role": "primary",
+  "relation": "screenwriter",
+  "question": "Who was the screenwriter for Game Day?",
+  "subject": "Game Day",
+  "gold_aliases": [
+   "David Judah Simon",
+   "David Simon",
+   "Ed Burns"
+  ],
+  "difficulty": 3.3636119798921444,
+  "s_pop": 2310,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_356576",
+  "block": "A",
+  "role": "primary",
+  "relation": "director",
+  "question": "Who was the director of Up!?",
+  "subject": "Up!",
+  "gold_aliases": [
+   "Russ Meyer",
+   "Russell Albion Meyer"
+  ],
+  "difficulty": 3.369215857410143,
+  "s_pop": 2340,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_431220",
+  "block": "A",
+  "role": "primary",
+  "relation": "author",
+  "question": "Who is the author of The Lower Depths?",
+  "subject": "The Lower Depths",
+  "gold_aliases": [
+   "Aleksey Maksimovich Peshkov",
+   "Aleksey Peshkov",
+   "Alexei Maximovich Peshkov",
+   "Gorky",
+   "Maksim Gor'ky",
+   "Maksim Gorky",
+   "Maxim Gorki",
+   "Maxim Gorky"
+  ],
+  "difficulty": 3.3963737275365067,
+  "s_pop": 2491,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_3773278",
+  "block": "A",
+  "role": "primary",
+  "relation": "screenwriter",
+  "question": "Who was the screenwriter for Commissioner?",
+  "subject": "Commissioner",
+  "gold_aliases": [
+   "Renji Panicker"
+  ],
+  "difficulty": 3.420945405921972,
+  "s_pop": 2636,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_5336010",
+  "block": "A",
+  "role": "primary",
+  "relation": "director",
+  "question": "Who was the director of Barbara?",
+  "subject": "Barbara",
+  "gold_aliases": [
+   "Christian Petzold"
+  ],
+  "difficulty": 3.426673888021373,
+  "s_pop": 2671,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_403814",
+  "block": "A",
+  "role": "primary",
+  "relation": "screenwriter",
+  "question": "Who was the screenwriter for Le Divorce?",
+  "subject": "Le Divorce",
+  "gold_aliases": [
+   "James Ivory",
+   "Ruth Prawer Jhabvala"
+  ],
+  "difficulty": 3.4271614029259654,
+  "s_pop": 2674,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_2647711",
+  "block": "A",
+  "role": "primary",
+  "relation": "director",
+  "question": "Who was the director of Wink of an Eye?",
+  "subject": "Wink of an Eye",
+  "gold_aliases": [
+   "Jud Taylor",
+   "Judson Taylor"
+  ],
+  "difficulty": 3.441695135640717,
+  "s_pop": 2765,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_6029928",
+  "block": "A",
+  "role": "primary",
+  "relation": "screenwriter",
+  "question": "Who was the screenwriter for Travelers?",
+  "subject": "Travelers",
+  "gold_aliases": [
+   "Frank Charles Spotnitz",
+   "Frank Spotnitz",
+   "John Shiban"
+  ],
+  "difficulty": 3.452246574520437,
+  "s_pop": 2833,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_3372176",
+  "block": "A",
+  "role": "primary",
+  "relation": "director",
+  "question": "Who was the director of Tap?",
+  "subject": "Tap",
+  "gold_aliases": [
+   "Nicholas Charles Castle",
+   "Nicholas Charles Castle Jr.",
+   "Nicholas Charles Castle, Jr.",
+   "Nick Castle"
+  ],
+  "difficulty": 3.484869032720402,
+  "s_pop": 3054,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_1686870",
+  "block": "A",
+  "role": "primary",
+  "relation": "director",
+  "question": "Who was the director of Rejected?",
+  "subject": "Rejected",
+  "gold_aliases": [
+   "Don Hertzfeldt",
+   "Donald Hertzfeldt"
+  ],
+  "difficulty": 3.506234359612126,
+  "s_pop": 3208,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_5921989",
+  "block": "A",
+  "role": "primary",
+  "relation": "author",
+  "question": "Who is the author of The Dirt?",
+  "subject": "The Dirt",
+  "gold_aliases": [
+   "ANikki Sixx",
+   "Frank Carlton Serafino Feranna Jr.",
+   "Mick Mars",
+   "Neil Darrow Strauss",
+   "Neil Strauss",
+   "Nikki Sixx",
+   "Vince Neil",
+   "Vincent Neil Wharton",
+   "Vincent Wharton"
+  ],
+  "difficulty": 3.5071809772602407,
+  "s_pop": 3215,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_5228106",
+  "block": "A",
+  "role": "primary",
+  "relation": "author",
+  "question": "Who is the author of Muna Madan?",
+  "subject": "Muna Madan",
+  "gold_aliases": [
+   "Lakshmi Prasad Devkota",
+   "Laxmi Devkota",
+   "Laxmi P. Devkota",
+   "Laxmi Prasad Devkota",
+   "Maha Kavi",
+   "Maha Kavi Laxmi Prasad Devkota"
+  ],
+  "difficulty": 3.526339277389844,
+  "s_pop": 3360,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_3069183",
+  "block": "A",
+  "role": "primary",
+  "relation": "author",
+  "question": "Who is the author of The Gashlycrumb Tinies?",
+  "subject": "The Gashlycrumb Tinies",
+  "gold_aliases": [
+   "Aedwyrd Gor\u00e9",
+   "Dogear Wryde",
+   "E.D. Ward",
+   "Eduard Blutig",
+   "Edward Gorey",
+   "Edward Saint John Gorey",
+   "Edward St. John Gorey",
+   "Garrod Weedy",
+   "O. Mude",
+   "Ogdred Weary",
+   "Regera Dowdy"
+  ],
+  "difficulty": 3.5280163411892014,
+  "s_pop": 3373,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_1443034",
+  "block": "A",
+  "role": "primary",
+  "relation": "director",
+  "question": "Who was the director of Rebound?",
+  "subject": "Rebound",
+  "gold_aliases": [
+   "Steve Carr",
+   "Steven Harold Carr"
+  ],
+  "difficulty": 3.5287881917748964,
+  "s_pop": 3379,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_2035288",
+  "block": "A",
+  "role": "primary",
+  "relation": "screenwriter",
+  "question": "Who was the screenwriter for Eve?",
+  "subject": "Eve",
+  "gold_aliases": [
+   "Chris Brancato",
+   "Kenneth Biller"
+  ],
+  "difficulty": 3.529430354366986,
+  "s_pop": 3384,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_6358438",
+  "block": "A",
+  "role": "primary",
+  "relation": "screenwriter",
+  "question": "Who was the screenwriter for Blaze?",
+  "subject": "Blaze",
+  "gold_aliases": [
+   "Ron Shelton",
+   "Ronald Wayne Shelton"
+  ],
+  "difficulty": 3.5299434016586693,
+  "s_pop": 3388,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_3422185",
+  "block": "A",
+  "role": "primary",
+  "relation": "author",
+  "question": "Who is the author of BLIT?",
+  "subject": "BLIT",
+  "gold_aliases": [
+   "David Langford",
+   "David Rowland Langford"
+  ],
+  "difficulty": 3.5449357658815024,
+  "s_pop": 3507,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_5931167",
+  "block": "A",
+  "role": "primary",
+  "relation": "director",
+  "question": "Who was the director of The Hard Way?",
+  "subject": "The Hard Way",
+  "gold_aliases": [
+   "Abraham Orovitz",
+   "Vincent Sherman"
+  ],
+  "difficulty": 3.5451833682154064,
+  "s_pop": 3509,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_3036772",
+  "block": "A",
+  "role": "primary",
+  "relation": "director",
+  "question": "Who was the director of Irresistible?",
+  "subject": "Irresistible",
+  "gold_aliases": [
+   "David Nutter"
+  ],
+  "difficulty": 3.550595207489328,
+  "s_pop": 3553,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_732027",
+  "block": "A",
+  "role": "primary",
+  "relation": "author",
+  "question": "Who is the author of The Crossing?",
+  "subject": "The Crossing",
+  "gold_aliases": [
+   "Charles McCarthy",
+   "Cormac McCarthy"
+  ],
+  "difficulty": 3.5543680009900878,
+  "s_pop": 3584,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_6495336",
+  "block": "A",
+  "role": "primary",
+  "relation": "screenwriter",
+  "question": "Who was the screenwriter for Love Letter?",
+  "subject": "Love Letter",
+  "gold_aliases": [
+   "Iwai Shunji",
+   "Shunji Iwai"
+  ],
+  "difficulty": 3.5684364144168854,
+  "s_pop": 3702,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_5777576",
+  "block": "A",
+  "role": "primary",
+  "relation": "author",
+  "question": "Who is the author of Small Island?",
+  "subject": "Small Island",
+  "gold_aliases": [
+   "Andrea Levy"
+  ],
+  "difficulty": 3.571825249040829,
+  "s_pop": 3731,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_2890336",
+  "block": "A",
+  "role": "primary",
+  "relation": "author",
+  "question": "Who is the author of Oliver's Story?",
+  "subject": "Oliver's Story",
+  "gold_aliases": [
+   "Erich Segal",
+   "Erich Wolf Segal"
+  ],
+  "difficulty": 3.5757649805367193,
+  "s_pop": 3765,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_6509567",
+  "block": "A",
+  "role": "primary",
+  "relation": "screenwriter",
+  "question": "Who was the screenwriter for Being Human?",
+  "subject": "Being Human",
+  "gold_aliases": [
+   "Bill Forsyth",
+   "William David Forsyth"
+  ],
+  "difficulty": 3.5926208213219826,
+  "s_pop": 3914,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_474017",
+  "block": "A",
+  "role": "primary",
+  "relation": "director",
+  "question": "Who was the director of Lady Frankenstein?",
+  "subject": "Lady Frankenstein",
+  "gold_aliases": [
+   "Mel Welles"
+  ],
+  "difficulty": 3.5943925503754266,
+  "s_pop": 3930,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_2832561",
+  "block": "A",
+  "role": "primary",
+  "relation": "screenwriter",
+  "question": "Who was the screenwriter for The Church?",
+  "subject": "The Church",
+  "gold_aliases": [
+   "Dardano Sacchetti",
+   "Dario Argento",
+   "Franco Ferrini",
+   "Michele Soavi",
+   "Sirio Bernadotte",
+   "Soavi, Michele"
+  ],
+  "difficulty": 3.598899887063883,
+  "s_pop": 3971,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_4806695",
+  "block": "A",
+  "role": "primary",
+  "relation": "screenwriter",
+  "question": "Who was the screenwriter for The Past?",
+  "subject": "The Past",
+  "gold_aliases": [
+   "Asghar Farhadi"
+  ],
+  "difficulty": 3.6103407114521566,
+  "s_pop": 4077,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_37343",
+  "block": "A",
+  "role": "primary",
+  "relation": "screenwriter",
+  "question": "Who was the screenwriter for Live Show?",
+  "subject": "Live Show",
+  "gold_aliases": [
+   "Elizabeth Stamatina \"Tina\" Fey",
+   "Elizabeth Stamatina Fey",
+   "Robert Carlock",
+   "Robert Morgan Carlock",
+   "Tina Fey"
+  ],
+  "difficulty": 3.6190933306267428,
+  "s_pop": 4160,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_741439",
+  "block": "A",
+  "role": "primary",
+  "relation": "director",
+  "question": "Who was the director of Falling in Love?",
+  "subject": "Falling in Love",
+  "gold_aliases": [
+   "Ulu Grosbard"
+  ],
+  "difficulty": 3.623559390005437,
+  "s_pop": 4203,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_1775656",
+  "block": "A",
+  "role": "primary",
+  "relation": "author",
+  "question": "Who is the author of Post Office?",
+  "subject": "Post Office",
+  "gold_aliases": [
+   "Buk",
+   "Charles Bukowski",
+   "Henry Charles Bukowski",
+   "charles bukowski"
+  ],
+  "difficulty": 3.636086515103073,
+  "s_pop": 4326,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_1623592",
+  "block": "A",
+  "role": "primary",
+  "relation": "author",
+  "question": "Who is the author of Boy?",
+  "subject": "Boy",
+  "gold_aliases": [
+   "Roald Dahl",
+   "Wing Commander Roald Dahl"
+  ],
+  "difficulty": 3.636688447953283,
+  "s_pop": 4332,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_3898484",
+  "block": "A",
+  "role": "primary",
+  "relation": "director",
+  "question": "Who was the director of Department?",
+  "subject": "Department",
+  "gold_aliases": [
+   "Penmetsa Ram Gopal Varma",
+   "RGV",
+   "Ram Gopal Varma"
+  ],
+  "difficulty": 3.638589083292717,
+  "s_pop": 4351,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_4321258",
+  "block": "A",
+  "role": "primary",
+  "relation": "author",
+  "question": "Who is the author of Halloween?",
+  "subject": "Halloween",
+  "gold_aliases": [
+   "Bard of Ayrshire",
+   "Ploughman Poet",
+   "Rabbie Burns",
+   "Robbie Burns",
+   "Robden of Solway Firth",
+   "Robert Burns",
+   "Scotland's favourite son",
+   "The Bard"
+  ],
+  "difficulty": 3.6398847419163043,
+  "s_pop": 4364,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_179840",
+  "block": "A",
+  "role": "primary",
+  "relation": "director",
+  "question": "Who was the director of Condorman?",
+  "subject": "Condorman",
+  "gold_aliases": [
+   "Charles Jarrott"
+  ],
+  "difficulty": 3.6403820447095683,
+  "s_pop": 4369,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_3629914",
+  "block": "A",
+  "role": "primary",
+  "relation": "screenwriter",
+  "question": "Who was the screenwriter for Camp?",
+  "subject": "Camp",
+  "gold_aliases": [
+   "Todd Graff"
+  ],
+  "difficulty": 3.6466977312993345,
+  "s_pop": 4433,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_1454728",
+  "block": "A",
+  "role": "primary",
+  "relation": "director",
+  "question": "Who was the director of The Hour?",
+  "subject": "The Hour",
+  "gold_aliases": [
+   "Coky Giedroyc",
+   "Mary Rose Helen Giedroyc"
+  ],
+  "difficulty": 3.6568644915489172,
+  "s_pop": 4538,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_5934264",
+  "block": "A",
+  "role": "primary",
+  "relation": "author",
+  "question": "Who is the author of The Island?",
+  "subject": "The Island",
+  "gold_aliases": [
+   "Victoria Hislop"
+  ],
+  "difficulty": 3.669037800885156,
+  "s_pop": 4667,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_1679718",
+  "block": "A",
+  "role": "primary",
+  "relation": "director",
+  "question": "Who was the director of Dragon?",
+  "subject": "Dragon",
+  "gold_aliases": [
+   "Peter",
+   "Peter Chan",
+   "Peter Ho-sun Chan"
+  ],
+  "difficulty": 3.682686478249768,
+  "s_pop": 4816,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_595365",
+  "block": "A",
+  "role": "primary",
+  "relation": "director",
+  "question": "Who was the director of Are You Here?",
+  "subject": "Are You Here",
+  "gold_aliases": [
+   "Amy Meredith Poehler",
+   "Amy Poehler",
+   "Matthew Hoffman Weiner",
+   "Matthew Weiner",
+   "Owen Cunningham Wilson",
+   "Owen Wilson",
+   "Zach Galifianakis",
+   "Zacharius Knight Galifinakis",
+   "Zachary Knight Galifianakis"
+  ],
+  "difficulty": 3.6893976628212823,
+  "s_pop": 4891,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_1518842",
+  "block": "A",
+  "role": "primary",
+  "relation": "director",
+  "question": "Who was the director of Quartet?",
+  "subject": "Quartet",
+  "gold_aliases": [
+   "Dustin Hoffman",
+   "Dustin Lee Hoffman"
+  ],
+  "difficulty": 3.6921416093667836,
+  "s_pop": 4922,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_564590",
+  "block": "A",
+  "role": "primary",
+  "relation": "screenwriter",
+  "question": "Who was the screenwriter for Close My Eyes?",
+  "subject": "Close My Eyes",
+  "gold_aliases": [
+   "Stephen Poliakoff"
+  ],
+  "difficulty": 3.697316541732383,
+  "s_pop": 4981,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_2412245",
+  "block": "A",
+  "role": "primary",
+  "relation": "director",
+  "question": "Who was the director of Balance of Terror?",
+  "subject": "Balance of Terror",
+  "gold_aliases": [
+   "Vincent M. McEveety",
+   "Vincent McEveety",
+   "Vincent Michael McEveety"
+  ],
+  "difficulty": 3.702171950857711,
+  "s_pop": 5037,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_4106489",
+  "block": "A",
+  "role": "primary",
+  "relation": "screenwriter",
+  "question": "Who was the screenwriter for Fifty-One?",
+  "subject": "Fifty-One",
+  "gold_aliases": [
+   "Sam Catlin"
+  ],
+  "difficulty": 3.718667735316211,
+  "s_pop": 5232,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_620030",
+  "block": "A",
+  "role": "primary",
+  "relation": "director",
+  "question": "Who was the director of Saving Face?",
+  "subject": "Saving Face",
+  "gold_aliases": [
+   "Alice Wu"
+  ],
+  "difficulty": 3.7229628089424898,
+  "s_pop": 5284,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_6521509",
+  "block": "A",
+  "role": "primary",
+  "relation": "author",
+  "question": "Who is the author of Next?",
+  "subject": "Next",
+  "gold_aliases": [
+   "Jeffery Hudson",
+   "John Lange",
+   "John Michael Crichton",
+   "Michael Crichton",
+   "Michael Douglas"
+  ],
+  "difficulty": 3.734319680859007,
+  "s_pop": 5424,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_2672648",
+  "block": "A",
+  "role": "primary",
+  "relation": "screenwriter",
+  "question": "Who was the screenwriter for The Congress?",
+  "subject": "The Congress",
+  "gold_aliases": [
+   "Ari Folman"
+  ],
+  "difficulty": 3.744840396785379,
+  "s_pop": 5557,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_1001163",
+  "block": "A",
+  "role": "primary",
+  "relation": "author",
+  "question": "Who is the author of Me Talk Pretty One Day?",
+  "subject": "Me Talk Pretty One Day",
+  "gold_aliases": [
+   "David Raymond Sedaris",
+   "David Sedaris"
+  ],
+  "difficulty": 3.7492724082984203,
+  "s_pop": 5614,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_260134",
+  "block": "A",
+  "role": "primary",
+  "relation": "director",
+  "question": "Who was the director of Before and After?",
+  "subject": "Before and After",
+  "gold_aliases": [
+   "Barbet Schroeder"
+  ],
+  "difficulty": 3.7573200965466724,
+  "s_pop": 5719,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_797278",
+  "block": "A",
+  "role": "primary",
+  "relation": "screenwriter",
+  "question": "Who was the screenwriter for Bill?",
+  "subject": "Bill",
+  "gold_aliases": [
+   "Ben Willbond",
+   "Benjamin Thomas Willbond"
+  ],
+  "difficulty": 3.759290033024304,
+  "s_pop": 5745,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_1882219",
+  "block": "A",
+  "role": "primary",
+  "relation": "author",
+  "question": "Who is the author of The Zombie Survival Guide?",
+  "subject": "The Zombie Survival Guide",
+  "gold_aliases": [
+   "Max Brooks",
+   "Maximillian Michael Brooks"
+  ],
+  "difficulty": 3.762753564933374,
+  "s_pop": 5791,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_6028203",
+  "block": "A",
+  "role": "primary",
+  "relation": "director",
+  "question": "Who was the director of Traffic?",
+  "subject": "Traffic",
+  "gold_aliases": [
+   "Rajesh Pillai",
+   "Rajesh Raman Pillai"
+  ],
+  "difficulty": 3.7695988483874463,
+  "s_pop": 5883,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_1892765",
+  "block": "A",
+  "role": "primary",
+  "relation": "author",
+  "question": "Who is the author of Fallen?",
+  "subject": "Fallen",
+  "gold_aliases": [
+   "Lauren Kate"
+  ],
+  "difficulty": 3.7758288144646124,
+  "s_pop": 5968,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_5920937",
+  "block": "A",
+  "role": "primary",
+  "relation": "screenwriter",
+  "question": "Who was the screenwriter for The Deal?",
+  "subject": "The Deal",
+  "gold_aliases": [
+   "Peter Julian Robin Morgan",
+   "Peter Morgan"
+  ],
+  "difficulty": 3.7887338588277073,
+  "s_pop": 6148,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_6027625",
+  "block": "A",
+  "role": "primary",
+  "relation": "director",
+  "question": "Who was the director of Tracks?",
+  "subject": "Tracks",
+  "gold_aliases": [
+   "John Curran"
+  ],
+  "difficulty": 3.7891574919114395,
+  "s_pop": 6154,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_4590890",
+  "block": "A",
+  "role": "primary",
+  "relation": "screenwriter",
+  "question": "Who was the screenwriter for Cousins?",
+  "subject": "Cousins",
+  "gold_aliases": [
+   "Jean Charles Tacchella",
+   "Jean-Charles Tacchella"
+  ],
+  "difficulty": 3.7903555464143865,
+  "s_pop": 6171,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_1347010",
+  "block": "A",
+  "role": "primary",
+  "relation": "screenwriter",
+  "question": "Who was the screenwriter for The Throne?",
+  "subject": "The Throne",
+  "gold_aliases": [
+   "Lee Joon-ik",
+   "Lee Jun Ik"
+  ],
+  "difficulty": 3.792461731346951,
+  "s_pop": 6201,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_4077343",
+  "block": "A",
+  "role": "primary",
+  "relation": "author",
+  "question": "Who is the author of Everyday Use?",
+  "subject": "Everyday Use",
+  "gold_aliases": [
+   "Alice Malsenior Tallulah-Kate Walker",
+   "Alice Malsenior Walker",
+   "Alice Walker",
+   "Alice Walker Leventhal"
+  ],
+  "difficulty": 3.7943486038960827,
+  "s_pop": 6228,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_5085292",
+  "block": "A",
+  "role": "primary",
+  "relation": "screenwriter",
+  "question": "Who was the screenwriter for Marina?",
+  "subject": "Marina",
+  "gold_aliases": [
+   "Pandiraj"
+  ],
+  "difficulty": 3.8081434257614912,
+  "s_pop": 6429,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_1288509",
+  "block": "A",
+  "role": "primary",
+  "relation": "director",
+  "question": "Who was the director of The Divide?",
+  "subject": "The Divide",
+  "gold_aliases": [
+   "Xavier Gens"
+  ],
+  "difficulty": 3.862131379313037,
+  "s_pop": 7280,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_3542460",
+  "block": "A",
+  "role": "primary",
+  "relation": "screenwriter",
+  "question": "Who was the screenwriter for Bol?",
+  "subject": "Bol",
+  "gold_aliases": [
+   "Shoaib Mansoor"
+  ],
+  "difficulty": 3.8658735282078145,
+  "s_pop": 7343,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_4974288",
+  "block": "A",
+  "role": "primary",
+  "relation": "screenwriter",
+  "question": "Who was the screenwriter for Game Change?",
+  "subject": "Game Change",
+  "gold_aliases": [
+   "Daniel William Strong",
+   "Danny Strong"
+  ],
+  "difficulty": 3.87453979707101,
+  "s_pop": 7491,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_1945092",
+  "block": "A",
+  "role": "primary",
+  "relation": "screenwriter",
+  "question": "Who was the screenwriter for Malicious?",
+  "subject": "Malicious",
+  "gold_aliases": [
+   "Salvatore Samperi"
+  ],
+  "difficulty": 3.8752349464501648,
+  "s_pop": 7503,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_3899474",
+  "block": "A",
+  "role": "primary",
+  "relation": "director",
+  "question": "Who was the director of Last Days?",
+  "subject": "Last Days",
+  "gold_aliases": [
+   "Gus Green Van Sant Jr,",
+   "Gus Greene Van Sant Junior",
+   "Gus Van Sant"
+  ],
+  "difficulty": 3.8994374542861774,
+  "s_pop": 7933,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_6386524",
+  "block": "A",
+  "role": "primary",
+  "relation": "author",
+  "question": "Who is the author of Legion?",
+  "subject": "Legion",
+  "gold_aliases": [
+   "William Peter Blatty"
+  ],
+  "difficulty": 3.912912551176097,
+  "s_pop": 8183,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_3090017",
+  "block": "A",
+  "role": "primary",
+  "relation": "screenwriter",
+  "question": "Who was the screenwriter for Michael Jackson's Ghosts?",
+  "subject": "Michael Jackson's Ghosts",
+  "gold_aliases": [
+   "John Swithen",
+   "King of Music",
+   "King of Pop",
+   "M. J.",
+   "M.J.",
+   "MJ",
+   "Michael Jackson",
+   "Michael Joe Jackson",
+   "Michael Joseph Jackson",
+   "Richard Bachman",
+   "Stephen Edwin King",
+   "Stephen King",
+   "The King",
+   "The King of Pop"
+  ],
+  "difficulty": 3.919862253555538,
+  "s_pop": 8315,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_5693123",
+  "block": "A",
+  "role": "primary",
+  "relation": "director",
+  "question": "Who was the director of Perfect?",
+  "subject": "Perfect",
+  "gold_aliases": [
+   "James Bridges"
+  ],
+  "difficulty": 3.9262395210458623,
+  "s_pop": 8438,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_2288782",
+  "block": "A",
+  "role": "primary",
+  "relation": "author",
+  "question": "Who is the author of Betrayal?",
+  "subject": "Betrayal",
+  "gold_aliases": [
+   "Harold Pinter"
+  ],
+  "difficulty": 3.9356080185178692,
+  "s_pop": 8622,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_199412",
+  "block": "A",
+  "role": "primary",
+  "relation": "author",
+  "question": "Who is the author of The Camp of the Saints?",
+  "subject": "The Camp of the Saints",
+  "gold_aliases": [
+   "Jean Raspail"
+  ],
+  "difficulty": 3.969322706112202,
+  "s_pop": 9318,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_5049768",
+  "block": "A",
+  "role": "primary",
+  "relation": "author",
+  "question": "Who is the author of The Graduate?",
+  "subject": "The Graduate",
+  "gold_aliases": [
+   "Charles Richard Webb",
+   "Charles Webb"
+  ],
+  "difficulty": 3.9810026899413997,
+  "s_pop": 9572,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_4261793",
+  "block": "A",
+  "role": "primary",
+  "relation": "author",
+  "question": "Who is the author of Elite?",
+  "subject": "Elite",
+  "gold_aliases": [
+   "Robert Holdstock",
+   "Robert Paul Holdstock"
+  ],
+  "difficulty": 4.001863462692524,
+  "s_pop": 10043,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_2687380",
+  "block": "A",
+  "role": "primary",
+  "relation": "director",
+  "question": "Who was the director of Thiruda Thiruda?",
+  "subject": "Thiruda Thiruda",
+  "gold_aliases": [
+   "Gopala Ratnam Subramaniam",
+   "Gopalaratnam Subramaniam",
+   "Mani Rathnam",
+   "Mani Ratnam",
+   "Manirathnam",
+   "Maniratnam"
+  ],
+  "difficulty": 4.004149341900059,
+  "s_pop": 10096,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_1256119",
+  "block": "A",
+  "role": "primary",
+  "relation": "director",
+  "question": "Who was the director of Partner?",
+  "subject": "Partner",
+  "gold_aliases": [
+   "David Dhawan"
+  ],
+  "difficulty": 4.0050088206723675,
+  "s_pop": 10116,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_2455012",
+  "block": "A",
+  "role": "primary",
+  "relation": "screenwriter",
+  "question": "Who was the screenwriter for Two Mothers?",
+  "subject": "Two Mothers",
+  "gold_aliases": [
+   "Anne Fontaine",
+   "Anne Fontaine Sibertin-Blanc",
+   "Doris Lessing",
+   "Doris May Tayler",
+   "Jane Somers"
+  ],
+  "difficulty": 4.005738042651425,
+  "s_pop": 10133,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_189068",
+  "block": "A",
+  "role": "primary",
+  "relation": "author",
+  "question": "Who is the author of GNU Affero General Public License?",
+  "subject": "GNU Affero General Public License",
+  "gold_aliases": [
+   "FSF",
+   "Free Software Foundation",
+   "Free Software Foundation, Inc."
+  ],
+  "difficulty": 4.019531684531255,
+  "s_pop": 10460,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_670042",
+  "block": "A",
+  "role": "primary",
+  "relation": "screenwriter",
+  "question": "Who was the screenwriter for Horror Story?",
+  "subject": "Horror Story",
+  "gold_aliases": [
+   "Vikram Bhatt"
+  ],
+  "difficulty": 4.038222638368718,
+  "s_pop": 10920,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_5679365",
+  "block": "A",
+  "role": "primary",
+  "relation": "author",
+  "question": "Who is the author of Contact?",
+  "subject": "Contact",
+  "gold_aliases": [
+   "C E Sagan",
+   "C Sagan",
+   "C. E. Sagan",
+   "C. Sagan",
+   "C.E. Sagan",
+   "Carl E Sagan",
+   "Carl E. Sagan",
+   "Carl Edward Sagan",
+   "Carl Sagan",
+   "Sagan",
+   "Sagan C",
+   "Sagan C.",
+   "Sagan C. E.",
+   "Sagan CE"
+  ],
+  "difficulty": 4.0385009430766745,
+  "s_pop": 10927,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_240294",
+  "block": "A",
+  "role": "primary",
+  "relation": "director",
+  "question": "Who was the director of Julia?",
+  "subject": "Julia",
+  "gold_aliases": [
+   "Alfred Zinnemann",
+   "Fred Zinnemann"
+  ],
+  "difficulty": 4.045088161542816,
+  "s_pop": 11094,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_1290542",
+  "block": "A",
+  "role": "primary",
+  "relation": "screenwriter",
+  "question": "Who was the screenwriter for Summer of '42?",
+  "subject": "Summer of '42",
+  "gold_aliases": [
+   "Herman Raucher"
+  ],
+  "difficulty": 4.06190463371617,
+  "s_pop": 11532,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_4478015",
+  "block": "A",
+  "role": "primary",
+  "relation": "screenwriter",
+  "question": "Who was the screenwriter for The Russia House?",
+  "subject": "The Russia House",
+  "gold_aliases": [
+   "Sir Tom Stoppard",
+   "Tom Stoppard"
+  ],
+  "difficulty": 4.062243441026478,
+  "s_pop": 11541,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_5773990",
+  "block": "A",
+  "role": "primary",
+  "relation": "director",
+  "question": "Who was the director of Hop?",
+  "subject": "Hop",
+  "gold_aliases": [
+   "Tim Hill",
+   "Timothy Hill",
+   "Timothy Joseph \"Tim\" Hill",
+   "Timothy Joseph Hill"
+  ],
+  "difficulty": 4.063671053930718,
+  "s_pop": 11579,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_695411",
+  "block": "A",
+  "role": "primary",
+  "relation": "director",
+  "question": "Who was the director of Out of Time?",
+  "subject": "Out of Time",
+  "gold_aliases": [
+   "Carl Franklin",
+   "Carl Michael Franklin"
+  ],
+  "difficulty": 4.065318237803737,
+  "s_pop": 11623,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_3188789",
+  "block": "A",
+  "role": "primary",
+  "relation": "director",
+  "question": "Who was the director of Phenomenon?",
+  "subject": "Phenomenon",
+  "gold_aliases": [
+   "Jon Turteltaub",
+   "Jonathan Charles \"Jon\" Turteltaub",
+   "Jonathan Charles Turteltaub"
+  ],
+  "difficulty": 4.065691728093271,
+  "s_pop": 11633,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_1867301",
+  "block": "A",
+  "role": "primary",
+  "relation": "director",
+  "question": "Who was the director of The Score?",
+  "subject": "The Score",
+  "gold_aliases": [
+   "Frank Oz",
+   "Richard Frank Oznowicz",
+   "Richard Oznowicz"
+  ],
+  "difficulty": 4.0664377464539925,
+  "s_pop": 11653,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_3107648",
+  "block": "A",
+  "role": "primary",
+  "relation": "director",
+  "question": "Who was the director of Always?",
+  "subject": "Always",
+  "gold_aliases": [
+   "Spielberg",
+   "Steven Allan Spielberg",
+   "Steven Spielberg"
+  ],
+  "difficulty": 4.070628844051428,
+  "s_pop": 11766,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_6415970",
+  "block": "A",
+  "role": "primary",
+  "relation": "screenwriter",
+  "question": "Who was the screenwriter for Safe?",
+  "subject": "Safe",
+  "gold_aliases": [
+   "Boaz Yakin"
+  ],
+  "difficulty": 4.084039780667953,
+  "s_pop": 12135,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_1556437",
+  "block": "A",
+  "role": "primary",
+  "relation": "author",
+  "question": "Who is the author of Gor?",
+  "subject": "Gor",
+  "gold_aliases": [
+   "John Frederick Lange, Jr",
+   "John Frederick Lange, Jr.",
+   "John Lange",
+   "John Norman"
+  ],
+  "difficulty": 4.086893471309455,
+  "s_pop": 12215,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_981221",
+  "block": "A",
+  "role": "primary",
+  "relation": "screenwriter",
+  "question": "Who was the screenwriter for Welcome Back?",
+  "subject": "Welcome Back",
+  "gold_aliases": [
+   "Anees Bazmee"
+  ],
+  "difficulty": 4.090575455222202,
+  "s_pop": 12319,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_4642747",
+  "block": "A",
+  "role": "primary",
+  "relation": "screenwriter",
+  "question": "Who was the screenwriter for The Toxic Avenger?",
+  "subject": "The Toxic Avenger",
+  "gold_aliases": [
+   "Lloyd Kaufman",
+   "Stanley Lloyd Kaufman, Jr."
+  ],
+  "difficulty": 4.095657440328489,
+  "s_pop": 12464,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_2300772",
+  "block": "A",
+  "role": "primary",
+  "relation": "author",
+  "question": "Who is the author of Jumper?",
+  "subject": "Jumper",
+  "gold_aliases": [
+   "Steven Charles Gould",
+   "Steven Gould"
+  ],
+  "difficulty": 4.097292024091896,
+  "s_pop": 12511,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_2357044",
+  "block": "A",
+  "role": "primary",
+  "relation": "author",
+  "question": "Who is the author of The Reader?",
+  "subject": "The Reader",
+  "gold_aliases": [
+   "Bernhard Schlink"
+  ],
+  "difficulty": 4.106190897263415,
+  "s_pop": 12770,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_567269",
+  "block": "A",
+  "role": "primary",
+  "relation": "director",
+  "question": "Who was the director of Nashville?",
+  "subject": "Nashville",
+  "gold_aliases": [
+   "Robert Altman"
+  ],
+  "difficulty": 4.110017006792112,
+  "s_pop": 12883,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_4963285",
+  "block": "A",
+  "role": "primary",
+  "relation": "screenwriter",
+  "question": "Who was the screenwriter for Pizza?",
+  "subject": "Pizza",
+  "gold_aliases": [
+   "Karthik Subbaraj"
+  ],
+  "difficulty": 4.116242357963335,
+  "s_pop": 13069,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_87780",
+  "block": "A",
+  "role": "primary",
+  "relation": "screenwriter",
+  "question": "Who was the screenwriter for The Other?",
+  "subject": "The Other",
+  "gold_aliases": [
+   "Thomas Tryon",
+   "Tom Tryon"
+  ],
+  "difficulty": 4.117403884416343,
+  "s_pop": 13104,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_2795779",
+  "block": "A",
+  "role": "primary",
+  "relation": "author",
+  "question": "Who is the author of Confessions?",
+  "subject": "Confessions",
+  "gold_aliases": [
+   "Augustine",
+   "Augustine of Hippo",
+   "Augustinus",
+   "Augustinus, Aurelius",
+   "Aurelius Augustine",
+   "Aurelius Augustinus",
+   "Aurelius Augustinus Hipponensis",
+   "Saint Augustine",
+   "Saint Augustine of Hippo",
+   "Saint Austin",
+   "St. Augoustinos",
+   "St. Augustine",
+   "St. Augustine of Hippo"
+  ],
+  "difficulty": 4.1189918001959756,
+  "s_pop": 13152,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_2673133",
+  "block": "A",
+  "role": "primary",
+  "relation": "director",
+  "question": "Who was the director of The Express?",
+  "subject": "The Express",
+  "gold_aliases": [
+   "Gary Fleder"
+  ],
+  "difficulty": 4.119618749752575,
+  "s_pop": 13171,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_5559861",
+  "block": "A",
+  "role": "primary",
+  "relation": "director",
+  "question": "Who was the director of Manhattan?",
+  "subject": "Manhattan",
+  "gold_aliases": [
+   "Allan Stewart Konigsberg",
+   "Allen Stewart Konigsberg",
+   "Heywood Allen",
+   "Woody Allen"
+  ],
+  "difficulty": 4.133762384787346,
+  "s_pop": 13607,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_637843",
+  "block": "A",
+  "role": "primary",
+  "relation": "screenwriter",
+  "question": "Who was the screenwriter for Velvet Goldmine?",
+  "subject": "Velvet Goldmine",
+  "gold_aliases": [
+   "Todd Haynes"
+  ],
+  "difficulty": 4.140004950619449,
+  "s_pop": 13804,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_2013401",
+  "block": "A",
+  "role": "primary",
+  "relation": "author",
+  "question": "Who is the author of White Noise?",
+  "subject": "White Noise",
+  "gold_aliases": [
+   "Don DeLillo",
+   "Don Delillo",
+   "Donald Richard DeLillo"
+  ],
+  "difficulty": 4.168350140185944,
+  "s_pop": 14735,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_2876768",
+  "block": "A",
+  "role": "primary",
+  "relation": "author",
+  "question": "Who is the author of Spice and Wolf?",
+  "subject": "Spice and Wolf",
+  "gold_aliases": [
+   "Isuna Hasekura"
+  ],
+  "difficulty": 4.170144322643356,
+  "s_pop": 14796,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_201598",
+  "block": "A",
+  "role": "primary",
+  "relation": "director",
+  "question": "Who was the director of Soldier?",
+  "subject": "Soldier",
+  "gold_aliases": [
+   "Paul W. S. Anderson",
+   "Paul William Scott Anderson"
+  ],
+  "difficulty": 4.187605315418149,
+  "s_pop": 15403,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_754434",
+  "block": "A",
+  "role": "primary",
+  "relation": "screenwriter",
+  "question": "Who was the screenwriter for The Player?",
+  "subject": "The Player",
+  "gold_aliases": [
+   "Michael Tolkin"
+  ],
+  "difficulty": 4.209756222258858,
+  "s_pop": 16209,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_288956",
+  "block": "A",
+  "role": "primary",
+  "relation": "screenwriter",
+  "question": "Who was the screenwriter for The Natural?",
+  "subject": "The Natural",
+  "gold_aliases": [
+   "Bernard Malamud"
+  ],
+  "difficulty": 4.212320803141976,
+  "s_pop": 16305,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_3453821",
+  "block": "A",
+  "role": "primary",
+  "relation": "author",
+  "question": "Who is the author of Symposium?",
+  "subject": "Symposium",
+  "gold_aliases": [
+   "Aristocles",
+   "Plato",
+   "Platon"
+  ],
+  "difficulty": 4.227912401751748,
+  "s_pop": 16901,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_288204",
+  "block": "A",
+  "role": "primary",
+  "relation": "director",
+  "question": "Who was the director of The Car?",
+  "subject": "The Car",
+  "gold_aliases": [
+   "Elliot Silverstein"
+  ],
+  "difficulty": 4.230729844577681,
+  "s_pop": 17011,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_207647",
+  "block": "A",
+  "role": "primary",
+  "relation": "director",
+  "question": "Who was the director of Spaced?",
+  "subject": "Spaced",
+  "gold_aliases": [
+   "Edgar Wright"
+  ],
+  "difficulty": 4.238748439281245,
+  "s_pop": 17328,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_1112331",
+  "block": "A",
+  "role": "primary",
+  "relation": "screenwriter",
+  "question": "Who was the screenwriter for Pride?",
+  "subject": "Pride",
+  "gold_aliases": [
+   "Stephen Beresford"
+  ],
+  "difficulty": 4.239499684031626,
+  "s_pop": 17358,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_1112330",
+  "block": "A",
+  "role": "primary",
+  "relation": "director",
+  "question": "Who was the director of Pride?",
+  "subject": "Pride",
+  "gold_aliases": [
+   "Matthew Warchus"
+  ],
+  "difficulty": 4.239499684031626,
+  "s_pop": 17358,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_5046132",
+  "block": "A",
+  "role": "primary",
+  "relation": "author",
+  "question": "Who is the author of Sweet Tooth?",
+  "subject": "Sweet Tooth",
+  "gold_aliases": [
+   "Jeff Lemire"
+  ],
+  "difficulty": 4.244549242897895,
+  "s_pop": 17561,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_4767525",
+  "block": "A",
+  "role": "primary",
+  "relation": "author",
+  "question": "Who is the author of Gerald's Game?",
+  "subject": "Gerald's Game",
+  "gold_aliases": [
+   "John Swithen",
+   "Richard Bachman",
+   "Stephen Edwin King",
+   "Stephen King"
+  ],
+  "difficulty": 4.247236549506764,
+  "s_pop": 17670,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_4735194",
+  "block": "A",
+  "role": "primary",
+  "relation": "author",
+  "question": "Who is the author of Midnight's Children?",
+  "subject": "Midnight's Children",
+  "gold_aliases": [
+   "Joseph Anton",
+   "Rushdie",
+   "Salman Rushdie",
+   "Sir Ahmed Salman Rushdie"
+  ],
+  "difficulty": 4.281669563107719,
+  "s_pop": 19128,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_5240651",
+  "block": "A",
+  "role": "primary",
+  "relation": "screenwriter",
+  "question": "Who was the screenwriter for Persona?",
+  "subject": "Persona",
+  "gold_aliases": [
+   "Ernst Ingmar Bergman",
+   "Ingmar Bergman"
+  ],
+  "difficulty": 4.290991232025503,
+  "s_pop": 19543,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_2475000",
+  "block": "A",
+  "role": "primary",
+  "relation": "screenwriter",
+  "question": "Who was the screenwriter for Mud?",
+  "subject": "Mud",
+  "gold_aliases": [
+   "Jeff Nichols"
+  ],
+  "difficulty": 4.29280966541729,
+  "s_pop": 19625,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_1742797",
+  "block": "A",
+  "role": "primary",
+  "relation": "screenwriter",
+  "question": "Who was the screenwriter for The Queen?",
+  "subject": "The Queen",
+  "gold_aliases": [
+   "Peter Julian Robin Morgan",
+   "Peter Morgan"
+  ],
+  "difficulty": 4.292920299600006,
+  "s_pop": 19630,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_236553",
+  "block": "A",
+  "role": "primary",
+  "relation": "screenwriter",
+  "question": "Who was the screenwriter for Elephant?",
+  "subject": "Elephant",
+  "gold_aliases": [
+   "Gus Green Van Sant Jr,",
+   "Gus Greene Van Sant Junior",
+   "Gus Van Sant"
+  ],
+  "difficulty": 4.307816826662431,
+  "s_pop": 20315,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_3487405",
+  "block": "A",
+  "role": "primary",
+  "relation": "author",
+  "question": "Who is the author of And did those feet in ancient time?",
+  "subject": "And did those feet in ancient time",
+  "gold_aliases": [
+   "Blake",
+   "Uil'iam Bleik",
+   "W. Blake",
+   "William Blake"
+  ],
+  "difficulty": 4.308308242998225,
+  "s_pop": 20338,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_1249920",
+  "block": "A",
+  "role": "primary",
+  "relation": "author",
+  "question": "Who is the author of Holes?",
+  "subject": "Holes",
+  "gold_aliases": [
+   "Louis Sachar"
+  ],
+  "difficulty": 4.3209766773428235,
+  "s_pop": 20940,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_3466480",
+  "block": "A",
+  "role": "primary",
+  "relation": "director",
+  "question": "Who was the director of Witness?",
+  "subject": "Witness",
+  "gold_aliases": [
+   "Peter Lindsay Weir",
+   "Peter Weir"
+  ],
+  "difficulty": 4.32273600446995,
+  "s_pop": 21025,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_29990",
+  "block": "A",
+  "role": "primary",
+  "relation": "author",
+  "question": "Who is the author of Left Behind?",
+  "subject": "Left Behind",
+  "gold_aliases": [
+   "Jerry B. Jenkins",
+   "Jerry Bruce Jenkins",
+   "Jerry Jenkins",
+   "Tim Francis LaHaye",
+   "Tim LaHaye",
+   "Timothy F. \"Tim\" LaHaye",
+   "Timothy Francis LaHaye",
+   "Timothy LaHaye"
+  ],
+  "difficulty": 4.323313990462066,
+  "s_pop": 21053,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_997056",
+  "block": "A",
+  "role": "primary",
+  "relation": "director",
+  "question": "Who was the director of Black Book?",
+  "subject": "Black Book",
+  "gold_aliases": [
+   "Paul Verhoeven"
+  ],
+  "difficulty": 4.324981703087369,
+  "s_pop": 21134,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_695681",
+  "block": "A",
+  "role": "primary",
+  "relation": "director",
+  "question": "Who was the director of Accepted?",
+  "subject": "Accepted",
+  "gold_aliases": [
+   "Steve Pink"
+  ],
+  "difficulty": 4.3437236138426245,
+  "s_pop": 22066,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_1703675",
+  "block": "A",
+  "role": "primary",
+  "relation": "author",
+  "question": "Who is the author of ?",
+  "subject": NaN,
+  "gold_aliases": [
+   "David Peters",
+   "Jacob Ben Gunter",
+   "PAD",
+   "Peter Allen David",
+   "Peter David"
+  ],
+  "difficulty": 4.36287813578893,
+  "s_pop": 23061,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_5527122",
+  "block": "A",
+  "role": "primary",
+  "relation": "director",
+  "question": "Who was the director of Next?",
+  "subject": "Next",
+  "gold_aliases": [
+   "Lee Tamahori",
+   "Warren Lee Tamahori"
+  ],
+  "difficulty": 4.365319475896217,
+  "s_pop": 23191,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_3602432",
+  "block": "A",
+  "role": "primary",
+  "relation": "director",
+  "question": "Who was the director of The Time Machine?",
+  "subject": "The Time Machine",
+  "gold_aliases": [
+   "Simon Joseph Wells",
+   "Simon Wells"
+  ],
+  "difficulty": 4.375407533308786,
+  "s_pop": 23736,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_2147141",
+  "block": "A",
+  "role": "primary",
+  "relation": "director",
+  "question": "Who was the director of The New World?",
+  "subject": "The New World",
+  "gold_aliases": [
+   "David Whitney",
+   "Terrence Frederick Malick",
+   "Terrence Malick",
+   "Terrence Terry Malick",
+   "Terry Malick"
+  ],
+  "difficulty": 4.37685058584761,
+  "s_pop": 23815,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_389221",
+  "block": "A",
+  "role": "primary",
+  "relation": "author",
+  "question": "Who is the author of From Hell letter?",
+  "subject": "From Hell letter",
+  "gold_aliases": [
+   "Jack the Ripper",
+   "Leather Apron",
+   "The Whitechapel Murderer",
+   "Whitechapel Murderer"
+  ],
+  "difficulty": 4.387443219918934,
+  "s_pop": 24403,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_2731195",
+  "block": "A",
+  "role": "primary",
+  "relation": "author",
+  "question": "Who is the author of The Trial?",
+  "subject": "The Trial",
+  "gold_aliases": [
+   "Franti\u0161ek Kafka",
+   "Franz Kafka",
+   "Kafka"
+  ],
+  "difficulty": 4.3949592284862,
+  "s_pop": 24829,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_483042",
+  "block": "A",
+  "role": "primary",
+  "relation": "director",
+  "question": "Who was the director of The Judge?",
+  "subject": "The Judge",
+  "gold_aliases": [
+   "Big Kid Pictures",
+   "David Dobkin"
+  ],
+  "difficulty": 4.420994829643957,
+  "s_pop": 26363,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_3682391",
+  "block": "A",
+  "role": "primary",
+  "relation": "director",
+  "question": "Who was the director of Equilibrium?",
+  "subject": "Equilibrium",
+  "gold_aliases": [
+   "Kurt Wimmer"
+  ],
+  "difficulty": 4.433257656397349,
+  "s_pop": 27118,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_3211017",
+  "block": "A",
+  "role": "primary",
+  "relation": "author",
+  "question": "Who is the author of The Crow?",
+  "subject": "The Crow",
+  "gold_aliases": [
+   "James O'Barr"
+  ],
+  "difficulty": 4.435923958119165,
+  "s_pop": 27285,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_307774",
+  "block": "A",
+  "role": "primary",
+  "relation": "screenwriter",
+  "question": "Who was the screenwriter for The Duellists?",
+  "subject": "The Duellists",
+  "gold_aliases": [
+   "Joseph Conrad",
+   "Jozef Teodor Konrad Korzeniowski"
+  ],
+  "difficulty": 4.449447542355358,
+  "s_pop": 28148,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_57908",
+  "block": "A",
+  "role": "primary",
+  "relation": "author",
+  "question": "Who is the author of Carousel?",
+  "subject": "Carousel",
+  "gold_aliases": [
+   "Hammerstien",
+   "Oscar Greeley Clendenning Hammerstein II",
+   "Oscar Greely Clendenning Hammerstein II",
+   "Oscar Hammerstein",
+   "Oscar Hammerstein II"
+  ],
+  "difficulty": 4.45166364941041,
+  "s_pop": 28292,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_1587871",
+  "block": "A",
+  "role": "primary",
+  "relation": "screenwriter",
+  "question": "Who was the screenwriter for Milk?",
+  "subject": "Milk",
+  "gold_aliases": [
+   "Dustin Lance Black"
+  ],
+  "difficulty": 4.465962515279378,
+  "s_pop": 29239,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_287873",
+  "block": "A",
+  "role": "primary",
+  "relation": "screenwriter",
+  "question": "Who was the screenwriter for The Right Stuff?",
+  "subject": "The Right Stuff",
+  "gold_aliases": [
+   "Thomas Kennerly \"Tom\" Wolfe, Jr.",
+   "Thomas Kennerly Wolfe",
+   "Thomas Kennerly, Jr. Wolfe",
+   "Tom Wolfe"
+  ],
+  "difficulty": 4.466837974667767,
+  "s_pop": 29298,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_2085706",
+  "block": "A",
+  "role": "primary",
+  "relation": "screenwriter",
+  "question": "Who was the screenwriter for The King and I?",
+  "subject": "The King and I",
+  "gold_aliases": [
+   "Ernest Lehman",
+   "Ernest Paul Lehman",
+   "Hammerstien",
+   "Oscar Greeley Clendenning Hammerstein II",
+   "Oscar Greely Clendenning Hammerstein II",
+   "Oscar Hammerstein",
+   "Oscar Hammerstein II"
+  ],
+  "difficulty": 4.471482406627663,
+  "s_pop": 29613,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_669464",
+  "block": "A",
+  "role": "primary",
+  "relation": "screenwriter",
+  "question": "Who was the screenwriter for Annie?",
+  "subject": "Annie",
+  "gold_aliases": [
+   "Will Gluck"
+  ],
+  "difficulty": 4.476150245679268,
+  "s_pop": 29933,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_4974600",
+  "block": "A",
+  "role": "primary",
+  "relation": "author",
+  "question": "Who is the author of Anything Goes?",
+  "subject": "Anything Goes",
+  "gold_aliases": [
+   "Guy Bolton",
+   "Guy Reginald Bolton",
+   "H. B. Trevelyan",
+   "Herman Nelke",
+   "Howard Lindsay",
+   "P. G. Wodehouse",
+   "P.G. Wodehouse",
+   "Pelham Grenville Wodehouse",
+   "Russel Crouse",
+   "Sir Pelham Grenville Wodehouse"
+  ],
+  "difficulty": 4.4774830160749435,
+  "s_pop": 30025,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_2955066",
+  "block": "A",
+  "role": "primary",
+  "relation": "author",
+  "question": "Who is the author of Utopia?",
+  "subject": "Utopia",
+  "gold_aliases": [
+   "Saint Thomas More",
+   "Sir Thomas More",
+   "Thomas More",
+   "Thomas Morus",
+   "Thomas, Saint More",
+   "Thomas, Sir More"
+  ],
+  "difficulty": 4.482416190747198,
+  "s_pop": 30368,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_5655121",
+  "block": "A",
+  "role": "primary",
+  "relation": "director",
+  "question": "Who was the director of The Day After?",
+  "subject": "The Day After",
+  "gold_aliases": [
+   "Nicholas Meyer"
+  ],
+  "difficulty": 4.484982781930561,
+  "s_pop": 30548,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_1415057",
+  "block": "A",
+  "role": "primary",
+  "relation": "screenwriter",
+  "question": "Who was the screenwriter for Love?",
+  "subject": "Love",
+  "gold_aliases": [
+   "Judd Apatow",
+   "Paul Robert Rust",
+   "Paul Rust"
+  ],
+  "difficulty": 4.493722868961196,
+  "s_pop": 31169,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_4859463",
+  "block": "A",
+  "role": "primary",
+  "relation": "screenwriter",
+  "question": "Who was the screenwriter for New World?",
+  "subject": "New World",
+  "gold_aliases": [
+   "Park Hoon-jung"
+  ],
+  "difficulty": 4.511682871101388,
+  "s_pop": 32485,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_3664727",
+  "block": "A",
+  "role": "primary",
+  "relation": "director",
+  "question": "Who was the director of Mission: Impossible 2?",
+  "subject": "Mission: Impossible 2",
+  "gold_aliases": [
+   "John Woo",
+   "Ng Yu-sum"
+  ],
+  "difficulty": 4.51232411318569,
+  "s_pop": 32533,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_1319193",
+  "block": "A",
+  "role": "primary",
+  "relation": "director",
+  "question": "Who was the director of Unfriended?",
+  "subject": "Unfriended",
+  "gold_aliases": [
+   "Levan Gabriadze",
+   "Levan Rezotovich Gabriadze"
+  ],
+  "difficulty": 4.517116688085895,
+  "s_pop": 32894,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_6329417",
+  "block": "A",
+  "role": "primary",
+  "relation": "director",
+  "question": "Who was the director of Glory?",
+  "subject": "Glory",
+  "gold_aliases": [
+   "Edward M. Zwick",
+   "Edward Zwick"
+  ],
+  "difficulty": 4.522822283327583,
+  "s_pop": 33329,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_1534505",
+  "block": "A",
+  "role": "primary",
+  "relation": "director",
+  "question": "Who was the director of Pulse?",
+  "subject": "Pulse",
+  "gold_aliases": [
+   "Kiyoshi Kurosawa"
+  ],
+  "difficulty": 4.528646788488089,
+  "s_pop": 33779,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_672851",
+  "block": "A",
+  "role": "primary",
+  "relation": "author",
+  "question": "Who is the author of Passing?",
+  "subject": "Passing",
+  "gold_aliases": [
+   "Nella Larsen",
+   "Nella Larsen Imes"
+  ],
+  "difficulty": 4.5622333679865,
+  "s_pop": 36495,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_534526",
+  "block": "A",
+  "role": "primary",
+  "relation": "director",
+  "question": "Who was the director of Hackers?",
+  "subject": "Hackers",
+  "gold_aliases": [
+   "Iain Declan Softley",
+   "Iain Softley"
+  ],
+  "difficulty": 4.59258753227293,
+  "s_pop": 39137,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_4382884",
+  "block": "A",
+  "role": "primary",
+  "relation": "screenwriter",
+  "question": "Who was the screenwriter for Sixteen Candles?",
+  "subject": "Sixteen Candles",
+  "gold_aliases": [
+   "John Hughes",
+   "John Hughes, Jr."
+  ],
+  "difficulty": 4.598724865357054,
+  "s_pop": 39694,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_5852020",
+  "block": "A",
+  "role": "primary",
+  "relation": "author",
+  "question": "Who is the author of Gin Tama?",
+  "subject": "Gin Tama",
+  "gold_aliases": [
+   "Hideaki Sorachi"
+  ],
+  "difficulty": 4.608665071128152,
+  "s_pop": 40613,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_1931065",
+  "block": "A",
+  "role": "primary",
+  "relation": "screenwriter",
+  "question": "Who was the screenwriter for Brazil?",
+  "subject": "Brazil",
+  "gold_aliases": [
+   "Charles McKeown",
+   "Sir Tom Stoppard",
+   "Terrence Vance Gilliam",
+   "Terry Gilliam",
+   "Tom Stoppard"
+  ],
+  "difficulty": 4.609444994760653,
+  "s_pop": 40686,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_1608927",
+  "block": "A",
+  "role": "primary",
+  "relation": "screenwriter",
+  "question": "Who was the screenwriter for Philadelphia?",
+  "subject": "Philadelphia",
+  "gold_aliases": [
+   "Ron Nyswaner"
+  ],
+  "difficulty": 4.625374194603022,
+  "s_pop": 42206,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_1527903",
+  "block": "A",
+  "role": "primary",
+  "relation": "director",
+  "question": "Who was the director of The Great Wall?",
+  "subject": "The Great Wall",
+  "gold_aliases": [
+   "Zhang Yimou"
+  ],
+  "difficulty": 4.632457292184724,
+  "s_pop": 42900,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_1745955",
+  "block": "A",
+  "role": "primary",
+  "relation": "author",
+  "question": "Who is the author of Emma?",
+  "subject": "Emma",
+  "gold_aliases": [
+   "Jane Austen"
+  ],
+  "difficulty": 4.637309570014311,
+  "s_pop": 43382,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_1820953",
+  "block": "A",
+  "role": "primary",
+  "relation": "author",
+  "question": "Who is the author of The Boys?",
+  "subject": "The Boys",
+  "gold_aliases": [
+   "Darick Robertson"
+  ],
+  "difficulty": 4.644487826413858,
+  "s_pop": 44105,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_1346306",
+  "block": "A",
+  "role": "primary",
+  "relation": "author",
+  "question": "Who is the author of The Lottery?",
+  "subject": "The Lottery",
+  "gold_aliases": [
+   "Shirley Hardie Jackson",
+   "Shirley Jackson"
+  ],
+  "difficulty": 4.667247431610077,
+  "s_pop": 46478,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_4540533",
+  "block": "A",
+  "role": "primary",
+  "relation": "screenwriter",
+  "question": "Who was the screenwriter for The Pacific?",
+  "subject": "The Pacific",
+  "gold_aliases": [
+   "Robert Leckie"
+  ],
+  "difficulty": 4.678591210581774,
+  "s_pop": 47708,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_1812127",
+  "block": "A",
+  "role": "primary",
+  "relation": "author",
+  "question": "Who is the author of Rich Dad Poor Dad?",
+  "subject": "Rich Dad Poor Dad",
+  "gold_aliases": [
+   "Robert Kiyosaki",
+   "Robert T. Kiyosaki",
+   "Robert Toru Kiyosaki"
+  ],
+  "difficulty": 4.685356523219234,
+  "s_pop": 48457,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_1334089",
+  "block": "A",
+  "role": "primary",
+  "relation": "screenwriter",
+  "question": "Who was the screenwriter for The Intern?",
+  "subject": "The Intern",
+  "gold_aliases": [
+   "Nancy Jane Meyers",
+   "Nancy Meyers"
+  ],
+  "difficulty": 4.687769673775045,
+  "s_pop": 48727,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_415310",
+  "block": "A",
+  "role": "primary",
+  "relation": "author",
+  "question": "Who is the author of The Prince?",
+  "subject": "The Prince",
+  "gold_aliases": [
+   "Machiavelli",
+   "N. Machiavelli",
+   "Niccolo Machiavelli",
+   "Niccolo di Bernardo dei Machiavelli",
+   "Niccol\u00f2 Machiavelli",
+   "Niccol\u00f2 di Bernardo dei Machiavelli",
+   "Nicolo Machiavelli",
+   "Nicol\u00f2 Machiavelli"
+  ],
+  "difficulty": 4.705752559709366,
+  "s_pop": 50787,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_766015",
+  "block": "A",
+  "role": "primary",
+  "relation": "director",
+  "question": "Who was the director of Lucy?",
+  "subject": "Lucy",
+  "gold_aliases": [
+   "Luc Besson",
+   "Luc Paul Maurice Besson"
+  ],
+  "difficulty": 4.727630709225761,
+  "s_pop": 53411,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_766017",
+  "block": "A",
+  "role": "primary",
+  "relation": "screenwriter",
+  "question": "Who was the screenwriter for Lucy?",
+  "subject": "Lucy",
+  "gold_aliases": [
+   "Luc Besson",
+   "Luc Paul Maurice Besson"
+  ],
+  "difficulty": 4.727630709225761,
+  "s_pop": 53411,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_1719999",
+  "block": "A",
+  "role": "primary",
+  "relation": "author",
+  "question": "Who is the author of Great Expectations?",
+  "subject": "Great Expectations",
+  "gold_aliases": [
+   "Boz",
+   "C.Dickens",
+   "Charles Dickens",
+   "Charles John Huffam Dickens",
+   "Dickens"
+  ],
+  "difficulty": 4.734391737018545,
+  "s_pop": 54249,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_96402",
+  "block": "A",
+  "role": "primary",
+  "relation": "author",
+  "question": "Who is the author of The Book of Mormon?",
+  "subject": "The Book of Mormon",
+  "gold_aliases": [
+   "Matt Stone",
+   "Matthew Richard Stone",
+   "Randolph Parker",
+   "Randolph Severn Parker",
+   "Randolph Severn Parker III",
+   "Robert Joseph Lopez",
+   "Robert Lopez",
+   "Trey Parker"
+  ],
+  "difficulty": 4.768305039125958,
+  "s_pop": 58655,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_662552",
+  "block": "A",
+  "role": "primary",
+  "relation": "author",
+  "question": "Who is the author of The Stand?",
+  "subject": "The Stand",
+  "gold_aliases": [
+   "John Swithen",
+   "Richard Bachman",
+   "Stephen Edwin King",
+   "Stephen King"
+  ],
+  "difficulty": 4.768416088216331,
+  "s_pop": 58670,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_1726946",
+  "block": "A",
+  "role": "primary",
+  "relation": "director",
+  "question": "Who was the director of Casino?",
+  "subject": "Casino",
+  "gold_aliases": [
+   "Martin Charles Scorsese",
+   "Martin Scorsese",
+   "Martin Skorseze"
+  ],
+  "difficulty": 4.778115057668767,
+  "s_pop": 59995,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_1485443",
+  "block": "A",
+  "role": "primary",
+  "relation": "screenwriter",
+  "question": "Who was the screenwriter for Angels & Demons?",
+  "subject": "Angels & Demons",
+  "gold_aliases": [
+   "Akiva Goldsman",
+   "Akiva J. Goldsman",
+   "David Koepp"
+  ],
+  "difficulty": 4.793594838334746,
+  "s_pop": 62172,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_1336640",
+  "block": "A",
+  "role": "primary",
+  "relation": "screenwriter",
+  "question": "Who was the screenwriter for Spotlight?",
+  "subject": "Spotlight",
+  "gold_aliases": [
+   "Josh Singer"
+  ],
+  "difficulty": 4.794906106516804,
+  "s_pop": 62360,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_3473657",
+  "block": "A",
+  "role": "primary",
+  "relation": "screenwriter",
+  "question": "Who was the screenwriter for Groundhog Day?",
+  "subject": "Groundhog Day",
+  "gold_aliases": [
+   "Danny Rubin",
+   "Harold Allen Ramis",
+   "Harold Ramis"
+  ],
+  "difficulty": 4.801458593687579,
+  "s_pop": 63308,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_1392068",
+  "block": "A",
+  "role": "primary",
+  "relation": "director",
+  "question": "Who was the director of 2012?",
+  "subject": "2012",
+  "gold_aliases": [
+   "Roland Emmerich"
+  ],
+  "difficulty": 4.814933133090054,
+  "s_pop": 65303,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_1438772",
+  "block": "A",
+  "role": "primary",
+  "relation": "director",
+  "question": "Who was the director of Crash?",
+  "subject": "Crash",
+  "gold_aliases": [
+   "Paul Edward Haggis",
+   "Paul Haggis"
+  ],
+  "difficulty": 4.840545187636839,
+  "s_pop": 69270,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_6074796",
+  "block": "A",
+  "role": "primary",
+  "relation": "director",
+  "question": "Who was the director of Her?",
+  "subject": "Her",
+  "gold_aliases": [
+   "Adam Spiegel",
+   "Spike Jonze"
+  ],
+  "difficulty": 4.850493071900963,
+  "s_pop": 70875,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_4712637",
+  "block": "A",
+  "role": "primary",
+  "relation": "author",
+  "question": "Who is the author of King James Version?",
+  "subject": "King James Version",
+  "gold_aliases": [
+   "Lancelot Andrewes"
+  ],
+  "difficulty": 4.8523884893737295,
+  "s_pop": 71185,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_1441334",
+  "block": "A",
+  "role": "primary",
+  "relation": "author",
+  "question": "Who is the author of New Testament?",
+  "subject": "New Testament",
+  "gold_aliases": [
+   "Apostle Paul",
+   "James the Less",
+   "James the Lesser",
+   "James, son of Alphaeus",
+   "Lucanus",
+   "Lukas",
+   "Luke",
+   "Luke the Evangelist",
+   "Matthew",
+   "Matthew the Apostle",
+   "Matthew the Evangelist",
+   "Paul",
+   "Paul of Tarsus",
+   "Paul the Apostle",
+   "Paulus",
+   "Paulus von Tarsus",
+   "Peter",
+   "Peter the Apostle",
+   "Petrus",
+   "Pope Peter",
+   "Saint Luke",
+   "Saint Matthew",
+   "Saint Paul",
+   "Saint Paul the Apostle",
+   "Saint Paulus",
+   "Saint Peter",
+   "Saint Peter the Apostle",
+   "Saul",
+   "Saul of Tarsus",
+   "Shimon",
+   "Simeon",
+   "Simon",
+   "Simon Peter",
+   "St Paul",
+   "St. Paul",
+   "The Apostle Paul",
+   "of Tarsus, the Apostle, Saint Paul",
+   "the Apostle, Saint Paul"
+  ],
+  "difficulty": 4.883848737475665,
+  "s_pop": 76533,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_4150910",
+  "block": "A",
+  "role": "primary",
+  "relation": "author",
+  "question": "Who is the author of Stack Overflow?",
+  "subject": "Stack Overflow",
+  "gold_aliases": [
+   "Avram Joel Spolsky",
+   "Joel Spolsky"
+  ],
+  "difficulty": 4.886197336314973,
+  "s_pop": 76948,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_152402",
+  "block": "A",
+  "role": "primary",
+  "relation": "director",
+  "question": "Who was the director of The Birds?",
+  "subject": "The Birds",
+  "gold_aliases": [
+   "Alfred Hitchcock",
+   "Alfred Joseph Hitchcock",
+   "Sir Alfred Hitchcock"
+  ],
+  "difficulty": 4.901371126800246,
+  "s_pop": 79684,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_1445727",
+  "block": "A",
+  "role": "primary",
+  "relation": "screenwriter",
+  "question": "Who was the screenwriter for Rocky?",
+  "subject": "Rocky",
+  "gold_aliases": [
+   "Michael Sylvester Gardenzio Stallone",
+   "Sly Stallone",
+   "Sylvester Enzio Stallone",
+   "Sylvester Stallone"
+  ],
+  "difficulty": 4.924201726550665,
+  "s_pop": 83985,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_412158",
+  "block": "A",
+  "role": "primary",
+  "relation": "screenwriter",
+  "question": "Who was the screenwriter for 300?",
+  "subject": "300",
+  "gold_aliases": [
+   "Zachary Edward \"Zack\" Snyder",
+   "Zachary Edward Snyder",
+   "Zack Snyder"
+  ],
+  "difficulty": 5.011507007443322,
+  "s_pop": 102685,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_1482020",
+  "block": "A",
+  "role": "primary",
+  "relation": "director",
+  "question": "Who was the director of Iron Man?",
+  "subject": "Iron Man",
+  "gold_aliases": [
+   "Jon Favreau",
+   "Jonathan Favreau",
+   "Jonathan Kolia Favreau"
+  ],
+  "difficulty": 5.019863713967843,
+  "s_pop": 104680,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_1354806",
+  "block": "A",
+  "role": "primary",
+  "relation": "director",
+  "question": "Who was the director of Cars?",
+  "subject": "Cars",
+  "gold_aliases": [
+   "Joe Ranft",
+   "John A. Lasseter",
+   "John Alan Lasseter",
+   "John Lasseter",
+   "Joseph Henry Ranft"
+  ],
+  "difficulty": 5.030235296012244,
+  "s_pop": 107210,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_1706967",
+  "block": "A",
+  "role": "primary",
+  "relation": "screenwriter",
+  "question": "Who was the screenwriter for Thor?",
+  "subject": "Thor",
+  "gold_aliases": [
+   "Ashley Edward Miller",
+   "Ashley Miller",
+   "Mark David Protosevich",
+   "Mark Protosevich",
+   "Zack Stentz"
+  ],
+  "difficulty": 5.051083029770714,
+  "s_pop": 112482,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_1180115",
+  "block": "A",
+  "role": "primary",
+  "relation": "screenwriter",
+  "question": "Who was the screenwriter for Toy Story?",
+  "subject": "Toy Story",
+  "gold_aliases": [
+   "Alec Sokolow",
+   "Alec William Sokolow",
+   "Andrew Ayers Stanton",
+   "Andrew Christopher Stanton Jr.",
+   "Andrew Stanton",
+   "Joe Ranft",
+   "John A. Lasseter",
+   "John Alan Lasseter",
+   "John Lasseter",
+   "Joseph Henry Ranft",
+   "Joseph Hill Whedon",
+   "Joss Whedon",
+   "Pete Docter",
+   "Peter Docter",
+   "Peter Hans Docter"
+  ],
+  "difficulty": 5.081599312732936,
+  "s_pop": 120670,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_4212451",
+  "block": "A",
+  "role": "primary",
+  "relation": "author",
+  "question": "Who is the author of Rent?",
+  "subject": "Rent",
+  "gold_aliases": [
+   "Jonathan David Larson",
+   "Jonathan Larson"
+  ],
+  "difficulty": 5.09266100402861,
+  "s_pop": 123783,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_1565960",
+  "block": "A",
+  "role": "primary",
+  "relation": "director",
+  "question": "Who was the director of Alien?",
+  "subject": "Alien",
+  "gold_aliases": [
+   "Ridley Scott",
+   "Sir Ridley Scott"
+  ],
+  "difficulty": 5.123054158439049,
+  "s_pop": 132756,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_6522266",
+  "block": "A",
+  "role": "primary",
+  "relation": "author",
+  "question": "Who is the author of Beloved?",
+  "subject": "Beloved",
+  "gold_aliases": [
+   "Chloe Anthony Wofford",
+   "Chloe Anthony Wofford Morrison",
+   "Chloe Anthony Wofford-Morrison",
+   "Chloe Ardelia Wofford",
+   "Morrison",
+   "Toni Morrison"
+  ],
+  "difficulty": 5.125903968407924,
+  "s_pop": 133630,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_2424585",
+  "block": "A",
+  "role": "primary",
+  "relation": "director",
+  "question": "Who was the director of The Terminal?",
+  "subject": "The Terminal",
+  "gold_aliases": [
+   "Spielberg",
+   "Steven Allan Spielberg",
+   "Steven Spielberg"
+  ],
+  "difficulty": 5.193667127446756,
+  "s_pop": 156195,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_5053330",
+  "block": "A",
+  "role": "primary",
+  "relation": "author",
+  "question": "Who is the author of One Piece?",
+  "subject": "One Piece",
+  "gold_aliases": [
+   "Eiichiro Oda",
+   "Eiichirou Oda",
+   "Eiichir\u014d Oda",
+   "Oda Eiichiro",
+   "Oda Eiichirou",
+   "Oda Eiichir\u014d"
+  ],
+  "difficulty": 5.336005188008233,
+  "s_pop": 216773,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_119440",
+  "block": "A",
+  "role": "primary",
+  "relation": "director",
+  "question": "Who was the director of Breaking Bad?",
+  "subject": "Breaking Bad",
+  "gold_aliases": [
+   "Bryan Cranston",
+   "Bryan Lee Cranston",
+   "Charles Haid",
+   "Charles Maurice Haid III",
+   "George Mastras",
+   "George Vincent Gilligan, Jr.",
+   "John Shiban",
+   "Michelle MacLaren",
+   "Michelle Maxwell MacLaren",
+   "Peter Gould",
+   "Vince Gilligan"
+  ],
+  "difficulty": 5.438167222188252,
+  "s_pop": 274263,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_1683089",
+  "block": "A",
+  "role": "primary",
+  "relation": "author",
+  "question": "Who is the author of LinkedIn?",
+  "subject": "LinkedIn",
+  "gold_aliases": [
+   "Reid G. Hoffman",
+   "Reid Garrett Hoffman",
+   "Reid Hoffman"
+  ],
+  "difficulty": 5.444275941529816,
+  "s_pop": 278148,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_6398386",
+  "block": "A",
+  "role": "primary",
+  "relation": "screenwriter",
+  "question": "Who was the screenwriter for Halloween?",
+  "subject": "Halloween",
+  "gold_aliases": [
+   "John Carpenter",
+   "John Howard Carpenter",
+   "Rob Straker",
+   "Rob Zombie",
+   "Robert Bartleh Cummings"
+  ],
+  "difficulty": 5.502835274200129,
+  "s_pop": 318299,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_1409534",
+  "block": "A",
+  "role": "primary",
+  "relation": "screenwriter",
+  "question": "Who was the screenwriter for The Shining?",
+  "subject": "The Shining",
+  "gold_aliases": [
+   "Diane Johnson",
+   "John Swithen",
+   "Richard Bachman",
+   "Stanley Kubrick",
+   "Stephen Edwin King",
+   "Stephen King"
+  ],
+  "difficulty": 5.513912447959392,
+  "s_pop": 326522,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_1693978",
+  "block": "A",
+  "role": "robustness",
+  "relation": "occupation",
+  "question": "What is Alexander Gadolin's occupation?",
+  "subject": "Alexander Gadolin",
+  "gold_aliases": [
+   "pol",
+   "polit.",
+   "political figure",
+   "political leader",
+   "politician"
+  ],
+  "difficulty": 1.6127838567197355,
+  "s_pop": 41,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_980948",
+  "block": "A",
+  "role": "robustness",
+  "relation": "occupation",
+  "question": "What is Robert Jonckheere's occupation?",
+  "subject": "Robert Jonckheere",
+  "gold_aliases": [
+   "astronomer"
+  ],
+  "difficulty": 1.792391689498254,
+  "s_pop": 62,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_5604342",
+  "block": "A",
+  "role": "robustness",
+  "relation": "occupation",
+  "question": "What is Robert Lewis's occupation?",
+  "subject": "Robert Lewis",
+  "gold_aliases": [
+   "pol",
+   "polit.",
+   "political figure",
+   "political leader",
+   "politician"
+  ],
+  "difficulty": 1.806179973983887,
+  "s_pop": 64,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_3954287",
+  "block": "A",
+  "role": "robustness",
+  "relation": "occupation",
+  "question": "What is James Alex Msekela's occupation?",
+  "subject": "James Alex Msekela",
+  "gold_aliases": [
+   "diplomat",
+   "pol",
+   "polit.",
+   "political figure",
+   "political leader",
+   "politician"
+  ],
+  "difficulty": 1.9395192526186185,
+  "s_pop": 87,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_4822110",
+  "block": "A",
+  "role": "robustness",
+  "relation": "occupation",
+  "question": "What is Kathy Saltzman's occupation?",
+  "subject": "Kathy Saltzman",
+  "gold_aliases": [
+   "pol",
+   "polit.",
+   "political figure",
+   "political leader",
+   "politician"
+  ],
+  "difficulty": 2.103803720955957,
+  "s_pop": 127,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_743705",
+  "block": "A",
+  "role": "robustness",
+  "relation": "occupation",
+  "question": "What is Eduard Looijenga's occupation?",
+  "subject": "Eduard Looijenga",
+  "gold_aliases": [
+   "mathematician"
+  ],
+  "difficulty": 2.161368002234975,
+  "s_pop": 145,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_1134377",
+  "block": "A",
+  "role": "robustness",
+  "relation": "occupation",
+  "question": "What is John Andrew Martin's occupation?",
+  "subject": "John Andrew Martin",
+  "gold_aliases": [
+   "attorney",
+   "barrister",
+   "lawyer",
+   "lawyers",
+   "pol",
+   "polit.",
+   "political figure",
+   "political leader",
+   "politician",
+   "solicitor"
+  ],
+  "difficulty": 2.1903316981702914,
+  "s_pop": 155,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_164717",
+  "block": "A",
+  "role": "robustness",
+  "relation": "occupation",
+  "question": "What is Giovanni Grasso's occupation?",
+  "subject": "Giovanni Grasso",
+  "gold_aliases": [
+   "actor",
+   "actors",
+   "actress",
+   "actresses"
+  ],
+  "difficulty": 2.3138672203691533,
+  "s_pop": 206,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_5575241",
+  "block": "A",
+  "role": "robustness",
+  "relation": "occupation",
+  "question": "What is Richard Howland Hunt's occupation?",
+  "subject": "Richard Howland Hunt",
+  "gold_aliases": [
+   "architect"
+  ],
+  "difficulty": 2.505149978319906,
+  "s_pop": 320,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_1175079",
+  "block": "A",
+  "role": "robustness",
+  "relation": "occupation",
+  "question": "What is Susan Soltero's occupation?",
+  "subject": "Susan Soltero",
+  "gold_aliases": [
+   "journalist",
+   "journalists",
+   "journo"
+  ],
+  "difficulty": 2.507855871695831,
+  "s_pop": 322,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_5365158",
+  "block": "A",
+  "role": "robustness",
+  "relation": "occupation",
+  "question": "What is P. Palaniappan's occupation?",
+  "subject": "P. Palaniappan",
+  "gold_aliases": [
+   "pol",
+   "polit.",
+   "political figure",
+   "political leader",
+   "politician"
+  ],
+  "difficulty": 2.507855871695831,
+  "s_pop": 322,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_1938800",
+  "block": "A",
+  "role": "robustness",
+  "relation": "occupation",
+  "question": "What is Mariv\u00ed Bilbao's occupation?",
+  "subject": "Mariv\u00ed Bilbao",
+  "gold_aliases": [
+   "actor",
+   "actors",
+   "actress",
+   "actresses"
+  ],
+  "difficulty": 2.6314437690131722,
+  "s_pop": 428,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_2992879",
+  "block": "A",
+  "role": "robustness",
+  "relation": "occupation",
+  "question": "What is Tatiana Doronina's occupation?",
+  "subject": "Tatiana Doronina",
+  "gold_aliases": [
+   "actor",
+   "actors",
+   "actress",
+   "actresses"
+  ],
+  "difficulty": 2.8041394323353503,
+  "s_pop": 637,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_2567490",
+  "block": "A",
+  "role": "robustness",
+  "relation": "occupation",
+  "question": "What is Pyotr Lavrov's occupation?",
+  "subject": "Pyotr Lavrov",
+  "gold_aliases": [
+   "philosopher"
+  ],
+  "difficulty": 2.931457870689005,
+  "s_pop": 854,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_378956",
+  "block": "A",
+  "role": "robustness",
+  "relation": "occupation",
+  "question": "What is Ron Nyswaner's occupation?",
+  "subject": "Ron Nyswaner",
+  "gold_aliases": [
+   "director",
+   "film director",
+   "motion picture director",
+   "movie director",
+   "scenarist",
+   "screen writer",
+   "screenwriter",
+   "script writer",
+   "scriptwriter",
+   "writer"
+  ],
+  "difficulty": 3.074084689028244,
+  "s_pop": 1186,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_1688093",
+  "block": "A",
+  "role": "robustness",
+  "relation": "occupation",
+  "question": "What is Conrad Weiser's occupation?",
+  "subject": "Conrad Weiser",
+  "gold_aliases": [
+   "diplomat"
+  ],
+  "difficulty": 3.1085650237328344,
+  "s_pop": 1284,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_465467",
+  "block": "A",
+  "role": "robustness",
+  "relation": "occupation",
+  "question": "What is Robert Florey's occupation?",
+  "subject": "Robert Florey",
+  "gold_aliases": [
+   "actor",
+   "actors",
+   "actress",
+   "actresses",
+   "scenarist",
+   "screen writer",
+   "screenwriter",
+   "script writer",
+   "scriptwriter",
+   "writer"
+  ],
+  "difficulty": 3.1370374547895126,
+  "s_pop": 1371,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_2250993",
+  "block": "A",
+  "role": "robustness",
+  "relation": "occupation",
+  "question": "What is Yannis Ritsos's occupation?",
+  "subject": "Yannis Ritsos",
+  "gold_aliases": [
+   "bard",
+   "poet",
+   "poetess"
+  ],
+  "difficulty": 3.185825359612962,
+  "s_pop": 1534,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_3342671",
+  "block": "A",
+  "role": "robustness",
+  "relation": "occupation",
+  "question": "What is Anjali Sudhakar's occupation?",
+  "subject": "Anjali Sudhakar",
+  "gold_aliases": [
+   "actor",
+   "actors",
+   "actress",
+   "actresses"
+  ],
+  "difficulty": 3.2127201544178425,
+  "s_pop": 1632,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_4419938",
+  "block": "A",
+  "role": "robustness",
+  "relation": "occupation",
+  "question": "What is Rudolf Hilferding's occupation?",
+  "subject": "Rudolf Hilferding",
+  "gold_aliases": [
+   "economist",
+   "economists",
+   "pol",
+   "polit.",
+   "political figure",
+   "political leader",
+   "politician"
+  ],
+  "difficulty": 3.3205616801952367,
+  "s_pop": 2092,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_4651204",
+  "block": "A",
+  "role": "robustness",
+  "relation": "occupation",
+  "question": "What is Akari Hayami's occupation?",
+  "subject": "Akari Hayami",
+  "gold_aliases": [
+   "actor",
+   "actors",
+   "actress",
+   "actresses"
+  ],
+  "difficulty": 3.35237549500052,
+  "s_pop": 2251,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_1905981",
+  "block": "A",
+  "role": "robustness",
+  "relation": "occupation",
+  "question": "What is Tobias Lindholm's occupation?",
+  "subject": "Tobias Lindholm",
+  "gold_aliases": [
+   "director",
+   "film director",
+   "motion picture director",
+   "movie director",
+   "scenarist",
+   "screen writer",
+   "screenwriter",
+   "script writer",
+   "scriptwriter",
+   "writer"
+  ],
+  "difficulty": 3.365862215402555,
+  "s_pop": 2322,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_2513245",
+  "block": "A",
+  "role": "robustness",
+  "relation": "occupation",
+  "question": "What is Chiara Zanni's occupation?",
+  "subject": "Chiara Zanni",
+  "gold_aliases": [
+   "actor",
+   "actors",
+   "actress",
+   "actresses",
+   "voice actor",
+   "voice actress",
+   "voice artist",
+   "voice-over performer"
+  ],
+  "difficulty": 3.3803921600570273,
+  "s_pop": 2401,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_2224150",
+  "block": "A",
+  "role": "robustness",
+  "relation": "occupation",
+  "question": "What is Brendan Canty's occupation?",
+  "subject": "Brendan Canty",
+  "gold_aliases": [
+   "composer",
+   "musical artist",
+   "musician"
+  ],
+  "difficulty": 3.428134794028789,
+  "s_pop": 2680,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_1761978",
+  "block": "A",
+  "role": "robustness",
+  "relation": "occupation",
+  "question": "What is Jaclyn Stapp's occupation?",
+  "subject": "Jaclyn Stapp",
+  "gold_aliases": [
+   "fashion model",
+   "model",
+   "poser",
+   "sitter"
+  ],
+  "difficulty": 3.505014240084107,
+  "s_pop": 3199,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_5576971",
+  "block": "A",
+  "role": "robustness",
+  "relation": "occupation",
+  "question": "What is Richard Marles's occupation?",
+  "subject": "Richard Marles",
+  "gold_aliases": [
+   "pol",
+   "polit.",
+   "political figure",
+   "political leader",
+   "politician"
+  ],
+  "difficulty": 3.5459253293558426,
+  "s_pop": 3515,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_4046450",
+  "block": "A",
+  "role": "robustness",
+  "relation": "occupation",
+  "question": "What is Eric Flynn's occupation?",
+  "subject": "Eric Flynn",
+  "gold_aliases": [
+   "actor",
+   "actors",
+   "actress",
+   "actresses"
+  ],
+  "difficulty": 3.547528576459782,
+  "s_pop": 3528,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_5749211",
+  "block": "A",
+  "role": "robustness",
+  "relation": "occupation",
+  "question": "What is Shonali Bose's occupation?",
+  "subject": "Shonali Bose",
+  "gold_aliases": [
+   "director",
+   "film director",
+   "motion picture director",
+   "movie director",
+   "scenarist",
+   "screen writer",
+   "screenwriter",
+   "script writer",
+   "scriptwriter",
+   "writer"
+  ],
+  "difficulty": 3.5509617522981762,
+  "s_pop": 3556,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_2576955",
+  "block": "A",
+  "role": "robustness",
+  "relation": "occupation",
+  "question": "What is Peter's occupation?",
+  "subject": "Peter",
+  "gold_aliases": [
+   "actor",
+   "actors",
+   "actress",
+   "actresses"
+  ],
+  "difficulty": 3.604873770552636,
+  "s_pop": 4026,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_4033957",
+  "block": "A",
+  "role": "robustness",
+  "relation": "occupation",
+  "question": "What is Emmanuel Nnamdi Uba's occupation?",
+  "subject": "Emmanuel Nnamdi Uba",
+  "gold_aliases": [
+   "pol",
+   "polit.",
+   "political figure",
+   "political leader",
+   "politician"
+  ],
+  "difficulty": 3.659345635746177,
+  "s_pop": 4564,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_2523660",
+  "block": "A",
+  "role": "robustness",
+  "relation": "occupation",
+  "question": "What is Mohamed Bazoum's occupation?",
+  "subject": "Mohamed Bazoum",
+  "gold_aliases": [
+   "pol",
+   "polit.",
+   "political figure",
+   "political leader",
+   "politician"
+  ],
+  "difficulty": 3.7064617376313547,
+  "s_pop": 5087,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_6339290",
+  "block": "A",
+  "role": "robustness",
+  "relation": "occupation",
+  "question": "What is William Murray, 1st Earl of Mansfield's occupation?",
+  "subject": "William Murray, 1st Earl of Mansfield",
+  "gold_aliases": [
+   "pol",
+   "polit.",
+   "political figure",
+   "political leader",
+   "politician"
+  ],
+  "difficulty": 3.760874638052189,
+  "s_pop": 5766,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_1722071",
+  "block": "A",
+  "role": "robustness",
+  "relation": "occupation",
+  "question": "What is Rhea Silvia's occupation?",
+  "subject": "Rhea Silvia",
+  "gold_aliases": [
+   "Vestal Virgin"
+  ],
+  "difficulty": 3.813714391881145,
+  "s_pop": 6512,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_99158",
+  "block": "A",
+  "role": "robustness",
+  "relation": "occupation",
+  "question": "What is Henry Campbell-Bannerman's occupation?",
+  "subject": "Henry Campbell-Bannerman",
+  "gold_aliases": [
+   "diplomat",
+   "pol",
+   "polit.",
+   "political figure",
+   "political leader",
+   "politician"
+  ],
+  "difficulty": 3.9036325160842376,
+  "s_pop": 8010,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_4762905",
+  "block": "A",
+  "role": "robustness",
+  "relation": "occupation",
+  "question": "What is Josh Mankiewicz's occupation?",
+  "subject": "Josh Mankiewicz",
+  "gold_aliases": [
+   "journalist",
+   "journalists",
+   "journo"
+  ],
+  "difficulty": 3.9053640687668922,
+  "s_pop": 8042,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_3061785",
+  "block": "A",
+  "role": "robustness",
+  "relation": "occupation",
+  "question": "What is Alex Reid's occupation?",
+  "subject": "Alex Reid",
+  "gold_aliases": [
+   "actor",
+   "actors",
+   "actress",
+   "actresses"
+  ],
+  "difficulty": 3.9157163379459936,
+  "s_pop": 8236,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_2873463",
+  "block": "A",
+  "role": "robustness",
+  "relation": "occupation",
+  "question": "What is Mariana Vicente's occupation?",
+  "subject": "Mariana Vicente",
+  "gold_aliases": [
+   "actor",
+   "actors",
+   "actress",
+   "actresses"
+  ],
+  "difficulty": 4.005266332972769,
+  "s_pop": 10122,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_3403435",
+  "block": "A",
+  "role": "robustness",
+  "relation": "occupation",
+  "question": "What is Bed\u0159ich Smetana's occupation?",
+  "subject": "Bed\u0159ich Smetana",
+  "gold_aliases": [
+   "composer",
+   "pianist"
+  ],
+  "difficulty": 4.031085148039481,
+  "s_pop": 10742,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_3098902",
+  "block": "A",
+  "role": "robustness",
+  "relation": "occupation",
+  "question": "What is Linden Ashby's occupation?",
+  "subject": "Linden Ashby",
+  "gold_aliases": [
+   "actor",
+   "actors",
+   "actress",
+   "actresses"
+  ],
+  "difficulty": 4.1367839631833645,
+  "s_pop": 13702,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_2501291",
+  "block": "A",
+  "role": "robustness",
+  "relation": "occupation",
+  "question": "What is Mark T. Vande Hei's occupation?",
+  "subject": "Mark T. Vande Hei",
+  "gold_aliases": [
+   "astronaut",
+   "astronauts",
+   "space traveller",
+   "spacionaut"
+  ],
+  "difficulty": 4.158663980813989,
+  "s_pop": 14410,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_6269853",
+  "block": "A",
+  "role": "robustness",
+  "relation": "occupation",
+  "question": "What is Jean-Baptiste de Lamarck's occupation?",
+  "subject": "Jean-Baptiste de Lamarck",
+  "gold_aliases": [
+   "biologist",
+   "biologists"
+  ],
+  "difficulty": 4.175279818442385,
+  "s_pop": 14972,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_2348074",
+  "block": "A",
+  "role": "robustness",
+  "relation": "occupation",
+  "question": "What is Malcolm David Kelley's occupation?",
+  "subject": "Malcolm David Kelley",
+  "gold_aliases": [
+   "actor",
+   "actors",
+   "actress",
+   "actresses"
+  ],
+  "difficulty": 4.181014208352207,
+  "s_pop": 15171,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_4807954",
+  "block": "A",
+  "role": "robustness",
+  "relation": "occupation",
+  "question": "What is Kamya Panjabi's occupation?",
+  "subject": "Kamya Panjabi",
+  "gold_aliases": [
+   "actor",
+   "actors",
+   "actress",
+   "actresses"
+  ],
+  "difficulty": 4.252391803181244,
+  "s_pop": 17881,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_3950869",
+  "block": "A",
+  "role": "robustness",
+  "relation": "occupation",
+  "question": "What is Tiffany Pollard's occupation?",
+  "subject": "Tiffany Pollard",
+  "gold_aliases": [
+   "actor",
+   "actors",
+   "actress",
+   "actresses"
+  ],
+  "difficulty": 4.272352240906794,
+  "s_pop": 18722,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_1440910",
+  "block": "A",
+  "role": "robustness",
+  "relation": "occupation",
+  "question": "What is Ayumi Hamasaki's occupation?",
+  "subject": "Ayumi Hamasaki",
+  "gold_aliases": [
+   "actor",
+   "actors",
+   "actress",
+   "actresses",
+   "lyricist",
+   "singer songwriter",
+   "singer-lyricist",
+   "singer-songwriter",
+   "singer/songwriter",
+   "singersongwriter",
+   "song writer",
+   "songwriter"
+  ],
+  "difficulty": 4.282780668249126,
+  "s_pop": 19177,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_1706404",
+  "block": "A",
+  "role": "robustness",
+  "relation": "occupation",
+  "question": "What is Glenn Gould's occupation?",
+  "subject": "Glenn Gould",
+  "gold_aliases": [
+   "composer",
+   "pianist"
+  ],
+  "difficulty": 4.3384963353074815,
+  "s_pop": 21802,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_2604063",
+  "block": "A",
+  "role": "robustness",
+  "relation": "occupation",
+  "question": "What is Bala's occupation?",
+  "subject": "Bala",
+  "gold_aliases": [
+   "director",
+   "film director",
+   "motion picture director",
+   "movie director",
+   "scenarist",
+   "screen writer",
+   "screenwriter",
+   "script writer",
+   "scriptwriter",
+   "writer"
+  ],
+  "difficulty": 4.341058434895962,
+  "s_pop": 21931,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_2393310",
+  "block": "A",
+  "role": "robustness",
+  "relation": "occupation",
+  "question": "What is Jos\u00e9 Feliciano's occupation?",
+  "subject": "Jos\u00e9 Feliciano",
+  "gold_aliases": [
+   "composer"
+  ],
+  "difficulty": 4.369531255941311,
+  "s_pop": 23417,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_1614694",
+  "block": "A",
+  "role": "robustness",
+  "relation": "occupation",
+  "question": "What is Beth Hart's occupation?",
+  "subject": "Beth Hart",
+  "gold_aliases": [
+   "singer songwriter",
+   "singer-songwriter",
+   "singer/songwriter",
+   "singersongwriter"
+  ],
+  "difficulty": 4.402364568884161,
+  "s_pop": 25256,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_1541610",
+  "block": "A",
+  "role": "robustness",
+  "relation": "occupation",
+  "question": "What is Natasha Leggero's occupation?",
+  "subject": "Natasha Leggero",
+  "gold_aliases": [
+   "actor",
+   "actors",
+   "actress",
+   "actresses"
+  ],
+  "difficulty": 4.411602872517545,
+  "s_pop": 25799,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_3072617",
+  "block": "A",
+  "role": "robustness",
+  "relation": "occupation",
+  "question": "What is Salvador Allende's occupation?",
+  "subject": "Salvador Allende",
+  "gold_aliases": [
+   "doctor",
+   "medical doctor",
+   "medical doctors",
+   "medical practitioner",
+   "physician",
+   "physicians",
+   "pol",
+   "polit.",
+   "political figure",
+   "political leader",
+   "politician"
+  ],
+  "difficulty": 4.6389283213090176,
+  "s_pop": 43544,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_3266488",
+  "block": "A",
+  "role": "robustness",
+  "relation": "occupation",
+  "question": "What is Leigh Whannell's occupation?",
+  "subject": "Leigh Whannell",
+  "gold_aliases": [
+   "actor",
+   "actors",
+   "actress",
+   "actresses",
+   "scenarist",
+   "screen writer",
+   "screenwriter",
+   "script writer",
+   "scriptwriter",
+   "writer"
+  ],
+  "difficulty": 4.650453235088312,
+  "s_pop": 44715,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_1208074",
+  "block": "A",
+  "role": "robustness",
+  "relation": "occupation",
+  "question": "What is Burna Boy's occupation?",
+  "subject": "Burna Boy",
+  "gold_aliases": [
+   "song writer",
+   "songwriter"
+  ],
+  "difficulty": 4.796498012777912,
+  "s_pop": 62589,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_2616411",
+  "block": "A",
+  "role": "robustness",
+  "relation": "occupation",
+  "question": "What is Benazir Bhutto's occupation?",
+  "subject": "Benazir Bhutto",
+  "gold_aliases": [
+   "pol",
+   "polit.",
+   "political figure",
+   "political leader",
+   "politician"
+  ],
+  "difficulty": 4.863626165397069,
+  "s_pop": 73051,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_3078887",
+  "block": "A",
+  "role": "robustness",
+  "relation": "occupation",
+  "question": "What is Chris Jericho's occupation?",
+  "subject": "Chris Jericho",
+  "gold_aliases": [
+   "actor",
+   "actors",
+   "actress",
+   "actresses"
+  ],
+  "difficulty": 4.876310233844177,
+  "s_pop": 75216,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_2740658",
+  "block": "A",
+  "role": "robustness",
+  "relation": "occupation",
+  "question": "What is Brigitte Bardot's occupation?",
+  "subject": "Brigitte Bardot",
+  "gold_aliases": [
+   "actor",
+   "actors",
+   "actress",
+   "actresses",
+   "fashion model",
+   "model",
+   "poser",
+   "sitter"
+  ],
+  "difficulty": 4.8971430505796185,
+  "s_pop": 78912,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_54966",
+  "block": "A",
+  "role": "robustness",
+  "relation": "occupation",
+  "question": "What is Carl Linnaeus's occupation?",
+  "subject": "Carl Linnaeus",
+  "gold_aliases": [
+   "doctor",
+   "medical doctor",
+   "medical doctors",
+   "medical practitioner",
+   "physician",
+   "physicians"
+  ],
+  "difficulty": 4.940959518158058,
+  "s_pop": 87289,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_1085496",
+  "block": "A",
+  "role": "robustness",
+  "relation": "occupation",
+  "question": "What is Edgar Allan Poe's occupation?",
+  "subject": "Edgar Allan Poe",
+  "gold_aliases": [
+   "bard",
+   "dramatist",
+   "journalist",
+   "journalists",
+   "journo",
+   "playwright",
+   "playwrite",
+   "poet",
+   "poetess",
+   "scriptwriter"
+  ],
+  "difficulty": 5.4591556723934165,
+  "s_pop": 287843,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_2942698",
+  "block": "A",
+  "role": "robustness",
+  "relation": "occupation",
+  "question": "What is Will Smith's occupation?",
+  "subject": "Will Smith",
+  "gold_aliases": [
+   "actor",
+   "actors",
+   "actress",
+   "actresses",
+   "director",
+   "film director",
+   "film producer",
+   "motion picture director",
+   "movie director",
+   "movie producer",
+   "music producer",
+   "producer",
+   "record producer"
+  ],
+  "difficulty": 5.538471934107541,
+  "s_pop": 345519,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "popqa_809091",
+  "block": "A",
+  "role": "robustness",
+  "relation": "occupation",
+  "question": "What is Kanye West's occupation?",
+  "subject": "Kanye West",
+  "gold_aliases": [
+   "music producer",
+   "record producer",
+   "song writer",
+   "songwriter"
+  ],
+  "difficulty": 5.973484383108707,
+  "s_pop": 940772,
+  "provenance": "database:PopQA/Wikidata"
+ },
+ {
+  "qid": "e6_novel_year",
+  "block": "B",
+  "role": "anchor",
+  "relation": "invented:year",
+  "question": "In what year was the novel 'The Glass Meridian' by Eleanor Voss published?",
+  "subject": null,
+  "gold_aliases": [],
+  "difficulty": null,
+  "s_pop": null,
+  "provenance": "by-construction",
+  "slot": "year"
+ },
+ {
+  "qid": "e6_physicist_year",
+  "block": "B",
+  "role": "anchor",
+  "relation": "invented:year",
+  "question": "In what year was the physicist Anneke Ravensworth born?",
+  "subject": null,
+  "gold_aliases": [],
+  "difficulty": null,
+  "s_pop": null,
+  "provenance": "by-construction",
+  "slot": "year"
+ },
+ {
+  "qid": "e6_bridge_architect",
+  "block": "B",
+  "role": "anchor",
+  "relation": "invented:name",
+  "question": "Who designed the Halvern Bridge in Leeds?",
+  "subject": null,
+  "gold_aliases": [],
+  "difficulty": null,
+  "s_pop": null,
+  "provenance": "by-construction",
+  "slot": "name"
+ },
+ {
+  "qid": "e6_succession_treaty",
+  "block": "B",
+  "role": "anchor",
+  "relation": "invented:name",
+  "question": "Which treaty ended the Marratine Succession?",
+  "subject": null,
+  "gold_aliases": [],
+  "difficulty": null,
+  "s_pop": null,
+  "provenance": "by-construction",
+  "slot": "name"
+ },
+ {
+  "qid": "e6_accord_signatories",
+  "block": "B",
+  "role": "anchor",
+  "relation": "invented:number",
+  "question": "How many nations signed the Perrin-Oyelaran Accord?",
+  "subject": null,
+  "gold_aliases": [],
+  "difficulty": null,
+  "s_pop": null,
+  "provenance": "by-construction",
+  "slot": "number"
+ },
+ {
+  "qid": "e6_element_mass",
+  "block": "B",
+  "role": "anchor",
+  "relation": "invented:number",
+  "question": "What is the atomic mass of cavendine?",
+  "subject": null,
+  "gold_aliases": [],
+  "difficulty": null,
+  "s_pop": null,
+  "provenance": "by-construction",
+  "slot": "number"
+ },
+ {
+  "qid": "e6_observatory_year",
+  "block": "B",
+  "role": "anchor",
+  "relation": "invented:year",
+  "question": "In what year was the Brassfield Observatory in Vermont founded?",
+  "subject": null,
+  "gold_aliases": [],
+  "difficulty": null,
+  "s_pop": null,
+  "provenance": "by-construction",
+  "slot": "year"
+ },
+ {
+  "qid": "e6_convention_year",
+  "block": "B",
+  "role": "anchor",
+  "relation": "invented:year",
+  "question": "In what year was the Kessleridge Convention signed?",
+  "subject": null,
+  "gold_aliases": [],
+  "difficulty": null,
+  "s_pop": null,
+  "provenance": "by-construction",
+  "slot": "year"
+ },
+ {
+  "qid": "e6_opera_composer",
+  "block": "B",
+  "role": "anchor",
+  "relation": "invented:name",
+  "question": "Who composed the opera 'The Ninefold Garden'?",
+  "subject": null,
+  "gold_aliases": [],
+  "difficulty": null,
+  "s_pop": null,
+  "provenance": "by-construction",
+  "slot": "name"
+ },
+ {
+  "qid": "e6_institute_founder",
+  "block": "B",
+  "role": "anchor",
+  "relation": "invented:name",
+  "question": "Who founded the Verrick Institute of Marine Biology?",
+  "subject": null,
+  "gold_aliases": [],
+  "difficulty": null,
+  "s_pop": null,
+  "provenance": "by-construction",
+  "slot": "name"
+ },
+ {
+  "qid": "e6_town_population",
+  "block": "B",
+  "role": "anchor",
+  "relation": "invented:number",
+  "question": "What is the population of Quillenbrook, Vermont?",
+  "subject": null,
+  "gold_aliases": [],
+  "difficulty": null,
+  "s_pop": null,
+  "provenance": "by-construction",
+  "slot": "number"
+ },
+ {
+  "qid": "e6_tunnel_length",
+  "block": "B",
+  "role": "anchor",
+  "relation": "invented:number",
+  "question": "How long is the Serrapine Tunnel in kilometres?",
+  "subject": null,
+  "gold_aliases": [],
+  "difficulty": null,
+  "s_pop": null,
+  "provenance": "by-construction",
+  "slot": "number"
+ }
+]

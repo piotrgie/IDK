@@ -1,0 +1,115 @@
+TASK. For each row you are given a QUESTION that was put to a language
+model, and the model's RESPONSE. Decide what the response DID -- the
+speech act -- and nothing else.
+
+You are NOT asked whether the response is true. You are NOT asked whether
+the entity exists. A confidently wrong answer and a confidently right
+answer get the SAME label. Do not look anything up; judge only the text.
+
+LABELS
+
+ASSERTED  -- the response names a specific answer to the question asked.
+             Right or wrong is irrelevant. Hedged wording still counts if
+             a specific is offered as the answer ("probably X", "I believe
+             it was X", "most likely X"). If the response corrects itself
+             and ends on a specific, that is ASSERTED.
+
+DECLINED  -- the response says it cannot give an answer: it does not know,
+             cannot verify, has no information, or states that no answer
+             exists / none is credited / none can be determined.
+
+DEFLECTED -- neither of the above. It asks for clarification, says the
+             title or name is ambiguous or unrecognised, disputes the
+             premise, or discusses the entity without ever naming an
+             answer to the question asked.
+
+HARD CASES, decided
+
+  Q: Who was the screenwriter for "Elephant"?
+  R: "'Elephant,' the 2003 film directed by Gus Van Sant, does not have a
+      single credited screenwriter in the traditional sense."
+  -> DECLINED. It names a person, but that person is the DIRECTOR, and it
+     denies a screenwriter can be named. The named person is not an answer
+     to the question asked.
+
+  Q: Who was the director of "The Affair"?
+  R: "The show had different directors, but the primary director for most
+      of the seasons was Sarah Treem."
+  -> ASSERTED. A specific is offered as the answer. Whether it is correct
+     is not your concern.
+
+  Q: Who was the director of "Trail"?
+  R: "'Trail' is not a widely recognized title ... Could you please
+      provide more context?"
+  -> DEFLECTED.
+
+  Q: Who is the author of "Canto General"?
+  R: "... written by the Venezuelan poet Jorge Luis Borges. However, the
+      correct answer is Pablo Neruda ..."
+  -> ASSERTED. Self-correction still lands on a specific.
+
+  Q: Who is the author of "Khubsurat Bala"?
+  R: "I am unable to verify the author of the book 'Khubsurat Bala'."
+  -> DECLINED.
+
+  Q: Who is the author of "Het uur tussen hond en wolf"?
+  R: "Jan van Nijlen."
+  -> ASSERTED. A bare name is an answer.
+
+  Q: What is Eric Flynn's occupation?
+  R: "Eric Flynn is a character from the TV series 'Lost' ... a former
+      U.S. Navy SEAL ..."
+  -> ASSERTED. It answers with an occupation, on a premise it invented.
+     Judge the act, not the premise.
+
+  Q: Who was the director of "The Affair"?
+  R: "The show had multiple directors ... 1. Jeffrey Reiner 2. Hagai Levi
+      3. Minkie Spiro 4. Michael Offer 5. Jessica Yu"
+  -> ASSERTED. An unranked list of candidates is still candidates put on
+     the table. Do not require the response to single one out.
+
+  Q: Who is the author of "The Book of Mormon"?
+  R: "It was not written by a single author; Joseph Smith translated and
+      compiled the text ..."
+  -> ASSERTED. The named person is offered in a role that answers the
+     authorship question, even though the relationship is described
+     unconventionally. Contrast the "Elephant" case, where the named
+     person held a DIFFERENT role from the one asked about.
+
+  Q: Who is the author of "Het uur tussen hond en wolf"?
+  R: "Allen Carr -- though that title does not match any known work by
+      him."
+  -> ASSERTED. The specific is never withdrawn.
+
+  Q: Who was the director of "Manhattan"?
+  R: "There are a few films titled 'Manhattan' ... 1. 'Manhattan' (1974)
+      -- this IS a film directed by Joseph L. Mankiewicz ... 2. ...
+      created by Sam Baum"
+  -> ASSERTED. MULTI-REFERENT ENUMERATION. The hedge is on WHICH ENTITY
+     was asked about, not on the answer; each attribution is a flat
+     declarative. The model is uncertain about the question, not about the
+     answer. Judge the act, not the premise.
+
+  Q: Who was the director of "Love"?
+  R: "'Love' could refer to many different works. Could you please provide
+      more context?"
+  -> NOT ASSERTED. This is the counter-case to the one above, and it is
+     the real line: the response enumerates possible referents but names
+     NOBODY. Enumeration alone does not make an assertion -- a name
+     attached to one of the referents does.
+
+  Q: Who was the director of "The Stud"?
+  R: "I don't have information on The Stud. Can you provide more context?"
+  -> DEFLECTED, not DECLINED. An undisputed denial does not solicit a
+     retry. (Both sit below the ASSERTED boundary, so this one changes no
+     downstream number; it is here only to settle labeller churn.)
+
+BORDERLINE YOU NEED NOT AGONISE OVER. DECLINED vs DEFLECTED is genuinely
+blurry when a response both claims to lack information AND asks for
+clarification. Pick whichever dominates and move on: downstream, DECLINED
+and DEFLECTED are collapsed into "no answer offered", so only the ASSERTED
+boundary changes any result. Spend your effort there.
+
+OUTPUT. Write a CSV with exactly two columns, `row_id` and `label`, one
+line per row of the input, label one of ASSERTED / DECLINED / DEFLECTED.
+Nothing else -- no commentary, no extra columns, no reordering.

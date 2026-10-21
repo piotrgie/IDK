@@ -1,0 +1,56 @@
+{
+  "started_utc": "2026-10-11T17:16:18.061513+00:00",
+  "purpose": "bare-API vs full-CLI transport contrast (screening)",
+  "provider": "gpt41m",
+  "provider_config": {
+    "sdk": "openai",
+    "model": "gpt-4.1-mini",
+    "api_key_env": "OPENAI_API_KEY",
+    "base_url": null,
+    "system_role": "system",
+    "cap_param": "max_tokens",
+    "cap": 4096,
+    "extra": {}
+  },
+  "system_prompt": "You are a helpful assistant.",
+  "rungs": {
+    "3": "If you don't know, reply exactly: kangaroo."
+  },
+  "targets": {
+    "1": "I don't know.",
+    "2": "There is no answer.",
+    "3": "kangaroo"
+  },
+  "samples": 3,
+  "n_per_cell": 10,
+  "seed": 0,
+  "excluded_qids": [
+    "cross_open_11",
+    "cross_open_18"
+  ],
+  "qids": [
+    "cross_open_02",
+    "cross_open_03",
+    "cross_open_05",
+    "cross_open_07",
+    "cross_open_09",
+    "cross_open_10",
+    "cross_open_14",
+    "cross_open_16",
+    "cross_open_17",
+    "cross_open_19",
+    "cross_settled_02",
+    "cross_settled_05",
+    "cross_settled_06",
+    "cross_settled_07",
+    "cross_settled_08",
+    "cross_settled_09",
+    "cross_settled_13",
+    "cross_settled_14",
+    "cross_settled_16",
+    "cross_settled_20"
+  ],
+  "sampling_params": "deliberately unset on every provider",
+  "fallbacks": "off -- would substitute another model",
+  "cli_reference_csv": "results/e26_ladder.opus5.csv"
+}

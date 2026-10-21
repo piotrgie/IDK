@@ -1,0 +1,29 @@
+model,statistic,value,lo,hi,resolution,note
+llama31_8b_base,population,300.0,,,,"ASSERTED; wrong=166, right=134"
+llama31_8b_base,AUC SE_full,0.9196,0.8867,0.9485,,deployable
+llama31_8b_base,AUC SE_first,0.92,0.8875,0.9486,,deployable
+llama31_8b_base,AUC H_slot,0.9264,0.8964,0.9537,,deployable
+llama31_8b_base,AUC p_gold,0.9898,0.98,0.9964,,"CEILING -- needs gold, not deployable"
+llama31_8b_base,dAUC SE_first - SE_full,0.0004,-0.0011,0.0021,0.0016,"paired bootstrap, two-sided p=0.575"
+llama31_8b_base,dAUC H_slot - SE_first,0.0064,-0.0111,0.025,0.018,"paired bootstrap, two-sided p=0.428"
+llama31_8b_instruct,population,196.0,,,,"ASSERTED; wrong=53, right=143"
+llama31_8b_instruct,AUC SE_full,0.7959,0.7226,0.8611,,deployable
+llama31_8b_instruct,AUC SE_first,0.8169,0.7476,0.8751,,deployable
+llama31_8b_instruct,AUC H_slot,0.8311,0.7554,0.8975,,deployable
+llama31_8b_instruct,AUC p_gold,0.9452,0.9082,0.974,,"CEILING -- needs gold, not deployable"
+llama31_8b_instruct,dAUC SE_first - SE_full,0.021,-0.0118,0.0542,0.033,"paired bootstrap, two-sided p=0.219"
+llama31_8b_instruct,dAUC H_slot - SE_first,0.0142,-0.0429,0.0706,0.0567,"paired bootstrap, two-sided p=0.6"
+qwen25_7b_base,population,283.0,,,,"ASSERTED; wrong=209, right=74"
+qwen25_7b_base,AUC SE_full,0.9669,0.9464,0.9832,,deployable
+qwen25_7b_base,AUC SE_first,0.9676,0.947,0.984,,deployable
+qwen25_7b_base,AUC H_slot,0.9499,0.9186,0.9754,,deployable
+qwen25_7b_base,AUC p_gold,0.9835,0.9705,0.9943,,"CEILING -- needs gold, not deployable"
+qwen25_7b_base,dAUC SE_first - SE_full,0.0007,-0.002,0.0036,0.0028,"paired bootstrap, two-sided p=0.642"
+qwen25_7b_base,dAUC H_slot - SE_first,-0.0177,-0.0404,0.0031,0.0218,"paired bootstrap, two-sided p=0.096"
+qwen25_7b_instruct,population,245.0,,,,"ASSERTED; wrong=167, right=78"
+qwen25_7b_instruct,AUC SE_full,0.6537,0.5853,0.7229,,deployable
+qwen25_7b_instruct,AUC SE_first,0.8405,0.7842,0.8952,,deployable
+qwen25_7b_instruct,AUC H_slot,0.8767,0.8231,0.9272,,deployable
+qwen25_7b_instruct,AUC p_gold,0.9258,0.8854,0.9642,,"CEILING -- needs gold, not deployable"
+qwen25_7b_instruct,dAUC SE_first - SE_full,0.1868,0.1122,0.2663,0.0771,"paired bootstrap, two-sided p=0"
+qwen25_7b_instruct,dAUC H_slot - SE_first,0.0362,-0.0237,0.0982,0.0609,"paired bootstrap, two-sided p=0.248"

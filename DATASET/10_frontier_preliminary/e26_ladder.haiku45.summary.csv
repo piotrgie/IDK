@@ -1,0 +1,5 @@
+rung,open_n,open_exact,open_rate,open_contains,settled_n,settled_exact,settled_rate,settled_contains,selectivity,open_med_words,settled_med_words
+A,60,0,0.0,0,60,0,0.0,0,n/a,205,184
+1,60,6,0.1,17,60,0,0.0,0,inf,93,94
+2,60,17,0.2833,30,60,0,0.0,0,inf,65,100
+3,60,29,0.4833,31,60,0,0.0,0,inf,66,111

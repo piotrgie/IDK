@@ -1,0 +1,5 @@
+model,set,k1_strict,k1_loose,dwell_strict,dwell_loose,n_bnd_strict,n_bnd_loose,dwell_agrees
+llama31_8b_base,abstention,0.0287,0.0033,,,2240,2613,0
+llama31_8b_base,control,0.0333,0.0047,,,2114,2517,0
+qwen25_7b_base,abstention,0.0644,0.0495,,,3227,3586,0
+qwen25_7b_base,control,0.2125,0.1816,4.0,6.0,1997,2346,0
