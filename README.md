@@ -63,7 +63,7 @@ Qwen2.5 and GPT-2 are not gated and require no token. Llama models (used only in
 ## Compute
 
 - **Sessions 0–5:** CPU is sufficient. A GPU (any modern discrete GPU with ≥6 GB VRAM) speeds things up but is not required.
-- **Sessions 6–8:** a GPU is recommended. Any of: RTX 3060 / 4060 / equivalent laptop GPU, Apple Silicon (MPS backend), or a free Colab T4. CPU still works but is slow.
+- **Sessions 6–8:** a GPU is recommended. Any of: RTX 3060 / 4060 / equivalent laptop GPU, Apple Silicon (MPS backend), or a free Colab T4. CPU still works but is slow. 
 
 Disk: ~5 GB for Qwen2.5-1.5B base + instruct + GPT-2 small + NLI model (Session 8 only). Models cache to `~/.cache/huggingface/` by default.
 
@@ -106,10 +106,5 @@ Known gaps to close before publication:
 
 - ~~**`PINNED_REVISIONS` are still `"main"` placeholders.**~~ **Resolved 2026-10-21:** all four repos are pinned to the commit hashes of the smoke-tested snapshots (verified to exist upstream). 
 - **The `torch==2.4.1` pin predates Blackwell GPUs.** On an RTX 50-series card (sm_120), the pinned stack runs CPU-only; such readers need a `torch>=2.7` cu128 build, which breaks the exact-pin promise. Older GPUs and Colab T4 are unaffected. Needs a note in Session 0 or a dual pin.
+- Sessions 7-8 are not published. The scope of workshops was adjusted to reflect scope of the talk.
 - Session-level numbers quoted in the markdown (e.g. the ~10.6-nat Paris/Berlin gap in Session 3, the Faulkner/Beckett hook) were verified on Qwen2.5-1.5B-Instruct in float32 on CPU; exact decimals will drift across devices per the Session 0 reproducibility caveats.
-
-## Relation to the parent project
-
-- `../idk_workshops_plan.md` — the plan document these notebooks implement
-- `../idk_paper_plan_draft.md` — the research paper at scale; this workshop is its pedagogical companion
-- `../idk_attractor_research_summary.md` — the frozen results of the earlier study these notebooks scale down and reproduce
