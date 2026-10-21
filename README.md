@@ -2,9 +2,8 @@
 
 ---
 
-## Project scope (context for readers and for future generations of this material)
 
-This workshop series is a self-paced, demo-driven introduction to how modern language models actually work under the hood, with a specific focus on **why they hallucinate and how the "I don't know" behavior is shaped (and often removed) by post-training**. It is aimed at scientifically-literate readers — working researchers, senior technical staff, graduate students, engineers new to LLMs — who are competent in Python but new to transformer internals, and who (correctly) mistrust confident LLM output but lack the vocabulary and diagnostic tools to interrogate it. The series builds up from token-by-token generation on a small model (Qwen2.5-1.5B and its instruction-tuned sibling, plus GPT-2 small for one demo), through a confident but math-free tour of the transformer architecture, through the theory of why generation models must hallucinate, through the semantic-attractor framing of model behavior, and lands — by Sessions 6–8 — in a scaled-down reproduction of original research on the abstention state: how "I don't know" carries real probability mass in pretrained models, how post-training either drains that mass or starves inflow to it, and how the standard spread-based hallucination detectors (semantic entropy, self-consistency) have a structural blind spot exactly where post-training bites hardest. The workshop's differentiator is that most transformer tutorials stop at "here is how attention works" and most hallucination tutorials start at "here are ten detection methods" — this series bridges the two, running end-to-end on a laptop, and ends with the reader having personally reproduced a research finding rather than merely read about it. The parent project targets researchers with a confirmatory study at scale; this workshop teaches the *method* at ~1/30th the scale so a curious reader can go on to read the paper with grounded intuition. All sessions are designed to run on a laptop (Sessions 0–5 CPU-fine); 
+
 ---
 
 ## What's in this directory
@@ -20,6 +19,13 @@ This workshop series is a self-paced, demo-driven introduction to how modern lan
 - `requirements.txt` — Pinned versions. Reproducibility depends on these.
 - `figures/` — Generated figures; each notebook creates its own on first run.
 - `widgets/basin_landscape.html` — Self-contained interactive double-well landscape (no CDN, no backend) embedded in Session 5. Two mechanism sliders — mass drain vs. inflow gate — showing how the same extinct behavior can come from either cause.
+
+
+## Project scope (context for readers and for future generations of this material)
+
+This workshop series is a self-paced, demo-driven introduction to how modern language models actually work under the hood, with a specific focus on **why they hallucinate and how the "I don't know" behavior is shaped (and often removed) by post-training**. It is aimed at scientifically-literate readers — working researchers, senior technical staff, graduate students, engineers new to LLMs — who are competent in Python but new to transformer internals, and who (correctly) mistrust confident LLM output but lack the vocabulary and diagnostic tools to interrogate it. The series builds up from token-by-token generation on a small model (Qwen2.5-1.5B and its instruction-tuned sibling, plus GPT-2 small for one demo), through a confident but math-free tour of the transformer architecture, through the theory of why generation models must hallucinate, through the semantic-attractor framing of model behavior, and lands — by Sessions 6–8 — in a scaled-down reproduction of original research on the abstention state: how "I don't know" carries real probability mass in pretrained models, how post-training either drains that mass or starves inflow to it, and how the standard spread-based hallucination detectors (semantic entropy, self-consistency) have a structural blind spot exactly where post-training bites hardest. The workshop's differentiator is that most transformer tutorials stop at "here is how attention works" and most hallucination tutorials start at "here are ten detection methods" — this series bridges the two, running end-to-end on a laptop, and ends with the reader having personally reproduced a research finding rather than merely read about it. The parent project targets researchers with a confirmatory study at scale; this workshop teaches the *method* at ~1/30th the scale so a curious reader can go on to read the paper with grounded intuition. All sessions are designed to run on a laptop (Sessions 0–5 CPU-fine); 
+
+
 
 ## Format
 
